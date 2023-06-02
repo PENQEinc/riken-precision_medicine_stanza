@@ -236,7 +236,16 @@
 
     initTableSelected();
   };
-
+  const updateGraphs = (data) => {
+    // TODO: if option is selected that return this function
+    // if (selectedVariant) return;
+    window.dispatchEvent(
+      new CustomEvent("updateGraphs", {
+        // TODO: change to data.variant to data.pdbId (or others)
+        detail: { pdbIds: data.pdBlistSingleWild, variant: data.variant },
+      })
+    );
+  };
   let tableSelectedItem = null;
   const tableHandleClick = (event, data) => {
     const variantLink = event.target.closest(".td-variant > span");
@@ -255,9 +264,9 @@
       tableSelectedItem.classList.add("selected");
       radioButton.checked = true;
       window.dispatchEvent(
-        new CustomEvent("updateMolstar", {
+        new CustomEvent("updateGraphs", {
           // TODO: change to data.variant to data.pdbId (or others)
-          detail: { pdbId: data.variant },
+          detail: { pdbIds: data.pdBlistSingleWild, variant: data.variant },
         })
       );
     } else {
@@ -309,6 +318,12 @@
             data-compound={drugName}
             on:click={compoundHandleClick}
             on:keydown={compoundHandleClick}
+            on:focus={() => {
+              updateGraphs(drugName);
+            }}
+            on:mouseover={() => {
+              updateGraphs(drugName);
+            }}
           >
             {drugName}
           </li>
@@ -357,97 +372,96 @@
           </tr>
         </thead>
         <tbody>
-          <!-- {#await promise}
-            <tr><td colspan="3" class="loading-message">Loading...</td></tr> -->
-          <!-- {:then json} -->
-          {#each currentTabeleList as data, index}
-            <tr on:click={(event) => tableHandleClick(event, data)}>
-              <td class="td-uniprot">
-                <input
-                  class="radio-button"
-                  type="radio"
-                  name="variantid"
-                  value={data.uniprotAcc}
-                />
-                {data.uniprotAcc}
-              </td>
-              <td>
-                <a
-                  class="link-variant"
-                  href={`${window.location.origin}/dev/variants/details?assembly=${data.assembly}&chr=${data.chr}&start=${data.start}&end=${data.end}&ref=${data.ref}&alt=${data.alt}&variant=${data.variant}`}
-                >
-                  {data.variant}<Fa
-                    icon={faCircleChevronRight}
-                    size="90%"
-                    color="var(--variant-color)"
-                  /></a
-                >
-              </td>
-              <td>{data.genBank[0] === undefined ? "-" : data.genBank}</td>
-              <td
-                >{data.mGeNdClinicalSignificance[0] === undefined
-                  ? ""
-                  : data.mGeNdClinicalSignificance}</td
-              >
-              <td
-                >{data.clinVarClinicalSignificance[0] === undefined
-                  ? ""
-                  : data.clinVarClinicalSignificance}</td
-              >
-              {#if calculationType(selectedCalcName).calcName !== "variants"}
-                {console.log(calculationType(selectedCalcName))}
-                <!-- {#if data.feBind.length === 0}
-                  <td>-</td>
-                  <td>-</td>
-                  <td>-</td>
-                {:else if data.feBind.length === 1}
-                  <td>{data.feBind}</td>
-                  <td>-</td>
-                  <td>-</td>
-                {:else}
-                  <td>-</td>
-                  <td>{data.feBindMean}</td>
-                  <td>{data.feBindStd}</td>
-                {/if} -->
-              {/if}
-              <td>
-                <a
-                  class="link-calc"
-                  href={`${window.location.origin}/dev/calculation/details?assembly=${data.assembly}&genename=${data.genename}&calculation_type=${data.calculationType}&Compound_ID=${data.compoundId}&PDB_ID=${data.pdbId}&variant=${data.variant}`}
-                >
-                  <!-- 以下を.toString()にしているが、配列で複数になるはずなので変更する -->
-                  <!-- <img
-                    class="icon"
-                    src={calculationType(data.calculationType.toString()).src
-                      ? calculationType(data.calculationType.toString()).src
-                      : ""}
-                    alt={calculationType(data.calculationType.toString()).alt
-                      ? calculationType(data.calculationType.toString()).alt
-                      : ""}
-                  /> -->
-                  <!-- {data.calculationType.toString()
-                    ? data.calculationType.toString()
-                    : ""} -->
-                  <!-- {#if calculationType(data.calculationType.toString()).calcName !== ""}
-                    <Fa
+          {#await promise}
+            <tr><td colspan="3" class="loading-message">Loading...</td></tr>
+          {:then json}
+            {#each currentTabeList as data, index}
+              <tr on:click={(event) => tableHandleClick(event, data)}>
+                <td class="td-uniprot">
+                  <input
+                    class="radio-button"
+                    type="radio"
+                    name="variantid"
+                    value={data.uniprotAcc}
+                  />
+                  {data.uniprotAcc}
+                </td>
+                <td>
+                  <a
+                    class="link-variant"
+                    href={`${window.location.origin}/dev/variants/details?assembly=${data.assembly}&chr=${data.chr}&start=${data.start}&end=${data.end}&ref=${data.ref}&alt=${data.alt}&variant=${data.variant}`}
+                  >
+                    {data.variant}<Fa
                       icon={faCircleChevronRight}
                       size="90%"
-                      color="var(--calc-color)"
-                    />
-                  {/if} -->
-                </a>
-              </td>
-              {#each scores as key}
-                <td class="cell-td"
-                  ><div
-                    class="cell"
-                    style="background-color:{getColor(data[key])}"
-                  /></td
+                      color="var(--variant-color)"
+                    /></a
+                  >
+                </td>
+                <td>{data.genBank[0] === undefined ? "-" : data.genBank}</td>
+                <td
+                  >{data.mGeNdClinicalSignificance[0] === undefined
+                    ? "-"
+                    : data.mGeNdClinicalSignificance}</td
                 >
-              {/each}
-            </tr>
-          {/each}
-          <!-- {:catch error}
+                <td
+                  >{data.clinVarClinicalSignificance[0] === undefined
+                    ? "-"
+                    : data.clinVarClinicalSignificance}</td
+                >
+                {#if calculationType(selectedListName).calcName !== "variants"}
+                  {#if data.feBind.length === 0}
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                  {:else if data.feBind.length === 1}
+                    <td>{data.feBind}</td>
+                    <td>-</td>
+                    <td>-</td>
+                  {:else}
+                    <td>-</td>
+                    <td>{data.feBindMean}</td>
+                    <td>{data.feBindStd}</td>
+                  {/if}
+                {/if}
+                <td>
+                  <a
+                    class="link-calc"
+                    href={`${window.location.origin}/dev/calculation/details?assembly=${data.assembly}&genename=${data.genename}&calculation_type=${data.calculationType}&Compound_ID=${data.compoundId}&PDB_ID=${data.pdbId}&variant=${data.variant}`}
+                  >
+                    <!-- 以下を.toString()にしているが、配列で複数になるはずなので変更する -->
+                    <img
+                      class="icon"
+                      src={calculationType(data.calculationType.toString()).src
+                        ? calculationType(data.calculationType.toString()).src
+                        : ""}
+                      alt={calculationType(data.calculationType.toString()).alt
+                        ? calculationType(data.calculationType.toString()).alt
+                        : ""}
+                    />
+                    {data.calculationType.toString()
+                      ? data.calculationType.toString()
+                      : ""}
+                    {#if calculationType(data.calculationType.toString()).calcName !== ""}
+                      <Fa
+                        icon={faCircleChevronRight}
+                        size="90%"
+                        color="var(--calc-color)"
+                      />
+                    {/if}
+                  </a>
+                </td>
+                {#each scores as key}
+                  <td class="cell-td"
+                    ><div
+                      class="cell"
+                      style="background-color:{getColor(data[key])}"
+                    /></td
+                  >
+                {/each}
+              </tr>
+            {/each}
+          {:catch error}
             <tr
               ><td class="error-message" colspan="3"
                 ><Fa
