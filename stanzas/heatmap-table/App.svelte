@@ -171,7 +171,14 @@
 
     initTableSelected();
   };
-
+  const updateGraphs = (data) => {
+    window.dispatchEvent(
+      new CustomEvent("updateGraphs", {
+        // TODO: change to data.variant to data.pdbId (or others)
+        detail: { pdbIds: data.pdBlistSingleWild, variant: data.variant },
+      })
+    );
+  };
   let tableSelectedItem = null;
   const tableHandleClick = (event, data) => {
     const variantLink = event.target.closest(".td-variant > span");
@@ -298,7 +305,16 @@
             <tr><td colspan="3" class="loading-message">Loading...</td></tr>
           {:then json}
             {#each currentTabeList as data, index}
-              <tr on:click={(event) => tableHandleClick(event, data)}>
+              <tr
+                class={index === 0 ? "selected" : ""}
+                on:click={(event) => tableHandleClick(event, data)}
+                on:focus={() => {
+                  console.log("focus");
+                }}
+                on:mouseover={() => {
+                  updateGraphs(data);
+                }}
+              >
                 <td class="td-uniprot">
                   <input
                     class="radio-button"
