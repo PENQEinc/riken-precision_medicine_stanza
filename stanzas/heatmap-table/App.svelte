@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import getColor from "../../lib/ColorScale";
   import toCamelCase from "../../lib/CamelCase";
   import Fa from "svelte-fa";
@@ -7,50 +7,53 @@
     faTriangleExclamation,
   } from "@fortawesome/free-solid-svg-icons";
   import { calculationType, scores, scoreTheads } from "./data.js";
+  import { Datum, FetchedData } from "./types/types";
   export let uniprotAcc, assembly, genename, root;
 
   let promise = fetchData();
 
-  let dataset = [];
+  let dataset = [] as Datum[];
   let calculationsLists = [];
   let calculationsCount = {};
-  let datasetMap = [];
+  let datasetMap = new Map<string, Datum[]>();
   let compoundMap = new Map();
   let currentCompoundList = [];
   let selectedCalcName = "variants";
-  let currentTabeleList = [];
+  let currentTabeleList = [] as Datum[];
   let tableSelectedItem = {};
 
-  const getCalculationsLists = (dataset) => {
-    const calculations = dataset.flatMap((data) =>
-      data.calculation.map((d) => d.calculation_type)
-    );
+  const getCalculationsLists = (dataset: Datum[]) => {
+    const calculations = dataset.flatMap((data) => [
+      ...Object.keys(data.calculation),
+    ]);
+
     const uniqueCalculations = [...new Set(calculations.filter(Boolean))];
+
+    console.log("uniqueCalculations", uniqueCalculations);
     const calculationsCount = calculations.reduce((acc, calcType) => {
       acc[calcType] = (acc[calcType] || 0) + 1;
       return acc;
     }, {});
 
+    console.log("Here");
+
     return [uniqueCalculations, calculationsCount];
   };
 
   const getMapLists = () => {
-    datasetMap = new Map([["variants", dataset]]);
-    calculationsLists.forEach((calc) => {
+    datasetMap = new Map<string, Datum[]>([["variants", dataset]]);
+    calculationsLists.forEach((calcName) => {
       const filteredData = dataset
-        .filter((data) =>
-          data.calculation.some((type) => type.calculation_type === calc)
-        )
+        .filter((data) => !!data.calculation[calcName])
         .map((data) => ({
           ...data,
-          calculation: data.calculation.filter(
-            (item) => item.calculation_type === calc
-          ),
+          calculation: data.calculation[calcName],
         }));
-      datasetMap.set(calc, filteredData);
+
+      datasetMap.set(calcName, filteredData);
 
       const compoundGroup = filteredData.reduce((acc, data) => {
-        const compound = data.compoundId;
+        const compound = data.Compound_ID;
         if (!acc[compound]) {
           acc[compound] = [];
         }
@@ -58,8 +61,9 @@
         return acc;
       }, {});
 
+      console.log("compoundGroup", compoundGroup);
       const compoundList = [{ "All Drugs": filteredData, ...compoundGroup }];
-      compoundMap.set(calc, ...compoundList);
+      compoundMap.set(calcName, ...compoundList);
     });
 
     return [datasetMap, compoundMap];
@@ -68,16 +72,22 @@
   async function fetchData() {
     const response = await fetch(
       //`https://precisionmd-db.med.kyoto-u.ac.jp/testapi/genes/variants?uniprot_acc=${uniprotAcc}&assembly=${assembly}&genename=${genename}&limit=10000`
-      "https://raw.githubusercontent.com/PENQEinc/riken-precision_medicine_stanza/feature/fetch-heatmap/stanzas/heatmap-table/assets/geneVariantSample.json"
+      //"https://raw.githubusercontent.com/PENQEinc/riken-precision_medicine_stanza/feature/fetch-heatmap/stanzas/heatmap-table/assets/geneVariantSample.json"
       //`https://precisionmd-db.med.kyoto-u.ac.jp/api/genes/variants?uniprot_acc=${uniprotAcc}&assembly=${assembly}&genename=${genename}`
+      "https://raw.githubusercontent.com/PENQEinc/riken-precision_medicine_stanza/feature/fetch-heatmap-anton/stanzas/heatmap-table/assets/geneVariantNewDummy.json"
     );
 
     const json = await response.json();
+
     if (response.ok) {
-      dataset = json.data.map(toCamelCase);
+      dataset = json.data as Datum[];
+
       currentTabeleList = dataset;
       [calculationsLists, calculationsCount] = getCalculationsLists(dataset);
+
       [datasetMap, compoundMap] = getMapLists();
+
+      debugger;
     } else {
       throw new Error(json);
     }
@@ -105,7 +115,7 @@
     currentTabeleList = datasetMap.get(selectedCalcName);
     currentCompoundList =
       selectedCalcName === "variants"
-        ? ""
+        ? []
         : Object.keys(compoundMap.get(selectedCalcName));
 
     if (clickedItem !== selectedCalcEl) {
@@ -337,9 +347,9 @@
                     class="radio-button"
                     type="radio"
                     name="variantid"
-                    value={data.uniprotAcc}
+                    value={data.uniprot_acc}
                   />
-                  {data.uniprotAcc}
+                  {data.uniprot_acc}
                 </td>
                 <td>
                   <a
@@ -353,16 +363,16 @@
                     /></a
                   >
                 </td>
-                <td>{data.genBank[0] === undefined ? "-" : data.genBank}</td>
+                <td>{data.GenBank[0] === undefined ? "-" : data.GenBank}</td>
                 <td
-                  >{data.mGeNdClinicalSignificance[0] === undefined
+                  >{data.MGeND_ClinicalSignificance[0] === undefined
                     ? ""
-                    : data.mGeNdClinicalSignificance}</td
+                    : data.MGeND_ClinicalSignificance}</td
                 >
                 <td
-                  >{data.clinVarClinicalSignificance[0] === undefined
+                  >{data.ClinVar_ClinicalSignificance[0] === undefined
                     ? ""
-                    : data.clinVarClinicalSignificance}</td
+                    : data.ClinVar_ClinicalSignificance}</td
                 >
                 {#if calculationType(selectedCalcName).calcName !== "variants"}
                   {#if data.calculation[0]?.FE_Bind?.length === 0}
@@ -380,7 +390,7 @@
                   {/if}
                 {/if}
                 <td>
-                  {#each data.calculation as calculation}
+                  <!-- {#each data.calculation as calculation}
                     <a
                       class="link-calc"
                       href={`${window.location.origin}/dev/calculation/details?assembly=${data.assembly}&genename=${data.genename}&calculation_type=${calculation.calculation_type}&Compound_ID=${data.compoundId}&PDB_ID=${calculation.PDB_ID}&variant=${data.variant}`}
@@ -396,7 +406,7 @@
                       /><span>{calculation.calculation_type}</span>
                     </a>
                     <br />
-                  {/each}
+                  {/each} -->
                 </td>
                 {#each scores as key}
                   <td class="cell-td"

@@ -25,17 +25,17 @@ export const calculationType = (dataType) => {
 };
 
 export const scores = [
-  "cadd",
-  "fathmmMkl",
-  "lrt",
-  "mutationTaster",
-  "mutationAssessor",
-  "polyphen2Hdiv",
-  "polyphen2Hvar",
-  "primateAi",
-  "provean",
-  "revel",
-  "sift4G",
+  "CADD",
+  "fathmm-MKL",
+  "LRT",
+  "MutationTaster",
+  "MutationAssessor",
+  "Polyphen2_HDIV",
+  "Polyphen2_HVAR",
+  "PrimateAI",
+  "PROVEAN",
+  "REVEL",
+  "SIFT4G",
 ];
 
 export const scoreTheads = [
