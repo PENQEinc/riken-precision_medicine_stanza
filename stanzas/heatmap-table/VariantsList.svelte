@@ -36,38 +36,36 @@
   }
 </script>
 
-<div>
-  {#if loading}
-    <p>Loading...</p>
-  {:else}
-    <div class="column-list">
-      <ul class="column-ul">
-        {#each calcNames as calcName}
+{#if loading}
+  <p>Loading...</p>
+{:else}
+  <div class="column-list">
+    <ul class="column-ul">
+      {#each calcNames as calcName}
+        <li
+          on:click={() => handleliClick(calcName)}
+          on:keydown={handleliKey}
+          class:selected={calcName === $selectedCalcName}
+        >
+          <p>{calcName} {$calculationsCount[calcName].size}</p>
+        </li>
+      {/each}
+    </ul>
+  </div>
+  {#if currentCompoundList.length > 0}
+    <div class="drugs-list">
+      <ul class="drugs-ul">
+        {#each currentCompoundList as drugName, index}
           <li
-            on:click={() => handleliClick(calcName)}
-            on:keydown={handleliKey}
-            class:selected={calcName === $selectedCalcName}
+            class:selected={drugName === $selectedCompoundId}
+            data-compound={drugName}
+            on:click={() => compoundHandleClick(drugName)}
+            on:keydown={() => compoundHandleClick(drugName)}
           >
-            <p>{calcName} {$calculationsCount[calcName].size}</p>
+            {drugName}
           </li>
         {/each}
       </ul>
     </div>
-    {#if currentCompoundList}
-      <div class="drugs-list">
-        <ul class="drugs-ul">
-          {#each currentCompoundList as drugName, index}
-            <li
-              class:selected={drugName === $selectedCompoundId}
-              data-compound={drugName}
-              on:click={() => compoundHandleClick(drugName)}
-              on:keydown={() => compoundHandleClick(drugName)}
-            >
-              {drugName}
-            </li>
-          {/each}
-        </ul>
-      </div>
-    {/if}
   {/if}
-</div>
+{/if}
