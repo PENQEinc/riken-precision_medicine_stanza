@@ -8,11 +8,18 @@
   } from "@fortawesome/free-solid-svg-icons";
   import { calculationType, scores, scoreTheads } from "./data.js";
   import { Datum, FetchedData } from "./types/types";
+  import { fetchData } from "./utils/fetchData";
   export let uniprotAcc, assembly, genename, root;
 
-  let promise = fetchData();
+  let {
+    dataset,
+    compoundMap,
+    datasetMa,
+    calculationsLists,
+    calculationsCount,
+  } = fetchData();
 
-  let dataset = [] as Datum[];
+  // let dataset = [] as Datum[];
   let calculationsLists = [];
   let calculationsCount = {};
   let datasetMap = new Map<string, Datum[]>();
@@ -22,76 +29,76 @@
   let currentTabeleList = [] as Datum[];
   let tableSelectedItem = {};
 
-  const getCalculationsLists = (dataset: Datum[]) => {
-    const calculations = dataset.flatMap((data) => [
-      ...Object.keys(data.calculation),
-    ]);
+  // const getCalculationsLists = (dataset: Datum[]) => {
+  //   const calculations = dataset.flatMap((data) => [
+  //     ...Object.keys(data.calculation),
+  //   ]);
 
-    const uniqueCalculations = [...new Set(calculations.filter(Boolean))];
+  //   const uniqueCalculations = [...new Set(calculations.filter(Boolean))];
 
-    console.log("uniqueCalculations", uniqueCalculations);
-    const calculationsCount = calculations.reduce((acc, calcType) => {
-      acc[calcType] = (acc[calcType] || 0) + 1;
-      return acc;
-    }, {});
+  //   console.log("uniqueCalculations", uniqueCalculations);
+  //   const calculationsCount = calculations.reduce((acc, calcType) => {
+  //     acc[calcType] = (acc[calcType] || 0) + 1;
+  //     return acc;
+  //   }, {});
 
-    console.log("Here");
+  //   console.log("Here");
 
-    return [uniqueCalculations, calculationsCount];
-  };
+  //   return [uniqueCalculations, calculationsCount];
+  // };
 
-  const getMapLists = () => {
-    datasetMap = new Map<string, Datum[]>([["variants", dataset]]);
-    calculationsLists.forEach((calcName) => {
-      const filteredData = dataset
-        .filter((data) => !!data.calculation[calcName])
-        .map((data) => ({
-          ...data,
-          calculation: data.calculation[calcName],
-        }));
+  // const getMapLists = () => {
+  //   datasetMap = new Map<string, Datum[]>([["variants", dataset]]);
+  //   calculationsLists.forEach((calcName) => {
+  //     const filteredData = dataset
+  //       .filter((data) => !!data.calculation[calcName])
+  //       .map((data) => ({
+  //         ...data,
+  //         calculation: data.calculation[calcName],
+  //       }));
 
-      datasetMap.set(calcName, filteredData);
+  //     datasetMap.set(calcName, filteredData);
 
-      const compoundGroup = filteredData.reduce((acc, data) => {
-        const compound = data.Compound_ID;
-        if (!acc[compound]) {
-          acc[compound] = [];
-        }
-        acc[compound].push(data);
-        return acc;
-      }, {});
+  //     const compoundGroup = filteredData.reduce((acc, data) => {
+  //       const compound = data.Compound_ID;
+  //       if (!acc[compound]) {
+  //         acc[compound] = [];
+  //       }
+  //       acc[compound].push(data);
+  //       return acc;
+  //     }, {});
 
-      console.log("compoundGroup", compoundGroup);
-      const compoundList = [{ "All Drugs": filteredData, ...compoundGroup }];
-      compoundMap.set(calcName, ...compoundList);
-    });
+  //     console.log("compoundGroup", compoundGroup);
+  //     const compoundList = [{ "All Drugs": filteredData, ...compoundGroup }];
+  //     compoundMap.set(calcName, ...compoundList);
+  //   });
 
-    return [datasetMap, compoundMap];
-  };
+  //   return [datasetMap, compoundMap];
+  // };
 
-  async function fetchData() {
-    const response = await fetch(
-      //`https://precisionmd-db.med.kyoto-u.ac.jp/testapi/genes/variants?uniprot_acc=${uniprotAcc}&assembly=${assembly}&genename=${genename}&limit=10000`
-      //"https://raw.githubusercontent.com/PENQEinc/riken-precision_medicine_stanza/feature/fetch-heatmap/stanzas/heatmap-table/assets/geneVariantSample.json"
-      //`https://precisionmd-db.med.kyoto-u.ac.jp/api/genes/variants?uniprot_acc=${uniprotAcc}&assembly=${assembly}&genename=${genename}`
-      "https://raw.githubusercontent.com/PENQEinc/riken-precision_medicine_stanza/feature/fetch-heatmap-anton/stanzas/heatmap-table/assets/geneVariantNewDummy.json"
-    );
+  // async function fetchData() {
+  //   const response = await fetch(
+  //     //`https://precisionmd-db.med.kyoto-u.ac.jp/testapi/genes/variants?uniprot_acc=${uniprotAcc}&assembly=${assembly}&genename=${genename}&limit=10000`
+  //     //"https://raw.githubusercontent.com/PENQEinc/riken-precision_medicine_stanza/feature/fetch-heatmap/stanzas/heatmap-table/assets/geneVariantSample.json"
+  //     //`https://precisionmd-db.med.kyoto-u.ac.jp/api/genes/variants?uniprot_acc=${uniprotAcc}&assembly=${assembly}&genename=${genename}`
+  //     "https://raw.githubusercontent.com/PENQEinc/riken-precision_medicine_stanza/feature/fetch-heatmap-anton/stanzas/heatmap-table/assets/geneVariantNewDummy.json"
+  //   );
 
-    const json = await response.json();
+  //   const json = await response.json();
 
-    if (response.ok) {
-      dataset = json.data as Datum[];
+  //   if (response.ok) {
+  //     dataset = json.data as Datum[];
 
-      currentTabeleList = dataset;
-      [calculationsLists, calculationsCount] = getCalculationsLists(dataset);
+  //     currentTabeleList = dataset;
+  //     [calculationsLists, calculationsCount] = getCalculationsLists(dataset);
 
-      [datasetMap, compoundMap] = getMapLists();
+  //     [datasetMap, compoundMap] = getMapLists();
 
-      debugger;
-    } else {
-      throw new Error(json);
-    }
-  }
+  //     debugger;
+  //   } else {
+  //     throw new Error(json);
+  //   }
+  // }
 
   const initTableSelected = () => {
     if (root.querySelector("tbody")) {
@@ -329,7 +336,7 @@
           </tr>
         </thead>
         <tbody>
-          {#await promise}
+          {#await dataset}
             <tr><td colspan="3" class="loading-message">Loading...</td></tr>
           {:then json}
             {#each currentTabeleList as data, index}
