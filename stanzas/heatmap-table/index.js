@@ -1,6 +1,6 @@
 import Stanza from "togostanza/stanza";
 import toCamelCase from "../../lib/CamelCase";
-import App from "./App2.svelte";
+import App from "./App.svelte";
 
 export default class HeatmapTable extends Stanza {
   app = null;

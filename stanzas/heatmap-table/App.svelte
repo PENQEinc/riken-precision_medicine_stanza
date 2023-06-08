@@ -15,5 +15,5 @@
 
 <div class="heatmap-table">
   <VariantsList loading={$loading} />
-  <Table />
+  <Table loading={$loading} />
 </div>

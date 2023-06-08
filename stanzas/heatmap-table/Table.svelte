@@ -10,6 +10,20 @@
   import Fa from "svelte-fa";
   import TableRowHeatmap from "./TableRowHeatmap.svelte";
   import TableRowCalculation from "./TableRowCalculation.svelte";
+
+  export let loading: boolean;
+
+  let selectedRowIndex: number | undefined = undefined;
+
+  $: if (typeof selectedRowIndex !== "undefined") {
+    dispatchEvent(
+      new CustomEvent("updateGraphs", {
+        detail: $dataset[selectedRowIndex],
+        composed: true,
+        bubbles: true,
+      })
+    );
+  }
 </script>
 
 <div class="table-container">
@@ -51,68 +65,92 @@
         </tr>
       </thead>
       <tbody>
-        {#each $dataset as dataRow, index}
-          <tr>
-            <td class="td-uniprot">
-              <input
-                class="radio-button"
-                type="radio"
-                name="variantid"
-                value={dataRow.uniprot_acc}
-              />
-            </td>
+        {#if loading}
+          <div class="loading">
+            <p>Loading...</p>
+          </div>
+        {:else if $dataset.length === 0}
+          <div class="loading">
+            <p>No data found</p>
+          </div>
+        {:else}
+          {#each $dataset as dataRow, index}
+            <tr
+              on:click={() => {
+                if (selectedRowIndex === index) {
+                  selectedRowIndex = undefined;
+                } else {
+                  selectedRowIndex = index;
+                }
+              }}
+            >
+              <td class="td-uniprot">
+                <input
+                  class="radio-button"
+                  type="radio"
+                  name="variantid"
+                  value={dataRow.uniprot_acc}
+                  checked={selectedRowIndex === index}
+                />
+                {dataRow.uniprot_acc}
+              </td>
 
-            <td>
-              <a
-                class="link-variant"
-                href={`${window.location.origin}/dev/variants/details?assembly=${dataRow.assembly}&chr=${dataRow.chr}&start=${dataRow.start}&end=${dataRow.end}&ref=${dataRow.ref}&alt=${dataRow.alt}&variant=${dataRow.variant}`}
+              <td>
+                <a
+                  class="link-variant"
+                  href={`${window.location.origin}/dev/variants/details?assembly=${dataRow.assembly}&chr=${dataRow.chr}&start=${dataRow.start}&end=${dataRow.end}&ref=${dataRow.ref}&alt=${dataRow.alt}&variant=${dataRow.variant}`}
+                >
+                  {dataRow.variant}<Fa
+                    icon={faCircleChevronRight}
+                    size="90%"
+                    color="var(--variant-color)"
+                  /></a
+                >
+              </td>
+              <td>{dataRow.GenBank[0] === undefined ? "-" : dataRow.GenBank}</td
               >
-                {dataRow.variant}<Fa
-                  icon={faCircleChevronRight}
-                  size="90%"
-                  color="var(--variant-color)"
-                /></a
+              <td
+                >{dataRow.MGeND_ClinicalSignificance[0] === undefined
+                  ? ""
+                  : dataRow.MGeND_ClinicalSignificance}</td
               >
-            </td>
-            <td>{dataRow.GenBank[0] === undefined ? "-" : dataRow.GenBank}</td>
-            <td
-              >{dataRow.MGeND_ClinicalSignificance[0] === undefined
-                ? ""
-                : dataRow.MGeND_ClinicalSignificance}</td
-            >
-            <td
-              >{dataRow.ClinVar_ClinicalSignificance[0] === undefined
-                ? ""
-                : dataRow.ClinVar_ClinicalSignificance}</td
-            >
-            {#if $selectedCalcName && $selectedCalcName !== "Variants"}
-              {#if dataRow.calculation[$selectedCalcName][$selectedCompoundId].FE_Bind.length === 0}
-                <td />
-                <td />
-                <td />
-              {:else if dataRow.calculation[$selectedCalcName][$selectedCompoundId].FE_Bind.length === 1}
-                <td
-                  >{dataRow.calculation[$selectedCalcName][$selectedCompoundId]
-                    .FE_Bind[0]}</td
-                >
-                <td />
-                <td />
-              {:else}
-                <td />
-                <td
-                  >{dataRow.calculation[$selectedCalcName][$selectedCompoundId]
-                    ?.FE_Bind_mean}</td
-                >
-                <td
-                  >{dataRow.calculation[$selectedCalcName][$selectedCompoundId]
-                    ?.FE_Bind_std}</td
-                >
+              <td
+                >{dataRow.ClinVar_ClinicalSignificance[0] === undefined
+                  ? ""
+                  : dataRow.ClinVar_ClinicalSignificance}</td
+              >
+              {#if $selectedCalcName && $selectedCalcName !== "Variants"}
+                {#if dataRow.calculation[$selectedCalcName][$selectedCompoundId].FE_Bind.length === 0}
+                  <td />
+                  <td />
+                  <td />
+                {:else if dataRow.calculation[$selectedCalcName][$selectedCompoundId].FE_Bind.length === 1}
+                  <td
+                    >{dataRow.calculation[$selectedCalcName][
+                      $selectedCompoundId
+                    ].FE_Bind[0]}</td
+                  >
+                  <td />
+                  <td />
+                {:else}
+                  <td />
+                  <td
+                    >{dataRow.calculation[$selectedCalcName][
+                      $selectedCompoundId
+                    ]?.FE_Bind_mean}</td
+                  >
+                  <td
+                    >{dataRow.calculation[$selectedCalcName][
+                      $selectedCompoundId
+                    ]?.FE_Bind_std}</td
+                  >
+                {/if}
               {/if}
-            {/if}
-            <TableRowCalculation {dataRow} />
-            <TableRowHeatmap heatmapRow={$heatmapData[index]} />
-          </tr>
-        {/each}
+              <TableRowCalculation {dataRow} />
+              <TableRowHeatmap heatmapRow={$heatmapData[index]} />
+            </tr>
+          {/each}
+        {/if}
       </tbody>
     </table>
   </div>
