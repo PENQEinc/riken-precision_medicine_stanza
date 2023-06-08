@@ -8,7 +8,6 @@
   } from "@fortawesome/free-solid-svg-icons";
   import { calculationType, scores, scoreTheads } from "./data.js";
   import { Datum, FetchedData } from "./types/types";
-  import { fetchData } from "./utils/fetchData";
   export let uniprotAcc, assembly, genename, root;
 
   let {

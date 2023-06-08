@@ -1,10 +1,25 @@
-import { writable } from "svelte/store";
-import { Datum, FetchedData } from "../types/types";
-
-export const dataset = writable<Datum[]>([]);
+import { derived, writable } from "svelte/store";
+import {
+  CalculationDatum,
+  CalculationDatumConverted,
+  Datum,
+  DatumConverted,
+  FetchedData,
+} from "../types/types";
+import { scores } from "../data";
+export const dataset = writable<DatumConverted[]>([]);
 export const calculationsCount = writable<
   Record<string, { size: number; compounds?: Set<string> }>
 >({});
+
+export const heatmapData = derived(dataset, ($dataset) => {
+  return $dataset.map((datum) => {
+    return scores.map((score) => ({
+      score,
+      value: datum[score] as number,
+    }));
+  });
+});
 
 export const selectedCalcName = writable<string | null>(null);
 export const selectedCompoundId = writable<string | null>(null);
@@ -20,7 +35,8 @@ export default function (url: string) {
       const response = await fetch(url);
       const { data: loadedDataset, size } =
         (await response.json()) as FetchedData;
-      dataset.set(loadedDataset);
+
+      dataset.set(convertCalcData(loadedDataset));
       const calcCount = getCalculationTypesAndCounts(loadedDataset);
       calculationsCount.set({ Variants: { size }, ...calcCount });
     } catch (e) {
@@ -35,6 +51,22 @@ export default function (url: string) {
   return { dataset, calculationsCount, loading, error, get };
 }
 
+function convertCalcData(dataset: Datum[]): DatumConverted[] {
+  const result = dataset.map((d) => {
+    const calcData = d.calculation;
+    const calcDataConverted = {} as CalculationDatumConverted;
+    Object.keys(calcData).forEach((calcType) => {
+      calcDataConverted[calcType] = calcData[calcType].reduce((acc, curr) => {
+        acc[curr.Compound_ID] = curr;
+        return acc;
+      }, {} as CalculationDatum);
+    });
+    return { ...d, calculation: calcDataConverted };
+  });
+
+  return result;
+}
+
 function getCalculationTypesAndCounts(dataset: Datum[]) {
   const result = {} as Record<
     string,
@@ -43,11 +75,14 @@ function getCalculationTypesAndCounts(dataset: Datum[]) {
 
   dataset.forEach((d) => {
     Object.keys(d.calculation).forEach((calcType) => {
+      const compoundsToAdd = result[calcType]?.compounds || new Set();
+      d.calculation[calcType].forEach((compound) => {
+        compoundsToAdd.add(compound.Compound_ID);
+      });
+
       result[calcType] = {
         size: (result[calcType]?.size || 0) + 1,
-        compounds: (result[calcType]?.compounds || new Set()).add(
-          d.Compound_ID
-        ),
+        compounds: compoundsToAdd,
       };
     });
   });

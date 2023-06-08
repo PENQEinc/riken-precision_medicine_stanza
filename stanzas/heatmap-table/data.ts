@@ -1,4 +1,5 @@
 import drugIcon from "@/assets/drug.svg";
+
 // import proteinIcon from "@/assets/protein.svg";
 export const calculationType = (dataType) => {
   switch (dataType) {
@@ -24,7 +25,7 @@ export const calculationType = (dataType) => {
   }
 };
 
-export const scores = [
+export const scores: string[] = [
   "CADD",
   "fathmm-MKL",
   "LRT",

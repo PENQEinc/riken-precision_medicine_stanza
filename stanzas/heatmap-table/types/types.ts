@@ -2,14 +2,25 @@ type CalculationType = "MP-CAFFE" | "Mutation_FEP";
 
 type CompoundID = "alectinib" | "crizotinib" | "lorlatinib";
 
-interface CalculationDatum {
+export type CalculationDatum = {
   PDB_ID: string;
   FE_Bind: number[];
-  Compound_ID: CompoundID;
+  Compound_ID: string;
   FE_Bind_std: number;
   FE_Bind_mean: number;
-}
+};
 
+export type CalculationDatumConverted = { [key: string]: CalculationDatum };
+
+const a: CalculationDatumConverted = {
+  a: {
+    PDB_ID: "a",
+    FE_Bind: [1, 2, 3],
+    Compound_ID: "a",
+    FE_Bind_std: 1,
+    FE_Bind_mean: 2,
+  },
+};
 export interface Datum {
   LRT: number;
   alt: string;
@@ -27,7 +38,6 @@ export interface Datum {
   genename: string;
   PrimateAI: number;
   "fathmm-MKL": number;
-  Compound_ID: CompoundID;
   uniprot_acc: string;
   MutationTaster: number;
   Polyphen2_HDIV: number;
@@ -37,11 +47,17 @@ export interface Datum {
   MGeND_ClinicalSignificance: string[];
   ClinVar_ClinicalSignificance: string[];
   calculation: {
-    [key in CalculationType]: CalculationDatum[];
+    [key: string]: CalculationDatum[];
   };
 }
+
+export type DatumConverted = Omit<Datum, "calculation"> & {
+  calculation: CalculationDatumConverted;
+};
 
 export interface FetchedData {
   data: Datum[];
   size: number;
 }
+
+export type HeatmapDataRow = { score: string; value: number }[];

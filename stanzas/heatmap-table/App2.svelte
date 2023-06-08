@@ -4,11 +4,13 @@
 
   export let uniprotAcc, assembly, genename, root;
 
-  import fetchToStore from "./utils/fetchStore";
+  import fetchToStore, { selectedCalcName } from "./utils/fetchStore";
 
   const { loading, error } = fetchToStore(
     "https://raw.githubusercontent.com/PENQEinc/riken-precision_medicine_stanza/feature/fetch-heatmap-anton/stanzas/heatmap-table/assets/geneVariantNewDummy.json"
   );
+
+  $selectedCalcName = "Variants";
 </script>
 
 <div class="heatmap-table">

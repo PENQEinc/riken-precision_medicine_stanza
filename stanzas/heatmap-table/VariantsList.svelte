@@ -1,5 +1,7 @@
 <script lang="ts">
   export let loading: boolean;
+  import TextWithIcon from "./TextWithIcon.svelte";
+  import { calculationType } from "./data";
   import {
     calculationsCount,
     selectedCalcName,
@@ -47,7 +49,12 @@
           on:keydown={handleliKey}
           class:selected={calcName === $selectedCalcName}
         >
-          <p>{calcName} {$calculationsCount[calcName].size}</p>
+          <TextWithIcon
+            text={calcName}
+            icon={calculationType(calcName).src}
+            iconAlt={calcName}
+          />
+          <span class="num">{$calculationsCount[calcName].size}</span>
         </li>
       {/each}
     </ul>
