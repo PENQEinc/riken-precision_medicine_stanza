@@ -27,6 +27,9 @@
   .column-list,
   .drugs-list {
     padding: 10px;
+    &:active {
+      outline: none;
+    }
     > h3 {
       padding: 2px 5px;
       margin-bottom: 5px;
@@ -64,6 +67,7 @@
       width: 15%;
       min-width: 190px;
       background-color: rgb(0 0 0 / 50%);
+
       > ul > li:first-child {
         &:hover,
         &.selected {

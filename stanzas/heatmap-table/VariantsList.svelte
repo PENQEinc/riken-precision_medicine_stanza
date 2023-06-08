@@ -15,7 +15,7 @@
 
   let currentCompoundList = [];
 
-  function handleliClick(index: number) {
+  function handleCalcClick(index: number) {
     index = infiniteKeyList(index, calcNames.length);
     selectedCalcNameIndex = index;
 
@@ -34,6 +34,10 @@
       $selectedCompoundId = null;
     }
   }
+  function handleCompoundClick(index: number) {
+    selectedCompoundIndex = index;
+    $selectedCompoundId = currentCompoundList[index];
+  }
 
   function infiniteKeyList(indexToChange: number, listLength: number) {
     let i = indexToChange % listLength;
@@ -41,59 +45,88 @@
     return i;
   }
 
-  function makeKeyDownScrollFunction(
-    indexToChange: number,
-    cb: (index: number) => void
-  ) {
-    return function (e: KeyboardEvent) {
-      e.preventDefault();
-      if (typeof indexToChange === "undefined") {
-        indexToChange = 0;
-      }
-      switch (e.key) {
-        case "ArrowDown":
-          {
-            indexToChange++;
+  function handleCompoundKeyDown(e: KeyboardEvent) {
+    e.preventDefault();
+    switch (e.key) {
+      case "ArrowDown":
+        {
+          if (typeof selectedCompoundIndex === "undefined") {
+            selectedCompoundIndex = 0;
+          } else {
+            selectedCompoundIndex = infiniteKeyList(
+              selectedCompoundIndex + 1,
+              currentCompoundList.length
+            );
           }
+          handleCompoundClick(selectedCompoundIndex);
+        }
 
-          break;
-        case "ArrowUp":
-          {
-            indexToChange--;
+        break;
+      case "ArrowUp":
+        {
+          if (typeof selectedCompoundIndex === "undefined") {
+            selectedCompoundIndex = 0;
+          } else {
+            selectedCompoundIndex = infiniteKeyList(
+              selectedCompoundIndex - 1,
+              currentCompoundList.length
+            );
           }
-          break;
+          handleCompoundClick(selectedCompoundIndex);
+        }
+        break;
 
-        default:
-          break;
-      }
-      cb(indexToChange);
-    };
+      default:
+        break;
+    }
   }
 
-  const calcListKeyDown = makeKeyDownScrollFunction(
-    selectedCalcNameIndex,
-    handleliClick
-  );
-  const compoundListKeyDown = makeKeyDownScrollFunction(
-    selectedCompoundIndex,
-    compoundHandleClick
-  );
+  function handleCalcKeyDown(e: KeyboardEvent) {
+    e.preventDefault();
+    switch (e.key) {
+      case "ArrowDown":
+        {
+          if (typeof selectedCalcNameIndex === "undefined") {
+            selectedCalcNameIndex = 0;
+          } else {
+            selectedCalcNameIndex = infiniteKeyList(
+              selectedCalcNameIndex + 1,
+              calcNames.length
+            );
+          }
+          handleCalcClick(selectedCalcNameIndex);
+        }
 
-  function compoundHandleClick(index: number) {
-    $selectedCompoundId =
-      currentCompoundList[infiniteKeyList(index, currentCompoundList.length)];
+        break;
+      case "ArrowUp":
+        {
+          if (typeof selectedCalcNameIndex === "undefined") {
+            selectedCalcNameIndex = 0;
+          } else {
+            selectedCalcNameIndex = infiniteKeyList(
+              selectedCalcNameIndex - 1,
+              calcNames.length
+            );
+          }
+          handleCalcClick(selectedCalcNameIndex);
+        }
+        break;
+
+      default:
+        break;
+    }
   }
 </script>
 
 <div class="column-list">
-  <ul class="column-ul" on:keydown={calcListKeyDown} tabindex="-1">
+  <ul class="column-ul" on:keydown={handleCalcKeyDown} tabindex="-1">
     {#if loading}
       <p>Loading...</p>
     {:else}
       {#each calcNames as calcName, index}
         <li
           tabindex="-1"
-          on:click={() => handleliClick(index)}
+          on:click={() => handleCalcClick(index)}
           on:keydown={() => {}}
           class:selected={index === selectedCalcNameIndex}
         >
@@ -110,12 +143,12 @@
 </div>
 {#if currentCompoundList.length > 0}
   <div class="drugs-list">
-    <ul class="drugs-ul" on:keydown={compoundListKeyDown} tabindex="-1">
+    <ul class="drugs-ul" on:keydown={handleCompoundKeyDown} tabindex="-1">
       {#each currentCompoundList as drugName, index}
         <li
           class:selected={drugName === $selectedCompoundId}
           data-compound={drugName}
-          on:click={() => compoundHandleClick(index)}
+          on:click={() => handleCompoundClick(index)}
           on:keydown={() => {}}
         >
           {drugName}
