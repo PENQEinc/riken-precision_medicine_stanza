@@ -1,8 +1,10 @@
 <script lang="ts">
+  import Fa from "svelte-fa";
   import TextWithIcon from "./TextWithIcon.svelte";
   import { calculationType } from "./data";
   import type { DatumConverted } from "./types/types";
   import { selectedCalcName, selectedCompoundId } from "./utils/fetchStore";
+  import { faCircleChevronRight } from "@fortawesome/free-solid-svg-icons";
   export let dataRow: DatumConverted;
 
   const calculationTypes = Object.keys(dataRow.calculation);
@@ -28,18 +30,20 @@
           <TextWithIcon
             text={calcName}
             iconAlt={calcName}
-            url={makeUrl(calcName)}
             icon={calculationType(calcName).src}
           />
         </li>
       {/each}
     </ul>
   {:else}
-    <TextWithIcon
-      text={$selectedCalcName}
-      iconAlt={$selectedCalcName}
-      url={makeUrl($selectedCalcName)}
-      icon={calculationType($selectedCalcName).src}
-    />
+    <span class="calculation-container">
+      <TextWithIcon
+        text={$selectedCalcName}
+        iconAlt={$selectedCalcName}
+        url={makeUrl($selectedCalcName)}
+        icon={calculationType($selectedCalcName).src}
+      />
+      <Fa icon={faCircleChevronRight} size="90%" color="var(--calc-color)" />
+    </span>
   {/if}
 </td>
