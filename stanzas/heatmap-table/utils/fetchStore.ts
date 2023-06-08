@@ -1,5 +1,5 @@
 import { derived, writable } from "svelte/store";
-import {
+import type {
   CalculationDatum,
   CalculationDatumConverted,
   Datum,
@@ -48,7 +48,7 @@ export default function (url: string) {
 
   get();
 
-  return { dataset, calculationsCount, loading, error, get };
+  return { loading, error, get };
 }
 
 function convertCalcData(dataset: Datum[]): DatumConverted[] {
