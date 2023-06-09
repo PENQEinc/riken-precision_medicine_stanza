@@ -10,6 +10,7 @@
   const calculationTypes = Object.keys(dataRow.calculation);
 
   function makeUrl(calcName: string) {
+    if (!dataRow.calculation[calcName]) return undefined;
     return `${window.location.origin}/dev/calculation/details?assembly=${
       dataRow.assembly
     }&genename=${

@@ -7,7 +7,7 @@
   import fetchToStore, { selectedCalcName } from "./utils/fetchStore";
 
   const { loading, error } = fetchToStore(
-    "https://raw.githubusercontent.com/PENQEinc/riken-precision_medicine_stanza/feature/fetch-heatmap-anton/stanzas/heatmap-table/assets/geneVariantNewDummy.json"
+    "https://raw.githubusercontent.com/PENQEinc/riken-precision_medicine_stanza/feature/fetch-heatmap-anton/stanzas/heatmap-table/assets/geneVariantSampleNewFormat.json"
   );
 </script>
 

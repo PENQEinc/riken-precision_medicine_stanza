@@ -120,30 +120,36 @@
                   : dataRow.ClinVar_ClinicalSignificance}</td
               >
               {#if $selectedCalcName && $selectedCalcName !== "Variants"}
-                {#if dataRow.calculation[$selectedCalcName][$selectedCompoundId].FE_Bind.length === 0}
-                  <td />
-                  <td />
-                  <td />
-                {:else if dataRow.calculation[$selectedCalcName][$selectedCompoundId].FE_Bind.length === 1}
-                  <td
-                    >{dataRow.calculation[$selectedCalcName][
-                      $selectedCompoundId
-                    ].FE_Bind[0]}</td
-                  >
-                  <td />
-                  <td />
+                {#if !!dataRow.calculation[$selectedCalcName] && !!dataRow.calculation[$selectedCalcName][$selectedCompoundId]}
+                  {#if dataRow.calculation[$selectedCalcName][$selectedCompoundId].FE_Bind.length === 0}
+                    <td />
+                    <td />
+                    <td />
+                  {:else if dataRow.calculation[$selectedCalcName][$selectedCompoundId].FE_Bind.length === 1}
+                    <td
+                      >{dataRow.calculation[$selectedCalcName][
+                        $selectedCompoundId
+                      ].FE_Bind[0]}</td
+                    >
+                    <td />
+                    <td />
+                  {:else}
+                    <td />
+                    <td
+                      >{dataRow.calculation[$selectedCalcName][
+                        $selectedCompoundId
+                      ]?.FE_Bind_mean}</td
+                    >
+                    <td
+                      >{dataRow.calculation[$selectedCalcName][
+                        $selectedCompoundId
+                      ]?.FE_Bind_std}</td
+                    >
+                  {/if}
                 {:else}
                   <td />
-                  <td
-                    >{dataRow.calculation[$selectedCalcName][
-                      $selectedCompoundId
-                    ]?.FE_Bind_mean}</td
-                  >
-                  <td
-                    >{dataRow.calculation[$selectedCalcName][
-                      $selectedCompoundId
-                    ]?.FE_Bind_std}</td
-                  >
+                  <td />
+                  <td />
                 {/if}
               {/if}
               <TableRowCalculation {dataRow} />
