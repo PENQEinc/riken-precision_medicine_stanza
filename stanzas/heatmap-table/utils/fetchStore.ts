@@ -21,7 +21,7 @@ export const heatmapData = derived(dataset, ($dataset) => {
   });
 });
 
-export const selectedCalcName = writable<string | null>(null);
+export const selectedCalcName = writable<string>("Variants");
 export const selectedCompoundId = writable<string | null>(null);
 
 export default function (url: string) {
