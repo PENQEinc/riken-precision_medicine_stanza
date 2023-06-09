@@ -27,7 +27,7 @@
     <thead>
       <tr>
         <th class="th-gene">Name</th>
-        <th class="th-gene">Uniprot Accession</th>
+        <th class="th-gene">UniProt Accession</th>
         <th class="th-calc">Calculated</th>
       </tr>
     </thead>

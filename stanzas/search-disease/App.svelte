@@ -29,7 +29,7 @@
         <th class="th-disease">Name (MGeND)</th>
         <th class="th-disease">Name (ClinVar)</th>
         <th class="th-gene">Gene</th>
-        <th class="th-gene">Uniprot Accession</th>
+        <th class="th-gene">UniProt Accession</th>
         <th class="th-variant">Variant</th>
         <th class="th-disease">MGeND Significance</th>
         <th class="th-disease">ClinVar Significance</th>
