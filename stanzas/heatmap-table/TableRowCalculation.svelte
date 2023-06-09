@@ -12,7 +12,14 @@
   $: url = makeUrl($selectedCalcName, $selectedCompoundId);
 
   function makeUrl(calcName: string, compoundId: string) {
-    if (!dataRow.calculation[calcName]) return undefined;
+    if (
+      !dataRow.assembly ||
+      !dataRow.genename ||
+      !dataRow.variant ||
+      !compoundId ||
+      !dataRow.calculation[calcName]
+    )
+      return undefined;
     try {
       return `${window.location.origin}/dev/calculation/details?assembly=${
         dataRow.assembly
