@@ -33,11 +33,11 @@
 
     if ($calculationsCount[$selectedCalcName]?.compounds) {
       $selectedCompoundId = [
-        ...$calculationsCount[$selectedCalcName]?.compounds.values(),
+        ...Object.keys($calculationsCount[$selectedCalcName]?.compounds),
       ][0];
 
       currentCompoundList = [
-        ...$calculationsCount[$selectedCalcName]?.compounds.values(),
+        ...Object.keys($calculationsCount[$selectedCalcName]?.compounds),
       ];
     } else {
       currentCompoundList = [];
@@ -163,6 +163,9 @@
           on:keydown={() => {}}
         >
           {drugName}
+          <span class="num"
+            >{$calculationsCount[$selectedCalcName].compounds[drugName]}</span
+          >
         </li>
       {/each}
     </ul>

@@ -2,15 +2,15 @@ import { derived, writable } from "svelte/store";
 import type {
   CalculationDatum,
   CalculationDatumConverted,
+  Counts,
   Datum,
   DatumConverted,
   FetchedData,
 } from "../types/types";
 import { scores } from "../data";
 export const dataset = writable<DatumConverted[]>([]);
-export const calculationsCount = writable<
-  Record<string, { size: number; compounds?: Set<string> }>
->({});
+
+export const calculationsCount = writable<Counts>({});
 
 export const heatmapData = derived(dataset, ($dataset) => {
   return $dataset.map((datum) => {
@@ -37,6 +37,7 @@ export default function (url: string) {
 
       dataset.set(convertCalcData(loadedDataset));
       const calcCount = getCalculationTypesAndCounts(loadedDataset);
+      console.log("calcCount", calcCount);
       calculationsCount.set({
         Variants: { size: loadedDataset.length },
         ...calcCount,
@@ -70,20 +71,24 @@ function convertCalcData(dataset: Datum[]): DatumConverted[] {
 }
 
 function getCalculationTypesAndCounts(dataset: Datum[]) {
-  const result = {} as Record<
-    string,
-    { size: number; compounds?: Set<string> }
-  >;
+  const result = {} as Counts;
 
   dataset.forEach((d) => {
     Object.keys(d.calculation).forEach((calcType) => {
-      const compoundsToAdd = result[calcType]?.compounds || new Set();
+      const compoundsToAdd = result[calcType]?.compounds || {};
+
+      let calculationSize = 0;
       d.calculation[calcType].forEach((compound) => {
-        compoundsToAdd.add(compound.Compound_ID);
+        if (typeof compoundsToAdd[compound.Compound_ID] !== "undefined") {
+          compoundsToAdd[compound.Compound_ID] += 1;
+        } else {
+          compoundsToAdd[compound.Compound_ID] = 1;
+        }
+        calculationSize++;
       });
 
       result[calcType] = {
-        size: (result[calcType]?.size || 0) + 1,
+        size: (result[calcType]?.size || 0) + calculationSize,
         compounds: compoundsToAdd,
       };
     });

@@ -1,7 +1,3 @@
-type CalculationType = "MP-CAFFE" | "Mutation_FEP";
-
-type CompoundID = "alectinib" | "crizotinib" | "lorlatinib";
-
 export type CalculationDatum = {
   PDB_ID: string;
   FE_Bind: number[];
@@ -12,15 +8,6 @@ export type CalculationDatum = {
 
 export type CalculationDatumConverted = { [key: string]: CalculationDatum };
 
-const a: CalculationDatumConverted = {
-  a: {
-    PDB_ID: "a",
-    FE_Bind: [1, 2, 3],
-    Compound_ID: "a",
-    FE_Bind_std: 1,
-    FE_Bind_mean: 2,
-  },
-};
 export interface Datum {
   LRT: number;
   alt: string;
@@ -61,3 +48,8 @@ export interface FetchedData {
 }
 
 export type HeatmapDataRow = { score: string; value: number }[];
+
+export type Counts = Record<
+  string,
+  { size: number; compounds?: { [key: string]: number } }
+>;

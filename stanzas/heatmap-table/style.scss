@@ -63,6 +63,23 @@
         }
       }
     }
+    &.column-list,
+    &.drugs-list {
+      .num {
+        padding: 0 5px;
+        margin-left: 4px;
+        background-color: var(--white_20);
+        border-radius: 2px;
+      }
+      h3:hover,
+      li:hover,
+      h3.selected,
+      li.selected {
+        .num {
+          background-color: rgb(0 0 0 / 20%);
+        }
+      }
+    }
     &.column-list {
       width: 15%;
       min-width: 190px;
@@ -87,24 +104,10 @@
           background-color: var(--variant-color_30);
         }
       }
-      .num {
-        padding: 0 5px;
-        margin-left: 4px;
-        background-color: var(--white_20);
-        border-radius: 2px;
-      }
-      h3:hover,
-      li:hover,
-      h3.selected,
-      li.selected {
-        .num {
-          background-color: rgb(0 0 0 / 20%);
-        }
-      }
     }
     &.drugs-list {
       width: 10%;
-      min-width: 120px;
+      min-width: 140px;
       background-color: var(--black_40);
     }
   }

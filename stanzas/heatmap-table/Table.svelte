@@ -1,6 +1,6 @@
 <script lang="ts">
   import { faCircleChevronRight } from "@fortawesome/free-solid-svg-icons";
-  import { scoreTheads, scores } from "./data";
+  import { scoreTheads } from "./data";
   import {
     dataset,
     selectedCalcName,
