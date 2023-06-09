@@ -9,17 +9,21 @@
 
   const calculationTypes = Object.keys(dataRow.calculation);
 
-  function makeUrl(calcName: string) {
+  $: url = makeUrl($selectedCalcName, $selectedCompoundId);
+
+  function makeUrl(calcName: string, compoundId: string) {
     if (!dataRow.calculation[calcName]) return undefined;
-    return `${window.location.origin}/dev/calculation/details?assembly=${
-      dataRow.assembly
-    }&genename=${
-      dataRow.genename
-    }&calculation_type=${calcName}&Compound_ID=${$selectedCompoundId}&PDB_ID=${
-      $selectedCompoundId
-        ? dataRow.calculation[calcName][$selectedCompoundId].PDB_ID
-        : null
-    }&variant=${dataRow.variant}`;
+    try {
+      return `${window.location.origin}/dev/calculation/details?assembly=${
+        dataRow.assembly
+      }&genename=${
+        dataRow.genename
+      }&calculation_type=${calcName}&Compound_ID=${compoundId}&PDB_ID=${
+        compoundId ? dataRow.calculation[calcName][compoundId].PDB_ID : null
+      }&variant=${dataRow.variant}`;
+    } catch (error) {
+      return undefined;
+    }
   }
 </script>
 
@@ -41,7 +45,7 @@
       <TextWithIcon
         text={$selectedCalcName}
         iconAlt={$selectedCalcName}
-        url={makeUrl($selectedCalcName)}
+        {url}
         icon={calculationType($selectedCalcName).src}
       />
       <Fa icon={faCircleChevronRight} size="90%" color="var(--calc-color)" />

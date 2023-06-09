@@ -121,19 +121,34 @@
               >
               {#if $selectedCalcName && $selectedCalcName !== "Variants"}
                 {#if !!dataRow.calculation[$selectedCalcName] && !!dataRow.calculation[$selectedCalcName][$selectedCompoundId]}
-                  {#if dataRow.calculation[$selectedCalcName][$selectedCompoundId].FE_Bind.length === 0}
+                  {@const isEmpty =
+                    dataRow.calculation[$selectedCalcName][$selectedCompoundId]
+                      .FE_Bind_mean === null &&
+                    dataRow.calculation[$selectedCalcName][$selectedCompoundId]
+                      .FE_Bind_std === null}
+                  {@const isSingle =
+                    dataRow.calculation[$selectedCalcName][$selectedCompoundId]
+                      .FE_Bind_mean !== null &&
+                    dataRow.calculation[$selectedCalcName][$selectedCompoundId]
+                      .FE_Bind_std === null}
+                  {@const isMultiple =
+                    dataRow.calculation[$selectedCalcName][$selectedCompoundId]
+                      .FE_Bind_mean !== null &&
+                    dataRow.calculation[$selectedCalcName][$selectedCompoundId]
+                      .FE_Bind_std !== null}
+                  {#if isEmpty}
                     <td />
                     <td />
                     <td />
-                  {:else if dataRow.calculation[$selectedCalcName][$selectedCompoundId].FE_Bind.length === 1}
+                  {:else if isSingle}
                     <td
                       >{dataRow.calculation[$selectedCalcName][
                         $selectedCompoundId
-                      ].FE_Bind[0]}</td
+                      ].FE_Bind_mean}</td
                     >
                     <td />
                     <td />
-                  {:else}
+                  {:else if isMultiple}
                     <td />
                     <td
                       >{dataRow.calculation[$selectedCalcName][
