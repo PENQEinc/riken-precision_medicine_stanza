@@ -33,12 +33,14 @@ export default function (url: string) {
     error.set(false);
     try {
       const response = await fetch(url);
-      const { data: loadedDataset, size } =
-        (await response.json()) as FetchedData;
+      const { data: loadedDataset } = (await response.json()) as FetchedData;
 
       dataset.set(convertCalcData(loadedDataset));
       const calcCount = getCalculationTypesAndCounts(loadedDataset);
-      calculationsCount.set({ Variants: { size }, ...calcCount });
+      calculationsCount.set({
+        Variants: { size: loadedDataset.length },
+        ...calcCount,
+      });
     } catch (e) {
       error.set(e);
     } finally {
