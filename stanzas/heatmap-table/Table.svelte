@@ -18,7 +18,7 @@
   $: if (typeof selectedRowIndex !== "undefined") {
     dispatchEvent(
       new CustomEvent("updateGraphs", {
-        detail: $dataset[selectedRowIndex],
+        detail: $dataset[selectedRowIndex].PDBlist_single_wild,
         composed: true,
         bubbles: true,
       })

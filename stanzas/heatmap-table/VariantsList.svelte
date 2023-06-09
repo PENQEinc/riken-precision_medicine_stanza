@@ -13,6 +13,16 @@
 
   $: calcNames = Object.keys($calculationsCount);
 
+  $: if ($selectedCalcName) {
+    dispatchEvent(
+      new CustomEvent("updateBarChart", {
+        detail: [$selectedCalcName, $selectedCompoundId],
+        composed: true,
+        bubbles: true,
+      })
+    );
+  }
+
   let currentCompoundList = [];
 
   function handleCalcClick(index: number) {
@@ -34,6 +44,7 @@
       $selectedCompoundId = null;
     }
   }
+
   function handleCompoundClick(index: number) {
     selectedCompoundIndex = index;
     $selectedCompoundId = currentCompoundList[index];

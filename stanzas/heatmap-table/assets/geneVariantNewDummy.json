@@ -71,16 +71,7 @@
       "Polyphen2_HDIV": 0.58,
       "Polyphen2_HVAR": 0.21,
       "MutationAssessor": 0.71,
-      "PDBlist_single_wild": [
-        "6edl",
-        "4ccu",
-        "5imx",
-        "4ctc",
-        "4ccb",
-        "4tt7",
-        "6cdt",
-        "4ctb"
-      ],
+      "PDBlist_single_wild": ["6edl", "4ccu", "5imx", "4ctc"],
       "MGeND_ClinicalSignificance": [],
       "ClinVar_ClinicalSignificance": [
         "Conflicting interpretations of pathogenicity"
