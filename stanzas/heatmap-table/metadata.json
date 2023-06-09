@@ -14,7 +14,7 @@
     {
       "stanza:key": "stanza-uniprot_acc",
       "stanza:example": "Q9UM73",
-      "stanza:description": "Uniprot_acc",
+      "stanza:description": "Uniprot Accession",
       "stanza:required": true
     },
     {
