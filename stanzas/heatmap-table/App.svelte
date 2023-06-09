@@ -260,7 +260,7 @@
       <table>
         <thead>
           <tr>
-            <th class="th-gene" rowspan="2">UniProt acc</th>
+            <th class="th-gene" rowspan="2">Uniprot Accession</th>
             <th class="th-variant" rowspan="2">Variant</th>
             <th class="th-variant" rowspan="2">GenBank</th>
             <th class="th-disease th-group" colspan="2">Significance</th>
