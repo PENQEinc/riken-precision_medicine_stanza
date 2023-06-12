@@ -8,7 +8,7 @@
     selectedCompoundId,
   } from "./utils/fetchStore";
 
-  let selectedCalcNameIndex: number = 0;
+  let selectedCalcNameIndex = 0;
   let selectedCompoundIndex: number | undefined = undefined;
 
   $: calcNames = Object.keys($calculationsCount);
