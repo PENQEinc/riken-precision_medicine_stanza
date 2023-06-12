@@ -28,6 +28,12 @@
       "stanza:example": "ALK",
       "stanza:description": "Genename",
       "stanza:required": true
+    },
+    {
+      "stanza:key": "stanza-dataurl",
+      "stanza:example": "https://raw.githubusercontent.com/PENQEinc/riken-precision_medicine_stanza/main/stanzas/heatmap-table/assets/geneVariantSampleNewFormat.json",
+      "stanza:description": "Data URL",
+      "stanza:required": true
     }
   ],
   "stanza:menu-placement": "none",
