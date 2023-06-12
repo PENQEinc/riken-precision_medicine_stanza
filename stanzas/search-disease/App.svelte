@@ -44,7 +44,7 @@
           <tr>
             <td class="td-disease">{@html MGeND_DiseaseName.join("<br>")}</td>
             <td class="td-disease">{@html ClinVar_DiseaseName.join("<br>")}</td>
-            <td
+            <td class="td-gene"
               ><a
                 class="link-gene"
                 href={`${window.location.origin}/dev/genes/details?uniprot_acc=${uniprot_acc}&assembly=${assembly}&genename=${genename}`}
@@ -56,7 +56,7 @@
               </a></td
             >
             <td> {uniprot_acc}</td>
-            <td
+            <td class="td-variant"
               ><a
                 class="link-variant"
                 href={`${
@@ -73,12 +73,12 @@
             >
             <td>
               {MGeND_ClinicalSignificance.length === 0
-                ? "-"
+                ? ""
                 : MGeND_ClinicalSignificance}</td
             >
             <td
               >{ClinVar_ClinicalSignificance.length === 0
-                ? "-"
+                ? ""
                 : ClinVar_ClinicalSignificance}</td
             >
             <td class="td-calc"
