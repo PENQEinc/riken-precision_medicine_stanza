@@ -15,14 +15,17 @@
     let response;
     if (isPosition) {
       response = await fetch(
-        `https://precisionmd-db.med.kyoto-u.ac.jp/api/positions/search?assembly=${assembly}&position=${term}`
+        // `https://precisionmd-db.med.kyoto-u.ac.jp/api/positions/search?assembly=${assembly}&position=${term}`
+        `https://raw.githubusercontent.com/PENQEinc/riken-precision_medicine_stanza/main/stanzas/search-variant/assets/sample.json`
       );
     } else {
       response = await fetch(
-        `https://precisionmd-db.med.kyoto-u.ac.jp/api/variants/search?assembly=${assembly}&variant=${term}`
+        // `https://precisionmd-db.med.kyoto-u.ac.jp/api/variants/search?assembly=${assembly}&variant=${term}`
+        `https://raw.githubusercontent.com/PENQEinc/riken-precision_medicine_stanza/main/stanzas/search-variant/assets/sample.json`
       );
     }
     const json = await response.json();
+    console.log(json);
     if (response.ok) {
       return json;
     } else {
@@ -45,7 +48,7 @@
       {#await promise}
         <tr><td colspan="10">Loading...</td></tr>
       {:then dataset}
-        {#each dataset.data as { chr, variant, MGeND_ClinicalSignificance, ClinVar_ClinicalSignificance, calculation_type, end, start, alt, ref, genename, Compound_ID, PDB_ID }}
+        {#each dataset.data as { chr, variant, MGeND_ClinicalSignificance, ClinVar_ClinicalSignificance, calculation, end, start, alt, ref, genename, Compound_ID, PDB_ID }}
           <tr>
             <td
               ><a
@@ -62,31 +65,23 @@
             </td>
             <td>
               {MGeND_ClinicalSignificance.length === 0
-                ? "-"
+                ? ""
                 : MGeND_ClinicalSignificance}
             </td>
             <td
               >{ClinVar_ClinicalSignificance.length === 0
-                ? "-"
+                ? ""
                 : ClinVar_ClinicalSignificance}
             </td>
-            <td class="td-calc"
-              >{#if calculation_type.length > 0}
-                {#each calculation_type as calc}
-                  <a
-                    class="link-calc"
-                    href={`${window.location.origin}/dev/calculation/details?assembly=${assembly}&genename=${genename}&calculation_type=${calc}&Compound_ID=${Compound_ID}&PDB_ID=${PDB_ID}&variant=${variant}`}
-                  >
+            <td class="td-calc">
+              <ul>
+                {#each Object.keys(calculation) as calc}
+                  <li>
                     <img class="icon" src={drugIcon} alt="drug" />
                     {calc}
-                    <Fa
-                      icon={faCircleChevronRight}
-                      size="90%"
-                      color="var(--calc-color)"
-                    />
-                  </a>
+                  </li>
                 {/each}
-              {/if}
+              </ul>
             </td>
           </tr>
         {/each}
