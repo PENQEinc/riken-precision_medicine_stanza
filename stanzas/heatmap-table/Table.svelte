@@ -140,21 +140,21 @@
                     <td />
                     <td />
                   {:else if isSingle}
-                    <td
+                    <td class="number"
                       >{dataRow.calculation[$selectedCalcName][
                         $selectedCompoundId
                       ].FE_Bind_mean}</td
                     >
-                    <td />
-                    <td />
+                    <td class="number" />
+                    <td class="number" />
                   {:else if isMultiple}
-                    <td />
-                    <td
+                    <td class="number" />
+                    <td class="number"
                       >{dataRow.calculation[$selectedCalcName][
                         $selectedCompoundId
                       ]?.FE_Bind_mean}</td
                     >
-                    <td
+                    <td class="number"
                       >{dataRow.calculation[$selectedCalcName][
                         $selectedCompoundId
                       ]?.FE_Bind_std}</td

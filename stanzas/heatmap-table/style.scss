@@ -133,6 +133,7 @@
           border-top: 1px solid #fff;
           th {
             padding-left: 5px;
+            padding-right: 5px;
             padding-bottom: 4px;
             text-align: left;
             vertical-align: bottom;
@@ -216,6 +217,10 @@
               > .calculation-container {
                 display: flex;
                 align-items: center;
+              }
+              &.number {
+                text-align: right;
+                padding-right: 5px;
               }
             }
           }
