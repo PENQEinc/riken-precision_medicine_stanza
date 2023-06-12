@@ -1,4 +1,5 @@
 import drugIcon from "@/assets/drug.svg";
+
 // import proteinIcon from "@/assets/protein.svg";
 export const calculationType = (dataType) => {
   switch (dataType) {
@@ -7,6 +8,7 @@ export const calculationType = (dataType) => {
         calcName: "variants",
       };
     case "Mutation_FEP":
+    case "MP-CAFEE":
       return {
         calcName: "mutation",
         className: "drug-icon",
@@ -23,18 +25,18 @@ export const calculationType = (dataType) => {
   }
 };
 
-export const scores = [
-  "cadd",
-  "fathmmMkl",
-  "lrt",
-  "mutationTaster",
-  "mutationAssessor",
-  "polyphen2Hdiv",
-  "polyphen2Hvar",
-  "primateAi",
-  "provean",
-  "revel",
-  "sift4G",
+export const scores: string[] = [
+  "CADD",
+  "fathmm-MKL",
+  "LRT",
+  "MutationTaster",
+  "MutationAssessor",
+  "Polyphen2_HDIV",
+  "Polyphen2_HVAR",
+  "PrimateAI",
+  "PROVEAN",
+  "REVEL",
+  "SIFT4G",
 ];
 
 export const scoreTheads = [
