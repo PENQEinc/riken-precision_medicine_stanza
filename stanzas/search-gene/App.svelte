@@ -11,7 +11,8 @@
 
   async function search(geneName) {
     const response = await fetch(
-      `https://precisionmd-db.med.kyoto-u.ac.jp/api/genes/search?assembly=${assembly}&genename=${geneName}&limit=300`
+      // `https://precisionmd-db.med.kyoto-u.ac.jp/api/genes/search?assembly=${assembly}&genename=${geneName}&limit=300`
+      `https://precisionmd-db.med.kyoto-u.ac.jp/testapi/genes/search?assembly=${assembly}&genename=${geneName}`
     );
     const json = await response.json();
     if (response.ok) {
@@ -51,10 +52,14 @@
             <td>{uniprot_acc}</td>
             <td>
               {#if calculation_type.length > 0}
-                {#each calculation_type as calc}
-                  <img class="icon" src={drugIcon} alt="drug" />
-                  {calc}
-                {/each}
+                <ul>
+                  {#each calculation_type as calc}
+                    <li>
+                      <img class="icon" src={drugIcon} alt="drug" />
+                      {calc}
+                    </li>
+                  {/each}
+                </ul>
               {/if}
             </td>
           </tr>

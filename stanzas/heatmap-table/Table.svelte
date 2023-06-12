@@ -107,8 +107,7 @@
                   /></a
                 >
               </td>
-              <td>{dataRow.GenBank[0] === undefined ? "-" : dataRow.GenBank}</td
-              >
+              <td>{dataRow.GenBank[0] === undefined ? "" : dataRow.GenBank}</td>
               <td
                 >{dataRow.MGeND_ClinicalSignificance[0] === undefined
                   ? ""
