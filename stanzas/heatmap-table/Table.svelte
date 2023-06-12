@@ -18,7 +18,7 @@
   $: if (typeof selectedRowIndex !== "undefined") {
     dispatchEvent(
       new CustomEvent("updateMolstar", {
-        detail: $dataset[selectedRowIndex].PDBlist_single_wild,
+        detail: $dataset[selectedRowIndex],
         composed: true,
         bubbles: true,
       })
