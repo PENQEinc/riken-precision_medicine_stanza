@@ -9,12 +9,17 @@ export default class HeatmapTable extends Stanza {
     if (this.app) {
       this.root.querySelector("main > .heatmap-table").remove();
     }
+
+    const camelCaseParams = toCamelCase(this.params);
+
     this.app = new App({
       target: this.root.querySelector("main"),
       props: {
-        uniprotAcc: toCamelCase(this.params)["stanzaUniprotAcc"],
-        assembly: toCamelCase(this.params)["stanzaAssembly"],
-        genename: toCamelCase(this.params)["stanzaGenename"],
+        uniprotAcc: camelCaseParams["stanzaUniprotAcc"],
+        assembly: camelCaseParams["stanzaAssembly"],
+        genename: camelCaseParams["stanzaGenename"],
+        dataUrl: camelCaseParams["stanzaDataUrl"],
+        stanzaElement: this.element,
         root: this.root.querySelector("main"),
       },
     });
