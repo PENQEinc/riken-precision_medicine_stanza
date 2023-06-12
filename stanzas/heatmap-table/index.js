@@ -18,7 +18,7 @@ export default class HeatmapTable extends Stanza {
         uniprotAcc: camelCaseParams["stanzaUniprotAcc"],
         assembly: camelCaseParams["stanzaAssembly"],
         genename: camelCaseParams["stanzaGenename"],
-        dataUrl: camelCaseParams["stanzaDataUrl"],
+        dataUrl: camelCaseParams["stanzaDataurl"],
         stanzaElement: this.element,
         root: this.root.querySelector("main"),
       },
