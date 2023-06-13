@@ -51,6 +51,11 @@
                     class="link-calc compound"
                   >
                     {compound}
+                    <Fa
+                      icon={faCircleChevronRight}
+                      size="90%"
+                      color="var(--calc-color)"
+                    />
                   </a>
                 </li>
               {/each}
