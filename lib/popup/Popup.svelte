@@ -11,15 +11,18 @@
   let popper: any;
   let tooltipHover: boolean = false;
 
+  function toggleOn() {
+    show = true;
+  }
+  function toggleOff() {
+    if (!tooltipHover) {
+      show = false;
+    }
+  }
   function addEventListeners() {
-    trigger.addEventListener("mouseenter", () => {
-      show = true;
-    });
-    trigger.addEventListener("mouseleave", (e: MouseEvent) => {
-      if (!tooltipHover) {
-        show = false;
-      }
-    });
+    trigger.addEventListener("mouseenter", toggleOn);
+    trigger.addEventListener("mouseover", toggleOn);
+    trigger.addEventListener("mouseleave", toggleOff);
   }
 
   $: if (trigger) {
@@ -28,11 +31,12 @@
 
   function handleTooltipMouseEnter(e: MouseEvent) {
     tooltipHover = true;
-    console.log("clear timeout");
+    console.log("handleTooltipMouseEnter");
   }
 
   function handleTooltipMouseLeave(e: MouseEvent) {
     show = false;
+    tooltipHover = false;
   }
 
   $: if (trigger && content) {
@@ -53,6 +57,9 @@
 
   onDestroy(() => {
     popper?.destroy();
+    trigger?.removeEventListener("mouseenter", toggleOn);
+    trigger?.removeEventListener("mouseover", toggleOn);
+    trigger?.removeEventListener("mouseleave", toggleOff);
   });
 
   $: if (popper) {
@@ -79,7 +86,7 @@
   .backdrop {
     position: absolute;
     width: 100%;
-    height: 11px;
+    height: 12px;
     left: 0;
   }
   .tooltip {
@@ -95,35 +102,32 @@
     > #arrow {
       bottom: -10px;
     }
-    > .backdrop {
-      bottom: -20px;
-    }
   }
 
   [data-popper-placement^="bottom"] {
     > #arrow {
       top: -10px;
     }
-    > .backdrop {
+    /* > .backdrop {
       top: -11px;
-    }
+    } */
   }
   [data-popper-placement^="left"] {
     > #arrow {
       right: -10px;
     }
-    > .backdrop {
+    /* > .backdrop {
       right: -11px;
-    }
+    } */
   }
 
   [data-popper-placement^="right"] {
     > #arrow {
       left: -10px;
     }
-    > .backdrop {
+    /* > .backdrop {
       left: -11px;
-    }
+    } */
   }
 
   #arrow,

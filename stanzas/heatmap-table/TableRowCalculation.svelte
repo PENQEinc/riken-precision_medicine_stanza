@@ -5,11 +5,14 @@
   import type { DatumConverted } from "./types/types";
   import { selectedCalcName, selectedCompoundId } from "./utils/fetchStore";
   import { faCircleChevronRight } from "@fortawesome/free-solid-svg-icons";
+  import Popup from "../../lib/popup/Popup.svelte";
   export let dataRow: DatumConverted;
 
   const calculationTypes = Object.keys(dataRow.calculation);
 
   console.log("dataRow.calculation", dataRow.calculation);
+
+  let refs = [] as HTMLElement[];
 
   $: url = makeUrl($selectedCalcName, $selectedCompoundId);
 
@@ -39,8 +42,14 @@
 <td>
   {#if $selectedCalcName === "Variants"}
     <ul>
-      {#each calculationTypes as calcName}
-        <li>
+      {#each calculationTypes as calcName, index}
+        <li bind:this={refs[index]}>
+          <Popup trigger={refs[index]} placement="top">
+            {#each Object.keys(dataRow.calculation[calcName]) as compound, index}
+              <TextWithIcon text={compound} url={makeUrl(calcName, compound)} />
+            {/each}
+          </Popup>
+
           <TextWithIcon
             text={calcName}
             iconAlt={calcName}
