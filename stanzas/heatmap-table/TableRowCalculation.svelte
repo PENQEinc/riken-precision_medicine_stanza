@@ -10,8 +10,6 @@
 
   const calculationTypes = Object.keys(dataRow.calculation);
 
-  console.log("dataRow.calculation", dataRow.calculation);
-
   let refs = [] as HTMLElement[];
 
   $: url = makeUrl($selectedCalcName, $selectedCompoundId);
@@ -50,8 +48,7 @@
                 <li>
                   <a
                     href={makeUrl(calcName, compound)}
-                    class="link-calc"
-                    style="font-weight:400;"
+                    class="link-calc compound"
                   >
                     {compound}
                   </a>
@@ -80,3 +77,10 @@
     </span>
   {/if}
 </td>
+
+<style lang="scss" scoped>
+  .compound {
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+</style>

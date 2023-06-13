@@ -37,7 +37,7 @@ export default function (url: string) {
 
       dataset.set(convertCalcData(loadedDataset));
       const calcCount = getCalculationTypesAndCounts(loadedDataset);
-      console.log("calcCount", calcCount);
+
       calculationsCount.set({
         Variants: { size: loadedDataset.length },
         ...calcCount,
