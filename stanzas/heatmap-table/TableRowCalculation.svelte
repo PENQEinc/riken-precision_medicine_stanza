@@ -45,9 +45,19 @@
       {#each calculationTypes as calcName, index}
         <li bind:this={refs[index]}>
           <Popup trigger={refs[index]} placement="top">
-            {#each Object.keys(dataRow.calculation[calcName]) as compound, index}
-              <TextWithIcon text={compound} url={makeUrl(calcName, compound)} />
-            {/each}
+            <ul class="compound-list">
+              {#each Object.keys(dataRow.calculation[calcName]) as compound, index}
+                <li>
+                  <a
+                    href={makeUrl(calcName, compound)}
+                    class="link-calc"
+                    style="font-weight:400;"
+                  >
+                    {compound}
+                  </a>
+                </li>
+              {/each}
+            </ul>
           </Popup>
 
           <TextWithIcon
