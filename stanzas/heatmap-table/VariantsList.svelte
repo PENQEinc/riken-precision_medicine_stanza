@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Popup from "../../lib/popup/Popup.svelte";
   export let loading: boolean;
   import TextWithIcon from "./TextWithIcon.svelte";
   import { calculationType } from "./data";
@@ -7,6 +8,8 @@
     selectedCalcName,
     selectedCompoundId,
   } from "./utils/fetchStore";
+
+  let someRefs = [] as HTMLElement[];
 
   let selectedCalcNameIndex = 0;
   let selectedCompoundIndex: number | undefined = undefined;
@@ -135,7 +138,11 @@
       <p>Loading...</p>
     {:else}
       {#each calcNames as calcName, index}
+        <Popup trigger={someRefs[index]} placement="top"
+          ><div>{calcName}</div></Popup
+        >
         <li
+          bind:this={someRefs[index]}
           tabindex="-1"
           on:click={() => handleCalcClick(index)}
           on:keydown={() => {}}

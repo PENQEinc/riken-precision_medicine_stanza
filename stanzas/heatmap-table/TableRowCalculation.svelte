@@ -9,6 +9,8 @@
 
   const calculationTypes = Object.keys(dataRow.calculation);
 
+  console.log("dataRow.calculation", dataRow.calculation);
+
   $: url = makeUrl($selectedCalcName, $selectedCompoundId);
 
   function makeUrl(calcName: string, compoundId: string) {
