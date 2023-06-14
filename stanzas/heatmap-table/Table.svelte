@@ -10,8 +10,34 @@
   import Fa from "svelte-fa";
   import TableRowHeatmap from "./TableRowHeatmap.svelte";
   import TableRowCalculation from "./TableRowCalculation.svelte";
+  import { DatumConverted } from "./types/types";
 
   export let loading: boolean;
+
+  $: filteredDataset = filterDataset(
+    $dataset,
+    $selectedCalcName,
+    $selectedCompoundId
+  );
+
+  function filterDataset(
+    dataset: DatumConverted[],
+    calcName: string,
+    compoundId: string
+  ) {
+    if (!dataset) return [];
+    if (calcName === "Variants") {
+      return dataset;
+    }
+
+    return dataset.filter((datum) => {
+      return (
+        datum.calculation[calcName] && datum.calculation[calcName][compoundId]
+      );
+    });
+  }
+
+  $: console.log("filteredDataset", filteredDataset);
 
   let selectedRowIndex: number | undefined = undefined;
 
@@ -74,7 +100,7 @@
             <p>No data found</p>
           </div>
         {:else}
-          {#each $dataset as dataRow, index}
+          {#each filteredDataset as dataRow, index}
             <tr
               on:click={() => {
                 if (selectedRowIndex === index) {
