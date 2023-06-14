@@ -1,6 +1,8 @@
 import { createPopper, type Instance, type Options } from "@popperjs/core";
 import { Writable, writable } from "svelte/store";
 
+export const isScrolling = writable(false);
+
 export default function createPopperAction(): [
   (element: HTMLElement) => { destroy: () => void },
   (
@@ -18,6 +20,12 @@ export default function createPopperAction(): [
   let popper: Instance | null = null;
   let backdropHover = false;
   const show = writable(false);
+
+  isScrolling.subscribe((value) => {
+    if (value) {
+      show.set(false);
+    }
+  });
 
   function handleBackdropEnter() {
     backdropHover = true;

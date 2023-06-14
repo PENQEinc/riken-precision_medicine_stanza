@@ -114,3 +114,73 @@ td {
 
   --warning-color: #ffae00;
 }
+
+.tooltip {
+  background: #333;
+  color: white;
+  font-weight: bold;
+  padding: 4px 8px;
+  font-size: 13px;
+  border-radius: 4px;
+  > .backdrop {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    left: 0;
+  }
+
+  &[data-popper-placement^="top"] {
+    > #arrow {
+      bottom: -4px;
+    }
+    > .backdrop {
+      bottom: -4px;
+    }
+  }
+
+  &[data-popper-placement^="bottom"] {
+    > #arrow {
+      top: -4px;
+    }
+    > .backdrop {
+      top: -4px;
+    }
+  }
+
+  &[data-popper-placement^="left"] {
+    > #arrow {
+      right: -4px;
+    }
+    > .backdrop {
+      right: -4px;
+    }
+  }
+
+  &[data-popper-placement^="right"] {
+    > #arrow {
+      left: -4px;
+    }
+    > .backdrop {
+      left: -4px;
+    }
+  }
+}
+
+#arrow,
+#arrow::before {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: inherit;
+  z-index: 1000;
+}
+
+#arrow {
+  visibility: hidden;
+}
+
+#arrow::before {
+  visibility: visible;
+  content: "";
+  transform: rotate(45deg);
+}
