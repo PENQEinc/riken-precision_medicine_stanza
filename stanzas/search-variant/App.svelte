@@ -7,16 +7,13 @@
   import Popup from "../../lib/popup/Popup.svelte";
   import drugIcon from "@/assets/drug.svg";
   import proteinIcon from "@/assets/protein.svg";
+  import { upperFirst } from "lodash";
 
   export let assembly, isPosition, term;
   const grch = `GRCh${assembly.replace(/\D/g, "")}`;
   let promise = search(term);
 
   let refs = [] as HTMLElement[];
-
-  function capitalizeFirstLetter(str) {
-    return `${str.charAt(0).toUpperCase()}${str.slice(1)}`;
-  }
 
   async function search(term) {
     let response;
@@ -91,7 +88,7 @@
                               href={`${window.location.origin}/dev/calculation/details?assembly=${assembly}&genename=${genename}&calculation_type=${calcName}&Compound_ID=${Compound_ID}&PDB_ID=${PDB_ID}&variant=${variant}`}
                               class="link-calc"
                             >
-                              {capitalizeFirstLetter(Compound_ID)}
+                              {upperFirst(Compound_ID)}
                               <Fa
                                 icon={faCircleChevronRight}
                                 size="90%"
