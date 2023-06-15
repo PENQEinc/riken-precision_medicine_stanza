@@ -4,7 +4,8 @@
     faCircleChevronRight,
     faTriangleExclamation,
   } from "@fortawesome/free-solid-svg-icons";
-  import Popup from "../../lib/popup/Popup.svelte";
+  import TextWithIcon from "@/lib/TextWithIcon.svelte";
+  import Popup from "@/lib/popup/Popup.svelte";
   import drugIcon from "@/assets/drug.svg";
   import proteinIcon from "@/assets/protein.svg";
   import { upperFirst } from "lodash";
@@ -80,8 +81,8 @@
               <ul>
                 {#each Object.keys(calculation) as calcName, index}
                   <li bind:this={refs[index]}>
-                    <Popup trigger={refs[index]} placement="top">
-                      <ul class="compound-list">
+                    <Popup popperParams={{ placement: "top" }}>
+                      <ul class="compound-list" slot="tooltip">
                         {#each calculation[calcName] as { Compound_ID, PDB_ID }}
                           <li>
                             <a
@@ -98,10 +99,13 @@
                           </li>
                         {/each}
                       </ul>
+                      <TextWithIcon
+                        text={calcName}
+                        iconAlt={calcName}
+                        slot="trigger"
+                        icon={drugIcon}
+                      />
                     </Popup>
-
-                    <img class="icon" src={drugIcon} alt="drug" />
-                    {calcName}
                   </li>
                 {/each}
               </ul>
