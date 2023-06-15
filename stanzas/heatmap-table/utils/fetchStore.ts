@@ -76,7 +76,7 @@ function getCalculationTypesAndCounts(dataset: Datum[]) {
   dataset.forEach((d) => {
     Object.keys(d.calculation).forEach((calcType) => {
       const compoundsToAdd = result[calcType]?.compounds || {};
-
+      // TODO Wrong numbers here??
       let calculationSize = 0;
       d.calculation[calcType].forEach((compound) => {
         if (typeof compoundsToAdd[compound.Compound_ID] !== "undefined") {

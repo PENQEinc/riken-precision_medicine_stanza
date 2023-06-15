@@ -10,8 +10,34 @@
   import Fa from "svelte-fa";
   import TableRowHeatmap from "./TableRowHeatmap.svelte";
   import TableRowCalculation from "./TableRowCalculation.svelte";
-
+  import { DatumConverted } from "./types/types";
+  import { isScrolling } from "../../lib/popup/usePopper";
   export let loading: boolean;
+
+  $: filteredDataset = filterDataset(
+    $dataset,
+    $selectedCalcName,
+    $selectedCompoundId
+  );
+
+  function filterDataset(
+    dataset: DatumConverted[],
+    calcName: string,
+    compoundId: string
+  ) {
+    if (!dataset) return [];
+    if (calcName === "Variants") {
+      return dataset;
+    }
+
+    return dataset.filter((datum) => {
+      return (
+        datum.calculation[calcName] && datum.calculation[calcName][compoundId]
+      );
+    });
+  }
+
+  $: console.log("filteredDataset", filteredDataset);
 
   let selectedRowIndex: number | undefined = undefined;
 
@@ -24,10 +50,21 @@
       })
     );
   }
+
+  let timer: ReturnType<typeof setTimeout> | null = null;
+
+  function scrollingCooldown() {
+    if (timer) clearTimeout(timer);
+    $isScrolling = true;
+    timer = setTimeout(() => {
+      $isScrolling = false;
+      timer = null;
+    }, 100);
+  }
 </script>
 
 <div class="table-container">
-  <div class="table-wrapper">
+  <div class="table-wrapper" on:scroll={scrollingCooldown}>
     <table>
       <thead>
         <tr>
@@ -74,7 +111,7 @@
             <p>No data found</p>
           </div>
         {:else}
-          {#each $dataset as dataRow, index}
+          {#each filteredDataset as dataRow, index}
             <tr
               on:click={() => {
                 if (selectedRowIndex === index) {
