@@ -58,12 +58,14 @@ function convertCalcData(dataset: Datum[]): DatumConverted[] {
   const result = dataset.map((d) => {
     const calcData = d.calculation;
     const calcDataConverted = {} as CalculationDatumConverted;
-    Object.keys(calcData).forEach((calcType) => {
-      calcDataConverted[calcType] = calcData[calcType].reduce((acc, curr) => {
+
+    for (const [calculation, calcContents] of Object.entries(calcData)) {
+      calcDataConverted[calculation] = calcContents.reduce((acc, curr) => {
         acc[curr.Compound_ID] = curr;
         return acc;
-      }, {} as CalculationDatum);
-    });
+      }, {} as { [key: string]: CalculationDatum });
+    }
+
     return { ...d, calculation: calcDataConverted };
   });
 
@@ -76,7 +78,6 @@ function getCalculationTypesAndCounts(dataset: Datum[]) {
   dataset.forEach((d) => {
     Object.keys(d.calculation).forEach((calcType) => {
       const compoundsToAdd = result[calcType]?.compounds || {};
-      // TODO Wrong numbers here??
       let calculationSize = 0;
       d.calculation[calcType].forEach((compound) => {
         if (typeof compoundsToAdd[compound.Compound_ID] !== "undefined") {
