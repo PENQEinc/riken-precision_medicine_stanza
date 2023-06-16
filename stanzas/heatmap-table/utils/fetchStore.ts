@@ -26,11 +26,11 @@ export const selectedCompoundId = writable<string | null>(null);
 
 export default function (url: string) {
   const loading = writable(false);
-  const error = writable(false);
+  const error = writable<null | Error>(null);
 
   async function get() {
     loading.set(true);
-    error.set(false);
+    error.set(null);
     try {
       const response = await fetch(url);
       const { data: loadedDataset } = (await response.json()) as FetchedData;
@@ -43,7 +43,7 @@ export default function (url: string) {
         ...calcCount,
       });
     } catch (e) {
-      error.set(e);
+      error.set(e as Error);
     } finally {
       loading.set(false);
     }
