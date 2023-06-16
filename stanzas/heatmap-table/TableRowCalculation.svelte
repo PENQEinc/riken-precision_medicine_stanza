@@ -1,6 +1,6 @@
 <script lang="ts">
   import Fa from "svelte-fa";
-  import TextWithIcon from "./TextWithIcon.svelte";
+  import TextWithIcon from "../../lib/TextWithIcon.svelte";
   import { calculationType } from "./data";
   import type { DatumConverted } from "./types/types";
   import { selectedCalcName, selectedCompoundId } from "./utils/fetchStore";

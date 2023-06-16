@@ -9,14 +9,14 @@
       "MutationAssessor": 0.52871,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.78891,
       "Polyphen2_HDIV": 0.90584,
@@ -92,14 +92,14 @@
       "MutationAssessor": 0.0394,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.60188,
       "Polyphen2_HDIV": 0.47902,
@@ -175,14 +175,14 @@
       "MutationAssessor": 0.88605,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.91912,
       "Polyphen2_HDIV": 0.90584,
@@ -258,14 +258,14 @@
       "MutationAssessor": 0.04298,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.08653,
       "Polyphen2_HDIV": 0.23728,
@@ -341,14 +341,14 @@
       "MutationAssessor": 0.15665,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.72932,
       "Polyphen2_HDIV": 0.42361,
@@ -424,14 +424,14 @@
       "MutationAssessor": 0.95329,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.60188,
       "Polyphen2_HDIV": 0.90584,
@@ -507,14 +507,14 @@
       "MutationAssessor": 0.95329,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.92346,
       "Polyphen2_HDIV": 0.90584,
@@ -590,14 +590,14 @@
       "MutationAssessor": 0.48285,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.77391,
       "Polyphen2_HDIV": 0.51899,
@@ -673,14 +673,14 @@
       "MutationAssessor": 0.29575,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.5971,
       "Polyphen2_HDIV": 0.63424,
@@ -756,14 +756,14 @@
       "MutationAssessor": 0.1937,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.71519,
       "Polyphen2_HDIV": 0.7322,
@@ -839,14 +839,14 @@
       "MutationAssessor": 0.12415,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.71882,
       "Polyphen2_HDIV": 0.47048,
@@ -922,14 +922,14 @@
       "MutationAssessor": 0.38264,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.87531,
       "Polyphen2_HDIV": 0.77913,
@@ -982,14 +982,14 @@
       "MutationAssessor": 0.02337,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.71882,
       "Polyphen2_HDIV": 0.62824,
@@ -1065,14 +1065,14 @@
       "MutationAssessor": 0.51437,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.95394,
       "Polyphen2_HDIV": 0.90584,
@@ -1148,14 +1148,14 @@
       "MutationAssessor": 0.34214,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.97699,
       "Polyphen2_HDIV": 0.90584,
@@ -1231,14 +1231,14 @@
       "MutationAssessor": 0.16971,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.262,
       "Polyphen2_HDIV": 0.51611,
@@ -1314,14 +1314,14 @@
       "MutationAssessor": 0.23975,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.97901,
       "Polyphen2_HDIV": 0.90584,
@@ -1374,14 +1374,14 @@
       "MutationAssessor": 0.04642,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96166,
       "Polyphen2_HDIV": 0.67487,
@@ -1434,14 +1434,14 @@
       "MutationAssessor": 0.0282,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96166,
       "Polyphen2_HDIV": 0.60381,
@@ -1494,14 +1494,14 @@
       "MutationAssessor": 0.51138,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.98452,
       "Polyphen2_HDIV": 0.90584,
@@ -1554,14 +1554,14 @@
       "MutationAssessor": 0.496,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.99226,
       "Polyphen2_HDIV": 0.90584,
@@ -1637,14 +1637,14 @@
       "MutationAssessor": 0.70756,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.99564,
       "Polyphen2_HDIV": 0.90584,
@@ -1720,14 +1720,14 @@
       "MutationAssessor": 0.12274,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.827,
       "Polyphen2_HDIV": 0.67487,
@@ -1803,14 +1803,14 @@
       "MutationAssessor": 0.08919,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.69118,
       "Polyphen2_HDIV": 0.22878,
@@ -1886,14 +1886,14 @@
       "MutationAssessor": 0.20815,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.79316,
       "Polyphen2_HDIV": 0.5169,
@@ -1969,14 +1969,14 @@
       "MutationAssessor": 0.82945,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.97901,
       "Polyphen2_HDIV": 0.90584,
@@ -2029,14 +2029,14 @@
       "MutationAssessor": 0.57893,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96166,
       "Polyphen2_HDIV": 0.90584,
@@ -2089,14 +2089,14 @@
       "MutationAssessor": 0.45711,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96114,
       "Polyphen2_HDIV": 0.59044,
@@ -2149,14 +2149,14 @@
       "MutationAssessor": 0.46185,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93293,
       "Polyphen2_HDIV": 0.60733,
@@ -2232,14 +2232,14 @@
       "MutationAssessor": 0.3428,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.81755,
       "Polyphen2_HDIV": 0.53072,
@@ -2315,14 +2315,14 @@
       "MutationAssessor": 0.47472,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93293,
       "Polyphen2_HDIV": 0.90584,
@@ -2375,14 +2375,14 @@
       "MutationAssessor": 0.4175,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73477,
       "Polyphen2_HDIV": 0.90584,
@@ -2458,14 +2458,14 @@
       "MutationAssessor": 0.86134,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96166,
       "Polyphen2_HDIV": 0.90584,
@@ -2541,14 +2541,14 @@
       "MutationAssessor": 0.19266,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.97786,
       "Polyphen2_HDIV": 0.90584,
@@ -2624,14 +2624,14 @@
       "MutationAssessor": 0.12483,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.87063,
       "Polyphen2_HDIV": 0.55278,
@@ -2707,14 +2707,14 @@
       "MutationAssessor": 0.09922,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96166,
       "Polyphen2_HDIV": 0.90584,
@@ -2790,14 +2790,14 @@
       "MutationAssessor": 0.34107,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.92346,
       "Polyphen2_HDIV": 0.64738,
@@ -2850,14 +2850,14 @@
       "MutationAssessor": 0.32218,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.91786,
       "Polyphen2_HDIV": 0.67487,
@@ -2933,14 +2933,14 @@
       "MutationAssessor": 0.13489,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.81755,
       "Polyphen2_HDIV": 0.90584,
@@ -3016,14 +3016,14 @@
       "MutationAssessor": 0.32671,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73477,
       "Polyphen2_HDIV": 0.90584,
@@ -3099,14 +3099,14 @@
       "MutationAssessor": 0.34509,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.81675,
       "Polyphen2_HDIV": 0.90584,
@@ -3182,14 +3182,14 @@
       "MutationAssessor": 0.15706,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.52451,
       "Polyphen2_HDIV": 0.36312,
@@ -3265,14 +3265,14 @@
       "MutationAssessor": 0.49225,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.74582,
       "Polyphen2_HDIV": 0.90584,
@@ -3348,14 +3348,14 @@
       "MutationAssessor": 0.21244,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.70067,
       "Polyphen2_HDIV": 0.47827,
@@ -3431,14 +3431,14 @@
       "MutationAssessor": 0.19305,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.5342,
       "Polyphen2_HDIV": 0.25884,
@@ -3507,14 +3507,14 @@
       "MutationAssessor": 0.23182,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.98712,
       "Polyphen2_HDIV": 0.90584,
@@ -3567,14 +3567,14 @@
       "MutationAssessor": 0.85803,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.97901,
       "Polyphen2_HDIV": 0.90584,
@@ -3650,14 +3650,14 @@
       "MutationAssessor": 0.56469,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.81755,
       "Polyphen2_HDIV": 0.90584,
@@ -3733,14 +3733,14 @@
       "MutationAssessor": 0.05129,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.71882,
       "Polyphen2_HDIV": 0.49795,
@@ -3760,32 +3760,11 @@
             "Compound_ID": "alectinib"
           },
           {
-            "FE_Bind": [-2.2897],
-            "FE_Bind_mean": -2.2897,
-            "FE_Bind_std": null,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
             "FE_Bind": [0.341],
             "FE_Bind_mean": 0.341,
             "FE_Bind_std": null,
             "PDB_ID": "2XP2",
             "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [0.341],
-            "FE_Bind_mean": 0.341,
-            "FE_Bind_std": null,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [-2.0169],
-            "FE_Bind_mean": -2.0169,
-            "FE_Bind_std": null,
-            "PDB_ID": "4CLI",
-            "Compound_ID": "lorlatinib"
           },
           {
             "FE_Bind": [-2.0169],
@@ -3804,32 +3783,11 @@
             "Compound_ID": "alectinib"
           },
           {
-            "FE_Bind": [0.306, -0.686, -0.745],
-            "FE_Bind_mean": -0.375,
-            "FE_Bind_std": 0.5905,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
             "FE_Bind": [0.451, -0.285, -0.188],
             "FE_Bind_mean": -0.0073,
             "FE_Bind_std": 0.3999,
             "PDB_ID": "2XP2",
             "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [0.451, -0.285, -0.188],
-            "FE_Bind_mean": -0.0073,
-            "FE_Bind_std": 0.3999,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [-0.154, 0.092, -0.329],
-            "FE_Bind_mean": -0.1303,
-            "FE_Bind_std": 0.2115,
-            "PDB_ID": "4CLI",
-            "Compound_ID": "lorlatinib"
           },
           {
             "FE_Bind": [-0.154, 0.092, -0.329],
@@ -3850,6 +3808,89 @@
       "variant": "M1328I"
     },
     {
+      "CADD": 0.65848,
+      "ClinVar_ClinicalSignificance": ["Uncertain significance"],
+      "GenBank": "NM_004304",
+      "LRT": 0.41888,
+      "MGeND_ClinicalSignificance": [],
+      "MutationAssessor": 0.05129,
+      "MutationTaster": 0.81001,
+      "PDBlist_single_wild": [
+        "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
+        "4TT7",
+        "5IMX",
+        "6CDT",
+        "6EDL"
+      ],
+      "PROVEAN": 0.71882,
+      "Polyphen2_HDIV": 0.49795,
+      "Polyphen2_HVAR": 0.59984,
+      "PrimateAI": 0.93442,
+      "REVEL": 0.82912,
+      "SIFT4G": 0.7415,
+      "alt": "T",
+      "assembly": "hg38",
+      "calculation": {
+        "MP-CAFEE": [
+          {
+            "FE_Bind": [-2.2897],
+            "FE_Bind_mean": -2.2897,
+            "FE_Bind_std": null,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [0.341],
+            "FE_Bind_mean": 0.341,
+            "FE_Bind_std": null,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          },
+          {
+            "FE_Bind": [-2.0169],
+            "FE_Bind_mean": -2.0169,
+            "FE_Bind_std": null,
+            "PDB_ID": "4CLI",
+            "Compound_ID": "lorlatinib"
+          }
+        ],
+        "Mutation_FEP": [
+          {
+            "FE_Bind": [0.306, -0.686, -0.745],
+            "FE_Bind_mean": -0.375,
+            "FE_Bind_std": 0.5905,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [0.451, -0.285, -0.188],
+            "FE_Bind_mean": -0.0073,
+            "FE_Bind_std": 0.3999,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          },
+          {
+            "FE_Bind": [-0.154, 0.092, -0.329],
+            "FE_Bind_mean": -0.1303,
+            "FE_Bind_std": 0.2115,
+            "PDB_ID": "4CLI",
+            "Compound_ID": "lorlatinib"
+          }
+        ]
+      },
+      "chr": "chr2",
+      "end": 29197631,
+      "fathmm-MKL": 0.56258,
+      "genename": "ALK",
+      "ref": "C",
+      "start": 29197631,
+      "uniprot_acc": "Q9UM73",
+      "variant": "M1328I"
+    },
+    {
       "CADD": 0.34344,
       "ClinVar_ClinicalSignificance": [],
       "GenBank": "NM_004304",
@@ -3858,14 +3899,14 @@
       "MutationAssessor": 0.04484,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.72353,
       "Polyphen2_HDIV": 0.4484,
@@ -3941,14 +3982,14 @@
       "MutationAssessor": 0.60381,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96166,
       "Polyphen2_HDIV": 0.90584,
@@ -4024,14 +4065,14 @@
       "MutationAssessor": 0.72069,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.85468,
       "Polyphen2_HDIV": 0.90584,
@@ -4107,14 +4148,14 @@
       "MutationAssessor": 0.48079,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.8034,
       "Polyphen2_HDIV": 0.90584,
@@ -4190,14 +4231,14 @@
       "MutationAssessor": 0.76211,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.86222,
       "Polyphen2_HDIV": 0.90584,
@@ -4273,14 +4314,14 @@
       "MutationAssessor": 0.15161,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.84525,
       "Polyphen2_HDIV": 0.67487,
@@ -4356,14 +4397,14 @@
       "MutationAssessor": 0.77114,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93293,
       "Polyphen2_HDIV": 0.90584,
@@ -4416,14 +4457,14 @@
       "MutationAssessor": 0.90016,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.99974,
       "Polyphen2_HDIV": 0.90584,
@@ -4499,14 +4540,14 @@
       "MutationAssessor": 0.38264,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.45587,
       "Polyphen2_HDIV": 0.90584,
@@ -4582,14 +4623,14 @@
       "MutationAssessor": 0.32135,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.42575,
       "Polyphen2_HDIV": 0.90584,
@@ -4665,14 +4706,14 @@
       "MutationAssessor": 0.478,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.60188,
       "Polyphen2_HDIV": 0.90584,
@@ -4748,14 +4789,14 @@
       "MutationAssessor": 0.98579,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96166,
       "Polyphen2_HDIV": 0.90584,
@@ -4831,14 +4872,14 @@
       "MutationAssessor": 0.95212,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.99828,
       "Polyphen2_HDIV": 0.90584,
@@ -4914,14 +4955,14 @@
       "MutationAssessor": 0.95212,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.99828,
       "Polyphen2_HDIV": 0.90584,
@@ -4997,14 +5038,14 @@
       "MutationAssessor": 0.24966,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.88963,
       "Polyphen2_HDIV": 0.90584,
@@ -5080,14 +5121,14 @@
       "MutationAssessor": 0.1193,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.81755,
       "Polyphen2_HDIV": 0.6407,
@@ -5163,14 +5204,14 @@
       "MutationAssessor": 0.25616,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.84882,
       "Polyphen2_HDIV": 0.90584,
@@ -5246,14 +5287,14 @@
       "MutationAssessor": 0.13445,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.78472,
       "Polyphen2_HDIV": 0.56768,
@@ -5306,14 +5347,14 @@
       "MutationAssessor": 0.1278,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96166,
       "Polyphen2_HDIV": 0.90584,
@@ -5389,14 +5430,14 @@
       "MutationAssessor": 0.01866,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.84674,
       "Polyphen2_HDIV": 0.64738,
@@ -5472,14 +5513,14 @@
       "MutationAssessor": 0.80505,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.61722,
       "Polyphen2_HDIV": 0.90584,
@@ -5555,14 +5596,14 @@
       "MutationAssessor": 0.96476,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73477,
       "Polyphen2_HDIV": 0.90584,
@@ -5638,14 +5679,14 @@
       "MutationAssessor": 0.92762,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96166,
       "Polyphen2_HDIV": 0.90584,
@@ -5698,14 +5739,14 @@
       "MutationAssessor": 0.87757,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.98712,
       "Polyphen2_HDIV": 0.90584,
@@ -5758,14 +5799,14 @@
       "MutationAssessor": 0.75005,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.97901,
       "Polyphen2_HDIV": 0.90584,
@@ -5818,14 +5859,14 @@
       "MutationAssessor": 0.75005,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96166,
       "Polyphen2_HDIV": 0.90584,
@@ -5878,14 +5919,14 @@
       "MutationAssessor": 0.45442,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73477,
       "Polyphen2_HDIV": 0.90584,
@@ -5961,14 +6002,14 @@
       "MutationAssessor": 0.93551,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.99828,
       "Polyphen2_HDIV": 0.90584,
@@ -6044,14 +6085,14 @@
       "MutationAssessor": 0.09039,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.262,
       "Polyphen2_HDIV": 0.54977,
@@ -6127,14 +6168,14 @@
       "MutationAssessor": 0.68372,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.98712,
       "Polyphen2_HDIV": 0.90584,
@@ -6187,14 +6228,14 @@
       "MutationAssessor": 0.30054,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96166,
       "Polyphen2_HDIV": 0.90584,
@@ -6247,14 +6288,14 @@
       "MutationAssessor": 0.09956,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.72932,
       "Polyphen2_HDIV": 0.77913,
@@ -6330,14 +6371,14 @@
       "MutationAssessor": 0.18958,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96166,
       "Polyphen2_HDIV": 0.77913,
@@ -6357,32 +6398,11 @@
             "Compound_ID": "alectinib"
           },
           {
-            "FE_Bind": [1.1536],
-            "FE_Bind_mean": 1.1536,
-            "FE_Bind_std": null,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
             "FE_Bind": [-1.9015],
             "FE_Bind_mean": -1.9015,
             "FE_Bind_std": null,
             "PDB_ID": "2XP2",
             "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [-1.9015],
-            "FE_Bind_mean": -1.9015,
-            "FE_Bind_std": null,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [-2.3086],
-            "FE_Bind_mean": -2.3086,
-            "FE_Bind_std": null,
-            "PDB_ID": "4CLI",
-            "Compound_ID": "lorlatinib"
           },
           {
             "FE_Bind": [-2.3086],
@@ -6399,20 +6419,6 @@
             "FE_Bind_std": 1.3995,
             "PDB_ID": "3AOX",
             "Compound_ID": "alectinib"
-          },
-          {
-            "FE_Bind": [0.75, -1.51, -1.81],
-            "FE_Bind_mean": -0.8567,
-            "FE_Bind_std": 1.3995,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
-            "FE_Bind": [-0.05, 0.89, -5.04],
-            "FE_Bind_mean": -1.4,
-            "FE_Bind_std": 3.1872,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
           },
           {
             "FE_Bind": [-0.05, 0.89, -5.04],
@@ -6433,6 +6439,82 @@
       "variant": "G1286R"
     },
     {
+      "CADD": 0.82826,
+      "ClinVar_ClinicalSignificance": [],
+      "GenBank": "NM_004304",
+      "LRT": 0.44736,
+      "MGeND_ClinicalSignificance": [],
+      "MutationAssessor": 0.18958,
+      "MutationTaster": 0.81001,
+      "PDBlist_single_wild": [
+        "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
+        "4TT7",
+        "5IMX",
+        "6CDT",
+        "6EDL"
+      ],
+      "PROVEAN": 0.96166,
+      "Polyphen2_HDIV": 0.77913,
+      "Polyphen2_HVAR": 0.73562,
+      "PrimateAI": 0.91545,
+      "REVEL": 0.92004,
+      "SIFT4G": 0.83351,
+      "alt": "T",
+      "assembly": "hg38",
+      "calculation": {
+        "MP-CAFEE": [
+          {
+            "FE_Bind": [1.1536],
+            "FE_Bind_mean": 1.1536,
+            "FE_Bind_std": null,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [-1.9015],
+            "FE_Bind_mean": -1.9015,
+            "FE_Bind_std": null,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          },
+          {
+            "FE_Bind": [-2.3086],
+            "FE_Bind_mean": -2.3086,
+            "FE_Bind_std": null,
+            "PDB_ID": "4CLI",
+            "Compound_ID": "lorlatinib"
+          }
+        ],
+        "Mutation_FEP": [
+          {
+            "FE_Bind": [0.75, -1.51, -1.81],
+            "FE_Bind_mean": -0.8567,
+            "FE_Bind_std": 1.3995,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [-0.05, 0.89, -5.04],
+            "FE_Bind_mean": -1.4,
+            "FE_Bind_std": 3.1872,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          }
+        ]
+      },
+      "chr": "chr2",
+      "end": 29207253,
+      "fathmm-MKL": 0.65506,
+      "genename": "ALK",
+      "ref": "C",
+      "start": 29207253,
+      "uniprot_acc": "Q9UM73",
+      "variant": "G1286R"
+    },
+    {
       "CADD": 0.59464,
       "ClinVar_ClinicalSignificance": [],
       "GenBank": "NM_004304",
@@ -6441,14 +6523,14 @@
       "MutationAssessor": 0.30054,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.8135,
       "Polyphen2_HDIV": 0.90584,
@@ -6524,16 +6606,16 @@
       "MutationAssessor": 0.32734,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
-        "6CDT",
+        "5IMX",
         "5VZ5",
         "6AT9",
-        "4CTB"
+        "6CDT",
+        "6EDL"
       ],
       "PROVEAN": 0.57435,
       "Polyphen2_HDIV": 0.53072,
@@ -6611,16 +6693,16 @@
       "MutationAssessor": 0.17993,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
-        "6CDT",
+        "5IMX",
         "5VZ5",
         "6AT9",
-        "4CTB"
+        "6CDT",
+        "6EDL"
       ],
       "PROVEAN": 0.72932,
       "Polyphen2_HDIV": 0.90584,
@@ -6696,16 +6778,16 @@
       "MutationAssessor": 0.33002,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
-        "6CDT",
+        "5IMX",
         "5VZ5",
         "6AT9",
-        "4CTB"
+        "6CDT",
+        "6EDL"
       ],
       "PROVEAN": 0.88561,
       "Polyphen2_HDIV": 0.90584,
@@ -6781,16 +6863,16 @@
       "MutationAssessor": 0.10111,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
-        "6CDT",
+        "5IMX",
         "5VZ5",
         "6AT9",
-        "4CTB"
+        "6CDT",
+        "6EDL"
       ],
       "PROVEAN": 0.61284,
       "Polyphen2_HDIV": 0.47012,
@@ -6866,16 +6948,16 @@
       "MutationAssessor": 0.08895,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
-        "6CDT",
+        "5IMX",
         "5VZ5",
         "6AT9",
-        "4CTB"
+        "6CDT",
+        "6EDL"
       ],
       "PROVEAN": 0.97901,
       "Polyphen2_HDIV": 0.7322,
@@ -6951,16 +7033,16 @@
       "MutationAssessor": 0.28596,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
-        "6CDT",
+        "5IMX",
         "5VZ5",
         "6AT9",
-        "4CTB"
+        "6CDT",
+        "6EDL"
       ],
       "PROVEAN": 0.81755,
       "Polyphen2_HDIV": 0.7322,
@@ -7036,16 +7118,16 @@
       "MutationAssessor": 0.15444,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
-        "6CDT",
+        "5IMX",
         "5VZ5",
         "6AT9",
-        "4CTB"
+        "6CDT",
+        "6EDL"
       ],
       "PROVEAN": 0.262,
       "Polyphen2_HDIV": 0.51611,
@@ -7121,16 +7203,16 @@
       "MutationAssessor": 0.56469,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
-        "6CDT",
+        "5IMX",
         "5VZ5",
         "6AT9",
-        "4CTB"
+        "6CDT",
+        "6EDL"
       ],
       "PROVEAN": 0.93293,
       "Polyphen2_HDIV": 0.90584,
@@ -7183,16 +7265,16 @@
       "MutationAssessor": 0.51223,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
-        "6CDT",
+        "5IMX",
         "5VZ5",
         "6AT9",
-        "4CTB"
+        "6CDT",
+        "6EDL"
       ],
       "PROVEAN": 0.73378,
       "Polyphen2_HDIV": 0.90584,
@@ -7268,16 +7350,16 @@
       "MutationAssessor": 0.59329,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
-        "6CDT",
+        "5IMX",
         "5VZ5",
         "6AT9",
-        "4CTB"
+        "6CDT",
+        "6EDL"
       ],
       "PROVEAN": 0.73477,
       "Polyphen2_HDIV": 0.90584,
@@ -7353,14 +7435,14 @@
       "MutationAssessor": 0.08919,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73477,
       "Polyphen2_HDIV": 0.77913,
@@ -7436,14 +7518,14 @@
       "MutationAssessor": 0.9297,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96166,
       "Polyphen2_HDIV": 0.90584,
@@ -7519,14 +7601,14 @@
       "MutationAssessor": 0.91446,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96166,
       "Polyphen2_HDIV": 0.90584,
@@ -7602,14 +7684,14 @@
       "MutationAssessor": 0.78878,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.61722,
       "Polyphen2_HDIV": 0.90584,
@@ -7685,14 +7767,14 @@
       "MutationAssessor": 0.87108,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73477,
       "Polyphen2_HDIV": 0.90584,
@@ -7768,14 +7850,14 @@
       "MutationAssessor": 0.5057,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93293,
       "Polyphen2_HDIV": 0.90584,
@@ -7851,14 +7933,14 @@
       "MutationAssessor": 0.09956,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.88963,
       "Polyphen2_HDIV": 0.68779,
@@ -7934,14 +8016,14 @@
       "MutationAssessor": 0.75868,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96166,
       "Polyphen2_HDIV": 0.90584,
@@ -8017,14 +8099,14 @@
       "MutationAssessor": 0.94693,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.88963,
       "Polyphen2_HDIV": 0.90584,
@@ -8100,14 +8182,14 @@
       "MutationAssessor": 0.97073,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93293,
       "Polyphen2_HDIV": 0.90584,
@@ -8183,14 +8265,14 @@
       "MutationAssessor": 0.94097,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.81755,
       "Polyphen2_HDIV": 0.90584,
@@ -8266,14 +8348,14 @@
       "MutationAssessor": 0.23182,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.95924,
       "Polyphen2_HDIV": 0.90584,
@@ -8349,14 +8431,14 @@
       "MutationAssessor": 0.15161,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.90729,
       "Polyphen2_HDIV": 0.57829,
@@ -8432,14 +8514,14 @@
       "MutationAssessor": 0.36358,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93293,
       "Polyphen2_HDIV": 0.90584,
@@ -8515,14 +8597,14 @@
       "MutationAssessor": 0.45711,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.88699,
       "Polyphen2_HDIV": 0.90584,
@@ -8598,14 +8680,14 @@
       "MutationAssessor": 0.12573,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.66665,
       "Polyphen2_HDIV": 0.34363,
@@ -8658,14 +8740,14 @@
       "MutationAssessor": 0.12274,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.69714,
       "Polyphen2_HDIV": 0.19075,
@@ -8718,14 +8800,14 @@
       "MutationAssessor": 0.09567,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.62976,
       "Polyphen2_HDIV": 0.20732,
@@ -8778,14 +8860,14 @@
       "MutationAssessor": 0.14455,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.98692,
       "Polyphen2_HDIV": 0.34547,
@@ -8861,14 +8943,14 @@
       "MutationAssessor": 0.28011,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.99033,
       "Polyphen2_HDIV": 0.90584,
@@ -8944,14 +9026,14 @@
       "MutationAssessor": 0.30054,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93293,
       "Polyphen2_HDIV": 0.90584,
@@ -9027,14 +9109,14 @@
       "MutationAssessor": 0.79292,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.7224,
       "Polyphen2_HDIV": 0.90584,
@@ -9110,14 +9192,14 @@
       "MutationAssessor": 0.90898,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.88963,
       "Polyphen2_HDIV": 0.90584,
@@ -9193,14 +9275,14 @@
       "MutationAssessor": 0.19305,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.61722,
       "Polyphen2_HDIV": 0.90584,
@@ -9276,14 +9358,14 @@
       "MutationAssessor": 0.41844,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73378,
       "Polyphen2_HDIV": 0.90584,
@@ -9359,14 +9441,14 @@
       "MutationAssessor": 0.45626,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.61722,
       "Polyphen2_HDIV": 0.90584,
@@ -9442,14 +9524,14 @@
       "MutationAssessor": 0.74772,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.81755,
       "Polyphen2_HDIV": 0.90584,
@@ -9525,14 +9607,14 @@
       "MutationAssessor": 0.90083,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93293,
       "Polyphen2_HDIV": 0.90584,
@@ -9608,14 +9690,14 @@
       "MutationAssessor": 0.93917,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.97901,
       "Polyphen2_HDIV": 0.90584,
@@ -9691,14 +9773,14 @@
       "MutationAssessor": 0.75369,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93293,
       "Polyphen2_HDIV": 0.90584,
@@ -9774,14 +9856,14 @@
       "MutationAssessor": 0.64647,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.81755,
       "Polyphen2_HDIV": 0.90584,
@@ -9857,14 +9939,14 @@
       "MutationAssessor": 0.61292,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93329,
       "Polyphen2_HDIV": 0.90584,
@@ -9917,14 +9999,14 @@
       "MutationAssessor": 0.8338,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73477,
       "Polyphen2_HDIV": 0.90584,
@@ -10000,14 +10082,14 @@
       "MutationAssessor": 0.03561,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.88904,
       "Polyphen2_HDIV": 0.90584,
@@ -10027,53 +10109,11 @@
             "Compound_ID": "alectinib"
           },
           {
-            "FE_Bind": [0.3619],
-            "FE_Bind_mean": 0.3619,
-            "FE_Bind_std": null,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
-            "FE_Bind": [0.3619],
-            "FE_Bind_mean": 0.3619,
-            "FE_Bind_std": null,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
             "FE_Bind": [-0.9586],
             "FE_Bind_mean": -0.9586,
             "FE_Bind_std": null,
             "PDB_ID": "2XP2",
             "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [-0.9586],
-            "FE_Bind_mean": -0.9586,
-            "FE_Bind_std": null,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [-0.9586],
-            "FE_Bind_mean": -0.9586,
-            "FE_Bind_std": null,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [0.7561],
-            "FE_Bind_mean": 0.7561,
-            "FE_Bind_std": null,
-            "PDB_ID": "4CLI",
-            "Compound_ID": "lorlatinib"
-          },
-          {
-            "FE_Bind": [0.7561],
-            "FE_Bind_mean": 0.7561,
-            "FE_Bind_std": null,
-            "PDB_ID": "4CLI",
-            "Compound_ID": "lorlatinib"
           },
           {
             "FE_Bind": [0.7561],
@@ -10092,53 +10132,11 @@
             "Compound_ID": "alectinib"
           },
           {
-            "FE_Bind": [-0.513, -0.528, -1.131],
-            "FE_Bind_mean": -0.724,
-            "FE_Bind_std": 0.3526,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
-            "FE_Bind": [-0.513, -0.528, -1.131],
-            "FE_Bind_mean": -0.724,
-            "FE_Bind_std": 0.3526,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
             "FE_Bind": [0.395, -0.825, 0.134],
             "FE_Bind_mean": -0.0987,
             "FE_Bind_std": 0.6424,
             "PDB_ID": "2XP2",
             "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [0.395, -0.825, 0.134],
-            "FE_Bind_mean": -0.0987,
-            "FE_Bind_std": 0.6424,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [0.395, -0.825, 0.134],
-            "FE_Bind_mean": -0.0987,
-            "FE_Bind_std": 0.6424,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [-0.519, 0.278, 0.008],
-            "FE_Bind_mean": -0.0777,
-            "FE_Bind_std": 0.4053,
-            "PDB_ID": "4CLI",
-            "Compound_ID": "lorlatinib"
-          },
-          {
-            "FE_Bind": [-0.519, 0.278, 0.008],
-            "FE_Bind_mean": -0.0777,
-            "FE_Bind_std": 0.4053,
-            "PDB_ID": "4CLI",
-            "Compound_ID": "lorlatinib"
           },
           {
             "FE_Bind": [-0.519, 0.278, 0.008],
@@ -10159,6 +10157,89 @@
       "variant": "F1245L"
     },
     {
+      "CADD": 0.82826,
+      "ClinVar_ClinicalSignificance": ["Pathogenic"],
+      "GenBank": "NM_004304",
+      "LRT": 0.50451,
+      "MGeND_ClinicalSignificance": [],
+      "MutationAssessor": 0.03561,
+      "MutationTaster": 0.81001,
+      "PDBlist_single_wild": [
+        "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
+        "4TT7",
+        "5IMX",
+        "6CDT",
+        "6EDL"
+      ],
+      "PROVEAN": 0.88904,
+      "Polyphen2_HDIV": 0.90584,
+      "Polyphen2_HVAR": 0.97372,
+      "PrimateAI": 0.86988,
+      "REVEL": 0.92419,
+      "SIFT4G": 0.92824,
+      "alt": "T",
+      "assembly": "hg38",
+      "calculation": {
+        "MP-CAFEE": [
+          {
+            "FE_Bind": [0.3619],
+            "FE_Bind_mean": 0.3619,
+            "FE_Bind_std": null,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [-0.9586],
+            "FE_Bind_mean": -0.9586,
+            "FE_Bind_std": null,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          },
+          {
+            "FE_Bind": [0.7561],
+            "FE_Bind_mean": 0.7561,
+            "FE_Bind_std": null,
+            "PDB_ID": "4CLI",
+            "Compound_ID": "lorlatinib"
+          }
+        ],
+        "Mutation_FEP": [
+          {
+            "FE_Bind": [-0.513, -0.528, -1.131],
+            "FE_Bind_mean": -0.724,
+            "FE_Bind_std": 0.3526,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [0.395, -0.825, 0.134],
+            "FE_Bind_mean": -0.0987,
+            "FE_Bind_std": 0.6424,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          },
+          {
+            "FE_Bind": [-0.519, 0.278, 0.008],
+            "FE_Bind_mean": -0.0777,
+            "FE_Bind_std": 0.4053,
+            "PDB_ID": "4CLI",
+            "Compound_ID": "lorlatinib"
+          }
+        ]
+      },
+      "chr": "chr2",
+      "end": 29213992,
+      "fathmm-MKL": 0.63692,
+      "genename": "ALK",
+      "ref": "G",
+      "start": 29213992,
+      "uniprot_acc": "Q9UM73",
+      "variant": "F1245L"
+    },
+    {
       "CADD": 0.92099,
       "ClinVar_ClinicalSignificance": ["Pathogenic"],
       "GenBank": "NM_004304",
@@ -10167,14 +10248,14 @@
       "MutationAssessor": 0.15482,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96142,
       "Polyphen2_HDIV": 0.90584,
@@ -10250,14 +10331,14 @@
       "MutationAssessor": 0.01025,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93257,
       "Polyphen2_HDIV": 0.90584,
@@ -10325,6 +10406,89 @@
       "variant": "F1245V"
     },
     {
+      "CADD": 0.91654,
+      "ClinVar_ClinicalSignificance": ["Likely pathogenic"],
+      "GenBank": "NM_004304",
+      "LRT": 0.50451,
+      "MGeND_ClinicalSignificance": [],
+      "MutationAssessor": 0.03561,
+      "MutationTaster": 0.81001,
+      "PDBlist_single_wild": [
+        "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
+        "4TT7",
+        "5IMX",
+        "6CDT",
+        "6EDL"
+      ],
+      "PROVEAN": 0.88904,
+      "Polyphen2_HDIV": 0.90584,
+      "Polyphen2_HVAR": 0.97372,
+      "PrimateAI": 0.86988,
+      "REVEL": 0.95581,
+      "SIFT4G": 0.92824,
+      "alt": "G",
+      "assembly": "hg38",
+      "calculation": {
+        "MP-CAFEE": [
+          {
+            "FE_Bind": [0.3619],
+            "FE_Bind_mean": 0.3619,
+            "FE_Bind_std": null,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [-0.9586],
+            "FE_Bind_mean": -0.9586,
+            "FE_Bind_std": null,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          },
+          {
+            "FE_Bind": [0.7561],
+            "FE_Bind_mean": 0.7561,
+            "FE_Bind_std": null,
+            "PDB_ID": "4CLI",
+            "Compound_ID": "lorlatinib"
+          }
+        ],
+        "Mutation_FEP": [
+          {
+            "FE_Bind": [-0.513, -0.528, -1.131],
+            "FE_Bind_mean": -0.724,
+            "FE_Bind_std": 0.3526,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [0.395, -0.825, 0.134],
+            "FE_Bind_mean": -0.0987,
+            "FE_Bind_std": 0.6424,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          },
+          {
+            "FE_Bind": [-0.519, 0.278, 0.008],
+            "FE_Bind_mean": -0.0777,
+            "FE_Bind_std": 0.4053,
+            "PDB_ID": "4CLI",
+            "Compound_ID": "lorlatinib"
+          }
+        ]
+      },
+      "chr": "chr2",
+      "end": 29213994,
+      "fathmm-MKL": 0.90684,
+      "genename": "ALK",
+      "ref": "A",
+      "start": 29213994,
+      "uniprot_acc": "Q9UM73",
+      "variant": "F1245L"
+    },
+    {
       "CADD": 0.91129,
       "ClinVar_ClinicalSignificance": ["Pathogenic/Likely pathogenic"],
       "GenBank": "NM_004304",
@@ -10333,14 +10497,14 @@
       "MutationAssessor": 0.01674,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.88904,
       "Polyphen2_HDIV": 0.90584,
@@ -10416,14 +10580,14 @@
       "MutationAssessor": 0.04774,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.94457,
       "Polyphen2_HDIV": 0.43334,
@@ -10499,14 +10663,14 @@
       "MutationAssessor": 0.32453,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.86527,
       "Polyphen2_HDIV": 0.90584,
@@ -10582,14 +10746,14 @@
       "MutationAssessor": 0.04276,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73477,
       "Polyphen2_HDIV": 0.77913,
@@ -10665,14 +10829,14 @@
       "MutationAssessor": 0.24916,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.61722,
       "Polyphen2_HDIV": 0.90584,
@@ -10748,14 +10912,14 @@
       "MutationAssessor": 0.65257,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.61722,
       "Polyphen2_HDIV": 0.90584,
@@ -10831,14 +10995,14 @@
       "MutationAssessor": 0.479,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73477,
       "Polyphen2_HDIV": 0.90584,
@@ -10914,14 +11078,14 @@
       "MutationAssessor": 0.62235,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73378,
       "Polyphen2_HDIV": 0.90584,
@@ -10997,14 +11161,14 @@
       "MutationAssessor": 0.53793,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.60665,
       "Polyphen2_HDIV": 0.90584,
@@ -11080,14 +11244,14 @@
       "MutationAssessor": 0.20901,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93293,
       "Polyphen2_HDIV": 0.90584,
@@ -11163,14 +11327,14 @@
       "MutationAssessor": 0.11182,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.9049,
       "Polyphen2_HDIV": 0.17332,
@@ -11225,14 +11389,14 @@
       "MutationAssessor": 0.36832,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.65858,
       "Polyphen2_HDIV": 0.19556,
@@ -11308,14 +11472,14 @@
       "MutationAssessor": 0.34346,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93999,
       "Polyphen2_HDIV": 0.39766,
@@ -11391,14 +11555,14 @@
       "MutationAssessor": 0.16386,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.68178,
       "Polyphen2_HDIV": 0.64738,
@@ -11474,14 +11638,14 @@
       "MutationAssessor": 0.08919,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.3854,
       "Polyphen2_HDIV": 0.37135,
@@ -11557,14 +11721,14 @@
       "MutationAssessor": 0.12094,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.37955,
       "Polyphen2_HDIV": 0.58756,
@@ -11640,14 +11804,14 @@
       "MutationAssessor": 0.08564,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.81431,
       "Polyphen2_HDIV": 0.2629,
@@ -11723,14 +11887,14 @@
       "MutationAssessor": 0.15224,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.79399,
       "Polyphen2_HDIV": 0.27402,
@@ -11806,14 +11970,14 @@
       "MutationAssessor": 0.83026,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93293,
       "Polyphen2_HDIV": 0.90584,
@@ -11866,14 +12030,14 @@
       "MutationAssessor": 0.26816,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.8034,
       "Polyphen2_HDIV": 0.90584,
@@ -11949,14 +12113,14 @@
       "MutationAssessor": 0.24966,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.24676,
       "Polyphen2_HDIV": 0.41582,
@@ -12032,14 +12196,14 @@
       "MutationAssessor": 0.1213,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.60188,
       "Polyphen2_HDIV": 0.5831,
@@ -12059,32 +12223,11 @@
             "Compound_ID": "alectinib"
           },
           {
-            "FE_Bind": [-2.325],
-            "FE_Bind_mean": -2.325,
-            "FE_Bind_std": null,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
             "FE_Bind": [-2.7697],
             "FE_Bind_mean": -2.7697,
             "FE_Bind_std": null,
             "PDB_ID": "2XP2",
             "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [-2.7697],
-            "FE_Bind_mean": -2.7697,
-            "FE_Bind_std": null,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [-0.2046],
-            "FE_Bind_mean": -0.2046,
-            "FE_Bind_std": null,
-            "PDB_ID": "4CLI",
-            "Compound_ID": "lorlatinib"
           },
           {
             "FE_Bind": [-0.2046],
@@ -12103,32 +12246,11 @@
             "Compound_ID": "alectinib"
           },
           {
-            "FE_Bind": [0.134, 0.714, 0.067],
-            "FE_Bind_mean": 0.305,
-            "FE_Bind_std": 0.3558,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
             "FE_Bind": [0.02, 0.285, 0.203],
             "FE_Bind_mean": 0.1693,
             "FE_Bind_std": 0.1357,
             "PDB_ID": "2XP2",
             "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [0.02, 0.285, 0.203],
-            "FE_Bind_mean": 0.1693,
-            "FE_Bind_std": 0.1357,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [-0.356, 0.538, 0.193],
-            "FE_Bind_mean": 0.125,
-            "FE_Bind_std": 0.4509,
-            "PDB_ID": "4CLI",
-            "Compound_ID": "lorlatinib"
           },
           {
             "FE_Bind": [-0.356, 0.538, 0.193],
@@ -12149,6 +12271,89 @@
       "variant": "M1223L"
     },
     {
+      "CADD": 0.82015,
+      "ClinVar_ClinicalSignificance": ["Uncertain significance"],
+      "GenBank": "NM_004304",
+      "LRT": 0.62929,
+      "MGeND_ClinicalSignificance": [],
+      "MutationAssessor": 0.1213,
+      "MutationTaster": 0.81001,
+      "PDBlist_single_wild": [
+        "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
+        "4TT7",
+        "5IMX",
+        "6CDT",
+        "6EDL"
+      ],
+      "PROVEAN": 0.60188,
+      "Polyphen2_HDIV": 0.5831,
+      "Polyphen2_HVAR": 0.65091,
+      "PrimateAI": 0.64967,
+      "REVEL": 0.84719,
+      "SIFT4G": 0.58613,
+      "alt": "G",
+      "assembly": "hg38",
+      "calculation": {
+        "MP-CAFEE": [
+          {
+            "FE_Bind": [-2.325],
+            "FE_Bind_mean": -2.325,
+            "FE_Bind_std": null,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [-2.7697],
+            "FE_Bind_mean": -2.7697,
+            "FE_Bind_std": null,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          },
+          {
+            "FE_Bind": [-0.2046],
+            "FE_Bind_mean": -0.2046,
+            "FE_Bind_std": null,
+            "PDB_ID": "4CLI",
+            "Compound_ID": "lorlatinib"
+          }
+        ],
+        "Mutation_FEP": [
+          {
+            "FE_Bind": [0.134, 0.714, 0.067],
+            "FE_Bind_mean": 0.305,
+            "FE_Bind_std": 0.3558,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [0.02, 0.285, 0.203],
+            "FE_Bind_mean": 0.1693,
+            "FE_Bind_std": 0.1357,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          },
+          {
+            "FE_Bind": [-0.356, 0.538, 0.193],
+            "FE_Bind_mean": 0.125,
+            "FE_Bind_std": 0.4509,
+            "PDB_ID": "4CLI",
+            "Compound_ID": "lorlatinib"
+          }
+        ]
+      },
+      "chr": "chr2",
+      "end": 29214060,
+      "fathmm-MKL": 0.85428,
+      "genename": "ALK",
+      "ref": "T",
+      "start": 29214060,
+      "uniprot_acc": "Q9UM73",
+      "variant": "M1223L"
+    },
+    {
       "CADD": 0.60847,
       "ClinVar_ClinicalSignificance": ["Uncertain significance"],
       "GenBank": "NM_004304",
@@ -12157,14 +12362,14 @@
       "MutationAssessor": 0.10203,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.61722,
       "Polyphen2_HDIV": 0.2947,
@@ -12217,14 +12422,14 @@
       "MutationAssessor": 0.2156,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.87988,
       "Polyphen2_HDIV": 0.43456,
@@ -12300,14 +12505,14 @@
       "MutationAssessor": 0.1282,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.60827,
       "Polyphen2_HDIV": 0.16265,
@@ -12383,14 +12588,14 @@
       "MutationAssessor": 0.09762,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.54217,
       "Polyphen2_HDIV": 0.44777,
@@ -12466,14 +12671,14 @@
       "MutationAssessor": 0.21512,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.34198,
       "Polyphen2_HDIV": 0.02946,
@@ -12549,14 +12754,14 @@
       "MutationAssessor": 0.16177,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.77061,
       "Polyphen2_HDIV": 0.32165,
@@ -12609,14 +12814,14 @@
       "MutationAssessor": 0.12166,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.77798,
       "Polyphen2_HDIV": 0.50183,
@@ -12669,14 +12874,14 @@
       "MutationAssessor": 0.1937,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.67941,
       "Polyphen2_HDIV": 0.22878,
@@ -12729,14 +12934,14 @@
       "MutationAssessor": 0.33447,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.68412,
       "Polyphen2_HDIV": 0.37437,
@@ -12812,14 +13017,14 @@
       "MutationAssessor": 0.49914,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93293,
       "Polyphen2_HDIV": 0.90584,
@@ -12895,14 +13100,14 @@
       "MutationAssessor": 0.35261,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.97815,
       "Polyphen2_HDIV": 0.90584,
@@ -12955,14 +13160,14 @@
       "MutationAssessor": 0.27075,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96191,
       "Polyphen2_HDIV": 0.90584,
@@ -13015,14 +13220,14 @@
       "MutationAssessor": 0.39704,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.92825,
       "Polyphen2_HDIV": 0.90584,
@@ -13075,14 +13280,14 @@
       "MutationAssessor": 0.51223,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.81269,
       "Polyphen2_HDIV": 0.90584,
@@ -13158,14 +13363,14 @@
       "MutationAssessor": 0.73802,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.95732,
       "Polyphen2_HDIV": 0.90584,
@@ -13241,14 +13446,14 @@
       "MutationAssessor": 0.10399,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.57275,
       "Polyphen2_HDIV": 0.25173,
@@ -13324,14 +13529,14 @@
       "MutationAssessor": 0.66127,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.92648,
       "Polyphen2_HDIV": 0.90584,
@@ -13384,14 +13589,14 @@
       "MutationAssessor": 0.33002,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.70191,
       "Polyphen2_HDIV": 0.90584,
@@ -13467,14 +13672,14 @@
       "MutationAssessor": 0.35362,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.86988,
       "Polyphen2_HDIV": 0.70673,
@@ -13550,14 +13755,14 @@
       "MutationAssessor": 0.18813,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.86758,
       "Polyphen2_HDIV": 0.66517,
@@ -13633,14 +13838,14 @@
       "MutationAssessor": 0.67662,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.5083,
       "Polyphen2_HDIV": 0.37682,
@@ -13716,14 +13921,14 @@
       "MutationAssessor": 0.73802,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.38924,
       "Polyphen2_HDIV": 0.5199,
@@ -13799,14 +14004,14 @@
       "MutationAssessor": 0.60227,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.91395,
       "Polyphen2_HDIV": 0.90584,
@@ -13882,14 +14087,14 @@
       "MutationAssessor": 0.0507,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.77637,
       "Polyphen2_HDIV": 0.544,
@@ -13965,14 +14170,14 @@
       "MutationAssessor": 0.6135,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96191,
       "Polyphen2_HDIV": 0.90584,
@@ -14048,14 +14253,14 @@
       "MutationAssessor": 0.60562,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96191,
       "Polyphen2_HDIV": 0.90584,
@@ -14075,32 +14280,11 @@
             "Compound_ID": "alectinib"
           },
           {
-            "FE_Bind": [1.0909],
-            "FE_Bind_mean": 1.0909,
-            "FE_Bind_std": null,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
             "FE_Bind": [0.1358],
             "FE_Bind_mean": 0.1358,
             "FE_Bind_std": null,
             "PDB_ID": "2XP2",
             "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [0.1358],
-            "FE_Bind_mean": 0.1358,
-            "FE_Bind_std": null,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [4.318],
-            "FE_Bind_mean": 4.318,
-            "FE_Bind_std": null,
-            "PDB_ID": "4CLI",
-            "Compound_ID": "lorlatinib"
           },
           {
             "FE_Bind": [4.318],
@@ -14119,32 +14303,11 @@
             "Compound_ID": "alectinib"
           },
           {
-            "FE_Bind": [4.62, 4.32, 6.31],
-            "FE_Bind_mean": 5.0833,
-            "FE_Bind_std": 1.0729,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
             "FE_Bind": [3.36, 6.77, 7.02],
             "FE_Bind_mean": 5.7167,
             "FE_Bind_std": 2.0448,
             "PDB_ID": "2XP2",
             "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [3.36, 6.77, 7.02],
-            "FE_Bind_mean": 5.7167,
-            "FE_Bind_std": 2.0448,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [10.71, 4.48, 5.93],
-            "FE_Bind_mean": 7.04,
-            "FE_Bind_std": 3.26,
-            "PDB_ID": "4CLI",
-            "Compound_ID": "lorlatinib"
           },
           {
             "FE_Bind": [10.71, 4.48, 5.93],
@@ -14165,6 +14328,89 @@
       "variant": "G1202R"
     },
     {
+      "CADD": 0.66561,
+      "ClinVar_ClinicalSignificance": ["Likely pathogenic"],
+      "GenBank": "NM_004304",
+      "LRT": 0.47286,
+      "MGeND_ClinicalSignificance": [],
+      "MutationAssessor": 0.60562,
+      "MutationTaster": 0.81001,
+      "PDBlist_single_wild": [
+        "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
+        "4TT7",
+        "5IMX",
+        "6CDT",
+        "6EDL"
+      ],
+      "PROVEAN": 0.96191,
+      "Polyphen2_HDIV": 0.90584,
+      "Polyphen2_HVAR": 0.88582,
+      "PrimateAI": 0.92481,
+      "REVEL": 0.97928,
+      "SIFT4G": 0.92824,
+      "alt": "T",
+      "assembly": "hg38",
+      "calculation": {
+        "MP-CAFEE": [
+          {
+            "FE_Bind": [1.0909],
+            "FE_Bind_mean": 1.0909,
+            "FE_Bind_std": null,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [0.1358],
+            "FE_Bind_mean": 0.1358,
+            "FE_Bind_std": null,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          },
+          {
+            "FE_Bind": [4.318],
+            "FE_Bind_mean": 4.318,
+            "FE_Bind_std": null,
+            "PDB_ID": "4CLI",
+            "Compound_ID": "lorlatinib"
+          }
+        ],
+        "Mutation_FEP": [
+          {
+            "FE_Bind": [4.62, 4.32, 6.31],
+            "FE_Bind_mean": 5.0833,
+            "FE_Bind_std": 1.0729,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [3.36, 6.77, 7.02],
+            "FE_Bind_mean": 5.7167,
+            "FE_Bind_std": 2.0448,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          },
+          {
+            "FE_Bind": [10.71, 4.48, 5.93],
+            "FE_Bind_mean": 7.04,
+            "FE_Bind_std": 3.26,
+            "PDB_ID": "4CLI",
+            "Compound_ID": "lorlatinib"
+          }
+        ]
+      },
+      "chr": "chr2",
+      "end": 29220747,
+      "fathmm-MKL": 0.81588,
+      "genename": "ALK",
+      "ref": "C",
+      "start": 29220747,
+      "uniprot_acc": "Q9UM73",
+      "variant": "G1202R"
+    },
+    {
       "CADD": 0.52454,
       "ClinVar_ClinicalSignificance": [],
       "GenBank": "NM_004304",
@@ -14173,14 +14419,14 @@
       "MutationAssessor": 0.34509,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96191,
       "Polyphen2_HDIV": 0.90584,
@@ -14256,14 +14502,14 @@
       "MutationAssessor": 0.26816,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96191,
       "Polyphen2_HDIV": 0.90584,
@@ -14339,14 +14585,14 @@
       "MutationAssessor": 0.28956,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.64939,
       "Polyphen2_HDIV": 0.6407,
@@ -14422,14 +14668,14 @@
       "MutationAssessor": 0.18577,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73477,
       "Polyphen2_HDIV": 0.60733,
@@ -14505,14 +14751,14 @@
       "MutationAssessor": 0.04484,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.61722,
       "Polyphen2_HDIV": 0.42056,
@@ -14532,32 +14778,11 @@
             "Compound_ID": "alectinib"
           },
           {
-            "FE_Bind": [-3.8115],
-            "FE_Bind_mean": -3.8115,
-            "FE_Bind_std": null,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
             "FE_Bind": [-0.5538],
             "FE_Bind_mean": -0.5538,
             "FE_Bind_std": null,
             "PDB_ID": "2XP2",
             "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [-0.5538],
-            "FE_Bind_mean": -0.5538,
-            "FE_Bind_std": null,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [-2.4888],
-            "FE_Bind_mean": -2.4888,
-            "FE_Bind_std": null,
-            "PDB_ID": "4CLI",
-            "Compound_ID": "lorlatinib"
           },
           {
             "FE_Bind": [-2.4888],
@@ -14576,32 +14801,11 @@
             "Compound_ID": "alectinib"
           },
           {
-            "FE_Bind": [-0.323, -0.35, -0.296],
-            "FE_Bind_mean": -0.323,
-            "FE_Bind_std": 0.027,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
             "FE_Bind": [-0.351, -0.391, -0.916],
             "FE_Bind_mean": -0.5527,
             "FE_Bind_std": 0.3153,
             "PDB_ID": "2XP2",
             "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [-0.351, -0.391, -0.916],
-            "FE_Bind_mean": -0.5527,
-            "FE_Bind_std": 0.3153,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [0.307, 0.356, 0.351],
-            "FE_Bind_mean": 0.338,
-            "FE_Bind_std": 0.027,
-            "PDB_ID": "4CLI",
-            "Compound_ID": "lorlatinib"
           },
           {
             "FE_Bind": [0.307, 0.356, 0.351],
@@ -14630,14 +14834,14 @@
       "MutationAssessor": 0.1045,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73477,
       "Polyphen2_HDIV": 0.51527,
@@ -14705,6 +14909,89 @@
       "variant": "M1199V"
     },
     {
+      "CADD": 0.46477,
+      "ClinVar_ClinicalSignificance": ["Uncertain significance"],
+      "GenBank": "NM_004304",
+      "LRT": 0.62929,
+      "MGeND_ClinicalSignificance": [],
+      "MutationAssessor": 0.04484,
+      "MutationTaster": 0.81001,
+      "PDBlist_single_wild": [
+        "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
+        "4TT7",
+        "5IMX",
+        "6CDT",
+        "6EDL"
+      ],
+      "PROVEAN": 0.61722,
+      "Polyphen2_HDIV": 0.42056,
+      "Polyphen2_HVAR": 0.49832,
+      "PrimateAI": 0.94139,
+      "REVEL": 0.93816,
+      "SIFT4G": 0.18018,
+      "alt": "G",
+      "assembly": "hg38",
+      "calculation": {
+        "MP-CAFEE": [
+          {
+            "FE_Bind": [-3.8115],
+            "FE_Bind_mean": -3.8115,
+            "FE_Bind_std": null,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [-0.5538],
+            "FE_Bind_mean": -0.5538,
+            "FE_Bind_std": null,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          },
+          {
+            "FE_Bind": [-2.4888],
+            "FE_Bind_mean": -2.4888,
+            "FE_Bind_std": null,
+            "PDB_ID": "4CLI",
+            "Compound_ID": "lorlatinib"
+          }
+        ],
+        "Mutation_FEP": [
+          {
+            "FE_Bind": [-0.323, -0.35, -0.296],
+            "FE_Bind_mean": -0.323,
+            "FE_Bind_std": 0.027,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [-0.351, -0.391, -0.916],
+            "FE_Bind_mean": -0.5527,
+            "FE_Bind_std": 0.3153,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          },
+          {
+            "FE_Bind": [0.307, 0.356, 0.351],
+            "FE_Bind_mean": 0.338,
+            "FE_Bind_std": 0.027,
+            "PDB_ID": "4CLI",
+            "Compound_ID": "lorlatinib"
+          }
+        ]
+      },
+      "chr": "chr2",
+      "end": 29220756,
+      "fathmm-MKL": 0.83276,
+      "genename": "ALK",
+      "ref": "T",
+      "start": 29220756,
+      "uniprot_acc": "Q9UM73",
+      "variant": "M1199L"
+    },
+    {
       "CADD": 0.66502,
       "ClinVar_ClinicalSignificance": [],
       "GenBank": "NM_004304",
@@ -14713,14 +15000,14 @@
       "MutationAssessor": 0.13537,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73477,
       "Polyphen2_HDIV": 0.90584,
@@ -14796,14 +15083,14 @@
       "MutationAssessor": 0.55341,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.45769,
       "Polyphen2_HDIV": 0.90584,
@@ -14879,14 +15166,14 @@
       "MutationAssessor": 0.8176,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73477,
       "Polyphen2_HDIV": 0.77913,
@@ -14962,14 +15249,14 @@
       "MutationAssessor": 0.27187,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.88963,
       "Polyphen2_HDIV": 0.90584,
@@ -15045,14 +15332,14 @@
       "MutationAssessor": 0.02627,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.45587,
       "Polyphen2_HDIV": 0.90584,
@@ -15122,8 +15409,8 @@
     {
       "CADD": 0.82046,
       "ClinVar_ClinicalSignificance": [
-        "Pathogenic/Likely pathogenic",
-        " risk factor"
+        " risk factor",
+        "Pathogenic/Likely pathogenic"
       ],
       "GenBank": "NM_004304",
       "LRT": 0.43581,
@@ -15131,14 +15418,14 @@
       "MutationAssessor": 0.08973,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93257,
       "Polyphen2_HDIV": 0.90584,
@@ -15191,14 +15478,14 @@
       "MutationAssessor": 0.1555,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73267,
       "Polyphen2_HDIV": 0.90584,
@@ -15274,14 +15561,14 @@
       "MutationAssessor": 0.1962,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96114,
       "Polyphen2_HDIV": 0.90584,
@@ -15357,14 +15644,14 @@
       "MutationAssessor": 0.1891,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93217,
       "Polyphen2_HDIV": 0.90584,
@@ -15440,14 +15727,14 @@
       "MutationAssessor": 0.32218,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.98726,
       "Polyphen2_HDIV": 0.90584,
@@ -15500,14 +15787,14 @@
       "MutationAssessor": 0.29674,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.97914,
       "Polyphen2_HDIV": 0.90584,
@@ -15560,14 +15847,14 @@
       "MutationAssessor": 0.26876,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96191,
       "Polyphen2_HDIV": 0.90584,
@@ -15620,14 +15907,14 @@
       "MutationAssessor": 0.08345,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.89401,
       "Polyphen2_HDIV": 0.3333,
@@ -15680,14 +15967,14 @@
       "MutationAssessor": 0.19527,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.34795,
       "Polyphen2_HDIV": 0.19406,
@@ -15763,14 +16050,14 @@
       "MutationAssessor": 0.39704,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.67014,
       "Polyphen2_HDIV": 0.25941,
@@ -15846,14 +16133,14 @@
       "MutationAssessor": 0.34934,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.67241,
       "Polyphen2_HDIV": 0.25941,
@@ -15929,14 +16216,14 @@
       "MutationAssessor": 0.41497,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.61284,
       "Polyphen2_HDIV": 0.53992,
@@ -16012,14 +16299,14 @@
       "MutationAssessor": 0.36767,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.55339,
       "Polyphen2_HDIV": 0.44168,
@@ -16095,14 +16382,14 @@
       "MutationAssessor": 0.87672,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.97914,
       "Polyphen2_HDIV": 0.90584,
@@ -16178,14 +16465,14 @@
       "MutationAssessor": 0.45938,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96191,
       "Polyphen2_HDIV": 0.90584,
@@ -16261,14 +16548,14 @@
       "MutationAssessor": 0.24966,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.60188,
       "Polyphen2_HDIV": 0.48822,
@@ -16344,14 +16631,14 @@
       "MutationAssessor": 0.45442,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.80172,
       "Polyphen2_HDIV": 0.65571,
@@ -16427,14 +16714,14 @@
       "MutationAssessor": 0.36993,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.77798,
       "Polyphen2_HDIV": 0.56202,
@@ -16510,14 +16797,14 @@
       "MutationAssessor": 0.49914,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.94729,
       "Polyphen2_HDIV": 0.90584,
@@ -16593,14 +16880,14 @@
       "MutationAssessor": 0.3584,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.61722,
       "Polyphen2_HDIV": 0.6407,
@@ -16676,14 +16963,14 @@
       "MutationAssessor": 0.32453,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.79829,
       "Polyphen2_HDIV": 0.65571,
@@ -16703,32 +16990,11 @@
             "Compound_ID": "alectinib"
           },
           {
-            "FE_Bind": [0.3861],
-            "FE_Bind_mean": 0.3861,
-            "FE_Bind_std": null,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
             "FE_Bind": [-1.7054],
             "FE_Bind_mean": -1.7054,
             "FE_Bind_std": null,
             "PDB_ID": "2XP2",
             "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [-1.7054],
-            "FE_Bind_mean": -1.7054,
-            "FE_Bind_std": null,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [0.3831],
-            "FE_Bind_mean": 0.3831,
-            "FE_Bind_std": null,
-            "PDB_ID": "4CLI",
-            "Compound_ID": "lorlatinib"
           },
           {
             "FE_Bind": [0.3831],
@@ -16747,32 +17013,11 @@
             "Compound_ID": "alectinib"
           },
           {
-            "FE_Bind": [-0.07, 0.58, 0.23],
-            "FE_Bind_mean": 0.2467,
-            "FE_Bind_std": 0.3253,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
             "FE_Bind": [-0.42, -0.48, 0.38],
             "FE_Bind_mean": -0.1733,
             "FE_Bind_std": 0.4801,
             "PDB_ID": "2XP2",
             "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [-0.42, -0.48, 0.38],
-            "FE_Bind_mean": -0.1733,
-            "FE_Bind_std": 0.4801,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [-0.86, 1.19, 0.52],
-            "FE_Bind_mean": 0.2833,
-            "FE_Bind_std": 1.0453,
-            "PDB_ID": "4CLI",
-            "Compound_ID": "lorlatinib"
           },
           {
             "FE_Bind": [-0.86, 1.19, 0.52],
@@ -16793,6 +17038,89 @@
       "variant": "Q1177H"
     },
     {
+      "CADD": 0.71116,
+      "ClinVar_ClinicalSignificance": [],
+      "GenBank": "NM_004304",
+      "LRT": 0.4544,
+      "MGeND_ClinicalSignificance": [],
+      "MutationAssessor": 0.32453,
+      "MutationTaster": 0.81001,
+      "PDBlist_single_wild": [
+        "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
+        "4TT7",
+        "5IMX",
+        "6CDT",
+        "6EDL"
+      ],
+      "PROVEAN": 0.79829,
+      "Polyphen2_HDIV": 0.65571,
+      "Polyphen2_HVAR": 0.64565,
+      "PrimateAI": 0.93663,
+      "REVEL": 0.86536,
+      "SIFT4G": 0.57104,
+      "alt": "G",
+      "assembly": "hg38",
+      "calculation": {
+        "MP-CAFEE": [
+          {
+            "FE_Bind": [0.3861],
+            "FE_Bind_mean": 0.3861,
+            "FE_Bind_std": null,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [-1.7054],
+            "FE_Bind_mean": -1.7054,
+            "FE_Bind_std": null,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          },
+          {
+            "FE_Bind": [0.3831],
+            "FE_Bind_mean": 0.3831,
+            "FE_Bind_std": null,
+            "PDB_ID": "4CLI",
+            "Compound_ID": "lorlatinib"
+          }
+        ],
+        "Mutation_FEP": [
+          {
+            "FE_Bind": [-0.07, 0.58, 0.23],
+            "FE_Bind_mean": 0.2467,
+            "FE_Bind_std": 0.3253,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [-0.42, -0.48, 0.38],
+            "FE_Bind_mean": -0.1733,
+            "FE_Bind_std": 0.4801,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          },
+          {
+            "FE_Bind": [-0.86, 1.19, 0.52],
+            "FE_Bind_mean": 0.2833,
+            "FE_Bind_std": 1.0453,
+            "PDB_ID": "4CLI",
+            "Compound_ID": "lorlatinib"
+          }
+        ]
+      },
+      "chr": "chr2",
+      "end": 29220820,
+      "fathmm-MKL": 0.59546,
+      "genename": "ALK",
+      "ref": "C",
+      "start": 29220820,
+      "uniprot_acc": "Q9UM73",
+      "variant": "Q1177H"
+    },
+    {
       "CADD": 0.51797,
       "ClinVar_ClinicalSignificance": ["Uncertain significance"],
       "GenBank": "NM_004304",
@@ -16801,14 +17129,14 @@
       "MutationAssessor": 0.01244,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.84742,
       "Polyphen2_HDIV": 0.13644,
@@ -16861,14 +17189,14 @@
       "MutationAssessor": 0.72352,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93329,
       "Polyphen2_HDIV": 0.77913,
@@ -16944,14 +17272,14 @@
       "MutationAssessor": 0.09897,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.58896,
       "Polyphen2_HDIV": 0.16867,
@@ -17027,14 +17355,14 @@
       "MutationAssessor": 0.00959,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.88767,
       "Polyphen2_HDIV": 0.52105,
@@ -17054,53 +17382,11 @@
             "Compound_ID": "alectinib"
           },
           {
-            "FE_Bind": [-1.1917],
-            "FE_Bind_mean": -1.1917,
-            "FE_Bind_std": null,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
-            "FE_Bind": [-1.1917],
-            "FE_Bind_mean": -1.1917,
-            "FE_Bind_std": null,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
             "FE_Bind": [-0.4344],
             "FE_Bind_mean": -0.4344,
             "FE_Bind_std": null,
             "PDB_ID": "2XP2",
             "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [-0.4344],
-            "FE_Bind_mean": -0.4344,
-            "FE_Bind_std": null,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [-0.4344],
-            "FE_Bind_mean": -0.4344,
-            "FE_Bind_std": null,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [2.6458],
-            "FE_Bind_mean": 2.6458,
-            "FE_Bind_std": null,
-            "PDB_ID": "4CLI",
-            "Compound_ID": "lorlatinib"
-          },
-          {
-            "FE_Bind": [2.6458],
-            "FE_Bind_mean": 2.6458,
-            "FE_Bind_std": null,
-            "PDB_ID": "4CLI",
-            "Compound_ID": "lorlatinib"
           },
           {
             "FE_Bind": [2.6458],
@@ -17119,53 +17405,11 @@
             "Compound_ID": "alectinib"
           },
           {
-            "FE_Bind": [0.175, -0.364, 0.146],
-            "FE_Bind_mean": -0.0143,
-            "FE_Bind_std": 0.3032,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
-            "FE_Bind": [0.175, -0.364, 0.146],
-            "FE_Bind_mean": -0.0143,
-            "FE_Bind_std": 0.3032,
-            "PDB_ID": "3AOX",
-            "Compound_ID": "alectinib"
-          },
-          {
             "FE_Bind": [0.176, 0.549, 0.099],
             "FE_Bind_mean": 0.2747,
             "FE_Bind_std": 0.2407,
             "PDB_ID": "2XP2",
             "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [0.176, 0.549, 0.099],
-            "FE_Bind_mean": 0.2747,
-            "FE_Bind_std": 0.2407,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [0.176, 0.549, 0.099],
-            "FE_Bind_mean": 0.2747,
-            "FE_Bind_std": 0.2407,
-            "PDB_ID": "2XP2",
-            "Compound_ID": "crizotinib"
-          },
-          {
-            "FE_Bind": [0.597, -0.28, 0.436],
-            "FE_Bind_mean": 0.251,
-            "FE_Bind_std": 0.4669,
-            "PDB_ID": "4CLI",
-            "Compound_ID": "lorlatinib"
-          },
-          {
-            "FE_Bind": [0.597, -0.28, 0.436],
-            "FE_Bind_mean": 0.251,
-            "FE_Bind_std": 0.4669,
-            "PDB_ID": "4CLI",
-            "Compound_ID": "lorlatinib"
           },
           {
             "FE_Bind": [0.597, -0.28, 0.436],
@@ -17186,6 +17430,89 @@
       "variant": "F1174L"
     },
     {
+      "CADD": 0.87307,
+      "ClinVar_ClinicalSignificance": ["Pathogenic/Likely pathogenic"],
+      "GenBank": "NM_004304",
+      "LRT": 0.50451,
+      "MGeND_ClinicalSignificance": [],
+      "MutationAssessor": 0.00959,
+      "MutationTaster": 0.81001,
+      "PDBlist_single_wild": [
+        "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
+        "4TT7",
+        "5IMX",
+        "6CDT",
+        "6EDL"
+      ],
+      "PROVEAN": 0.88767,
+      "Polyphen2_HDIV": 0.52105,
+      "Polyphen2_HVAR": 0.54128,
+      "PrimateAI": 0.9841,
+      "REVEL": 0.91498,
+      "SIFT4G": 0.92824,
+      "alt": "T",
+      "assembly": "hg38",
+      "calculation": {
+        "MP-CAFEE": [
+          {
+            "FE_Bind": [-1.1917],
+            "FE_Bind_mean": -1.1917,
+            "FE_Bind_std": null,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [-0.4344],
+            "FE_Bind_mean": -0.4344,
+            "FE_Bind_std": null,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          },
+          {
+            "FE_Bind": [2.6458],
+            "FE_Bind_mean": 2.6458,
+            "FE_Bind_std": null,
+            "PDB_ID": "4CLI",
+            "Compound_ID": "lorlatinib"
+          }
+        ],
+        "Mutation_FEP": [
+          {
+            "FE_Bind": [0.175, -0.364, 0.146],
+            "FE_Bind_mean": -0.0143,
+            "FE_Bind_std": 0.3032,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [0.176, 0.549, 0.099],
+            "FE_Bind_mean": 0.2747,
+            "FE_Bind_std": 0.2407,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          },
+          {
+            "FE_Bind": [0.597, -0.28, 0.436],
+            "FE_Bind_mean": 0.251,
+            "FE_Bind_std": 0.4669,
+            "PDB_ID": "4CLI",
+            "Compound_ID": "lorlatinib"
+          }
+        ]
+      },
+      "chr": "chr2",
+      "end": 29220829,
+      "fathmm-MKL": 0.8126,
+      "genename": "ALK",
+      "ref": "G",
+      "start": 29220829,
+      "uniprot_acc": "Q9UM73",
+      "variant": "F1174L"
+    },
+    {
       "CADD": 0.90297,
       "ClinVar_ClinicalSignificance": ["Pathogenic"],
       "GenBank": "NM_004304",
@@ -17194,14 +17521,14 @@
       "MutationAssessor": 0.12274,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96114,
       "Polyphen2_HDIV": 0.90584,
@@ -17277,14 +17604,14 @@
       "MutationAssessor": 0.19437,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96142,
       "Polyphen2_HDIV": 0.90584,
@@ -17360,14 +17687,14 @@
       "MutationAssessor": 0.08135,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93217,
       "Polyphen2_HDIV": 0.90584,
@@ -17435,6 +17762,89 @@
       "variant": "F1174V"
     },
     {
+      "CADD": 0.85028,
+      "ClinVar_ClinicalSignificance": ["Pathogenic/Likely pathogenic"],
+      "GenBank": "NM_004304",
+      "LRT": 0.50451,
+      "MGeND_ClinicalSignificance": [],
+      "MutationAssessor": 0.00959,
+      "MutationTaster": 0.81001,
+      "PDBlist_single_wild": [
+        "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
+        "4TT7",
+        "5IMX",
+        "6CDT",
+        "6EDL"
+      ],
+      "PROVEAN": 0.88767,
+      "Polyphen2_HDIV": 0.52105,
+      "Polyphen2_HVAR": 0.54128,
+      "PrimateAI": 0.9841,
+      "REVEL": 0.94123,
+      "SIFT4G": 0.92824,
+      "alt": "G",
+      "assembly": "hg38",
+      "calculation": {
+        "MP-CAFEE": [
+          {
+            "FE_Bind": [-1.1917],
+            "FE_Bind_mean": -1.1917,
+            "FE_Bind_std": null,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [-0.4344],
+            "FE_Bind_mean": -0.4344,
+            "FE_Bind_std": null,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          },
+          {
+            "FE_Bind": [2.6458],
+            "FE_Bind_mean": 2.6458,
+            "FE_Bind_std": null,
+            "PDB_ID": "4CLI",
+            "Compound_ID": "lorlatinib"
+          }
+        ],
+        "Mutation_FEP": [
+          {
+            "FE_Bind": [0.175, -0.364, 0.146],
+            "FE_Bind_mean": -0.0143,
+            "FE_Bind_std": 0.3032,
+            "PDB_ID": "3AOX",
+            "Compound_ID": "alectinib"
+          },
+          {
+            "FE_Bind": [0.176, 0.549, 0.099],
+            "FE_Bind_mean": 0.2747,
+            "FE_Bind_std": 0.2407,
+            "PDB_ID": "2XP2",
+            "Compound_ID": "crizotinib"
+          },
+          {
+            "FE_Bind": [0.597, -0.28, 0.436],
+            "FE_Bind_mean": 0.251,
+            "FE_Bind_std": 0.4669,
+            "PDB_ID": "4CLI",
+            "Compound_ID": "lorlatinib"
+          }
+        ]
+      },
+      "chr": "chr2",
+      "end": 29220831,
+      "fathmm-MKL": 0.88361,
+      "genename": "ALK",
+      "ref": "A",
+      "start": 29220831,
+      "uniprot_acc": "Q9UM73",
+      "variant": "F1174L"
+    },
+    {
       "CADD": 0.86865,
       "ClinVar_ClinicalSignificance": ["Pathogenic"],
       "GenBank": "NM_004304",
@@ -17443,14 +17853,14 @@
       "MutationAssessor": 0.0219,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.88767,
       "Polyphen2_HDIV": 0.90584,
@@ -17526,14 +17936,14 @@
       "MutationAssessor": 0.45869,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.81835,
       "Polyphen2_HDIV": 0.90584,
@@ -17609,14 +18019,14 @@
       "MutationAssessor": 0.29674,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73477,
       "Polyphen2_HDIV": 0.59353,
@@ -17692,14 +18102,14 @@
       "MutationAssessor": 0.01422,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.51811,
       "Polyphen2_HDIV": 0.36524,
@@ -17775,14 +18185,14 @@
       "MutationAssessor": 0.1555,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.86372,
       "Polyphen2_HDIV": 0.77913,
@@ -17858,14 +18268,14 @@
       "MutationAssessor": 0.1937,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.79571,
       "Polyphen2_HDIV": 0.7322,
@@ -17941,14 +18351,14 @@
       "MutationAssessor": 0.16971,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.91868,
       "Polyphen2_HDIV": 0.90584,
@@ -18024,14 +18434,14 @@
       "MutationAssessor": 0.3279,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.88963,
       "Polyphen2_HDIV": 0.77913,
@@ -18107,14 +18517,14 @@
       "MutationAssessor": 0.21244,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.81755,
       "Polyphen2_HDIV": 0.54136,
@@ -18190,14 +18600,14 @@
       "MutationAssessor": 0.4261,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93329,
       "Polyphen2_HDIV": 0.90584,
@@ -18273,14 +18683,14 @@
       "MutationAssessor": 0.6135,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.81755,
       "Polyphen2_HDIV": 0.90584,
@@ -18333,14 +18743,14 @@
       "MutationAssessor": 0.73725,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73477,
       "Polyphen2_HDIV": 0.90584,
@@ -18416,14 +18826,14 @@
       "MutationAssessor": 0.01637,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.89029,
       "Polyphen2_HDIV": 0.90584,
@@ -18499,14 +18909,14 @@
       "MutationAssessor": 0.09567,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.89029,
       "Polyphen2_HDIV": 0.44223,
@@ -18582,14 +18992,14 @@
       "MutationAssessor": 0.39561,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93329,
       "Polyphen2_HDIV": 0.90584,
@@ -18665,14 +19075,14 @@
       "MutationAssessor": 0.289,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73477,
       "Polyphen2_HDIV": 0.7322,
@@ -18748,14 +19158,14 @@
       "MutationAssessor": 0.42885,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93293,
       "Polyphen2_HDIV": 0.77913,
@@ -18831,14 +19241,14 @@
       "MutationAssessor": 0.13445,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.93329,
       "Polyphen2_HDIV": 0.53279,
@@ -18914,14 +19324,14 @@
       "MutationAssessor": 0.13693,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.7092,
       "Polyphen2_HDIV": 0.3183,
@@ -18997,14 +19407,14 @@
       "MutationAssessor": 0.18577,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.81835,
       "Polyphen2_HDIV": 0.77913,
@@ -19057,14 +19467,14 @@
       "MutationAssessor": 0.09537,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.61722,
       "Polyphen2_HDIV": 0.29254,
@@ -19140,14 +19550,14 @@
       "MutationAssessor": 0.13579,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.9923,
       "Polyphen2_HDIV": 0.77913,
@@ -19223,14 +19633,14 @@
       "MutationAssessor": 0.1519,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.88963,
       "Polyphen2_HDIV": 0.67487,
@@ -19306,14 +19716,14 @@
       "MutationAssessor": 0.18721,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.61722,
       "Polyphen2_HDIV": 0.90584,
@@ -19389,14 +19799,14 @@
       "MutationAssessor": 0.09922,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.73378,
       "Polyphen2_HDIV": 0.53183,
@@ -19472,14 +19882,14 @@
       "MutationAssessor": 0.77386,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.89534,
       "Polyphen2_HDIV": 0.90584,
@@ -19557,14 +19967,14 @@
       "MutationAssessor": 0.08973,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.89401,
       "Polyphen2_HDIV": 0.90584,
@@ -19640,14 +20050,14 @@
       "MutationAssessor": 0.08059,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.89534,
       "Polyphen2_HDIV": 0.90584,
@@ -19723,14 +20133,14 @@
       "MutationAssessor": 0.42885,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.89534,
       "Polyphen2_HDIV": 0.90584,
@@ -19783,14 +20193,14 @@
       "MutationAssessor": 0.89816,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.82341,
       "Polyphen2_HDIV": 0.90584,
@@ -19866,14 +20276,14 @@
       "MutationAssessor": 0.85398,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.74051,
       "Polyphen2_HDIV": 0.77913,
@@ -19949,14 +20359,14 @@
       "MutationAssessor": 0.61577,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.62343,
       "Polyphen2_HDIV": 0.55554,
@@ -20032,14 +20442,14 @@
       "MutationAssessor": 0.08828,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.72471,
       "Polyphen2_HDIV": 0.32678,
@@ -20115,14 +20525,14 @@
       "MutationAssessor": 0.15352,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.37178,
       "Polyphen2_HDIV": 0.28678,
@@ -20198,14 +20608,14 @@
       "MutationAssessor": 0.46185,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.83557,
       "Polyphen2_HDIV": 0.25489,
@@ -20281,14 +20691,14 @@
       "MutationAssessor": 0.15399,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.92605,
       "Polyphen2_HDIV": 0.68779,
@@ -20341,14 +20751,14 @@
       "MutationAssessor": 0.13445,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.92736,
       "Polyphen2_HDIV": 0.30086,
@@ -20401,14 +20811,14 @@
       "MutationAssessor": 0.04298,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.79659,
       "Polyphen2_HDIV": 0.70673,
@@ -20484,14 +20894,14 @@
       "MutationAssessor": 0.09006,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.83224,
       "Polyphen2_HDIV": 0.2319,
@@ -20567,14 +20977,14 @@
       "MutationAssessor": 0.26948,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.96495,
       "Polyphen2_HDIV": 0.90584,
@@ -20650,14 +21060,14 @@
       "MutationAssessor": 0.29295,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.87911,
       "Polyphen2_HDIV": 0.62824,
@@ -20733,14 +21143,14 @@
       "MutationAssessor": 0.12951,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.60188,
       "Polyphen2_HDIV": 0.70673,
@@ -20816,14 +21226,14 @@
       "MutationAssessor": 0.1278,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.86686,
       "Polyphen2_HDIV": 0.15914,
@@ -20899,14 +21309,14 @@
       "MutationAssessor": 0.30952,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.98093,
       "Polyphen2_HDIV": 0.90584,
@@ -20982,14 +21392,14 @@
       "MutationAssessor": 0.02294,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.72594,
       "Polyphen2_HDIV": 0.58535,
@@ -21065,14 +21475,14 @@
       "MutationAssessor": 0.80766,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.62343,
       "Polyphen2_HDIV": 0.90584,
@@ -21148,14 +21558,14 @@
       "MutationAssessor": 0.09537,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.89534,
       "Polyphen2_HDIV": 0.90584,
@@ -21231,14 +21641,14 @@
       "MutationAssessor": 0.09183,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.74051,
       "Polyphen2_HDIV": 0.90584,
@@ -21314,14 +21724,14 @@
       "MutationAssessor": 0.98003,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.98093,
       "Polyphen2_HDIV": 0.90584,
@@ -21391,8 +21801,8 @@
     {
       "CADD": 0.70745,
       "ClinVar_ClinicalSignificance": [
-        "Pathogenic/Likely pathogenic",
-        " risk factor"
+        " risk factor",
+        "Pathogenic/Likely pathogenic"
       ],
       "GenBank": "NM_004304",
       "LRT": 0.4913,
@@ -21400,14 +21810,14 @@
       "MutationAssessor": 0.49092,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.89534,
       "Polyphen2_HDIV": 0.90584,
@@ -21483,14 +21893,14 @@
       "MutationAssessor": 0.79292,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.89534,
       "Polyphen2_HDIV": 0.90584,
@@ -21566,14 +21976,14 @@
       "MutationAssessor": 0.25572,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.74051,
       "Polyphen2_HDIV": 0.90584,
@@ -21649,14 +22059,14 @@
       "MutationAssessor": 0.96693,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.98093,
       "Polyphen2_HDIV": 0.90584,
@@ -21732,14 +22142,14 @@
       "MutationAssessor": 0.64929,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.89534,
       "Polyphen2_HDIV": 0.90584,
@@ -21815,14 +22225,14 @@
       "MutationAssessor": 0.72568,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.89534,
       "Polyphen2_HDIV": 0.90584,
@@ -21898,14 +22308,14 @@
       "MutationAssessor": 0.08384,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.88361,
       "Polyphen2_HDIV": 0.77913,
@@ -21981,14 +22391,14 @@
       "MutationAssessor": 0.03546,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.77061,
       "Polyphen2_HDIV": 0.37698,
@@ -22064,14 +22474,14 @@
       "MutationAssessor": 0.63355,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.95732,
       "Polyphen2_HDIV": 0.90584,
@@ -22147,14 +22557,14 @@
       "MutationAssessor": 0.28643,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.65171,
       "Polyphen2_HDIV": 0.26349,
@@ -22230,14 +22640,14 @@
       "MutationAssessor": 0.66127,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.80085,
       "Polyphen2_HDIV": 0.6407,
@@ -22313,14 +22723,14 @@
       "MutationAssessor": 0.09039,
       "MutationTaster": 0.81001,
       "PDBlist_single_wild": [
-        "6EDL",
-        "4CCU",
-        "5IMX",
-        "4CTC",
         "4CCB",
+        "4CCU",
+        "4CTB",
+        "4CTC",
         "4TT7",
+        "5IMX",
         "6CDT",
-        "4CTB"
+        "6EDL"
       ],
       "PROVEAN": 0.44852,
       "Polyphen2_HDIV": 0.29493,

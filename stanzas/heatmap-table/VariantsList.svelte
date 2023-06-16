@@ -1,6 +1,6 @@
 <script lang="ts">
   export let loading: boolean;
-  import TextWithIcon from "./TextWithIcon.svelte";
+  import TextWithIcon from "../../lib/TextWithIcon.svelte";
   import { calculationType } from "./data";
   import {
     calculationsCount,

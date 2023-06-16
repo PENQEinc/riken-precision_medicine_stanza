@@ -26,11 +26,11 @@ export const selectedCompoundId = writable<string | null>(null);
 
 export default function (url: string) {
   const loading = writable(false);
-  const error = writable(false);
+  const error = writable<null | Error>(null);
 
   async function get() {
     loading.set(true);
-    error.set(false);
+    error.set(null);
     try {
       const response = await fetch(url);
       const { data: loadedDataset } = (await response.json()) as FetchedData;
@@ -43,7 +43,7 @@ export default function (url: string) {
         ...calcCount,
       });
     } catch (e) {
-      error.set(e);
+      error.set(e as Error);
     } finally {
       loading.set(false);
     }
@@ -58,12 +58,14 @@ function convertCalcData(dataset: Datum[]): DatumConverted[] {
   const result = dataset.map((d) => {
     const calcData = d.calculation;
     const calcDataConverted = {} as CalculationDatumConverted;
-    Object.keys(calcData).forEach((calcType) => {
-      calcDataConverted[calcType] = calcData[calcType].reduce((acc, curr) => {
+
+    for (const [calculation, calcContents] of Object.entries(calcData)) {
+      calcDataConverted[calculation] = calcContents.reduce((acc, curr) => {
         acc[curr.Compound_ID] = curr;
         return acc;
-      }, {} as CalculationDatum);
-    });
+      }, {} as { [key: string]: CalculationDatum });
+    }
+
     return { ...d, calculation: calcDataConverted };
   });
 
@@ -76,7 +78,6 @@ function getCalculationTypesAndCounts(dataset: Datum[]) {
   dataset.forEach((d) => {
     Object.keys(d.calculation).forEach((calcType) => {
       const compoundsToAdd = result[calcType]?.compounds || {};
-      // TODO Wrong numbers here??
       let calculationSize = 0;
       d.calculation[calcType].forEach((compound) => {
         if (typeof compoundsToAdd[compound.Compound_ID] !== "undefined") {

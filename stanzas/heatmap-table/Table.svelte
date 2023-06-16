@@ -37,8 +37,6 @@
     });
   }
 
-  $: console.log("filteredDataset", filteredDataset);
-
   let selectedRowIndex: number | undefined = undefined;
 
   $: if (typeof selectedRowIndex !== "undefined") {

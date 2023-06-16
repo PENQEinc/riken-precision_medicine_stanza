@@ -6,7 +6,9 @@ export type CalculationDatum = {
   FE_Bind_mean: number;
 };
 
-export type CalculationDatumConverted = { [key: string]: CalculationDatum };
+export type CalculationDatumConverted = {
+  [key: string]: { [key: string]: CalculationDatum };
+};
 
 export interface Datum {
   LRT: number;
