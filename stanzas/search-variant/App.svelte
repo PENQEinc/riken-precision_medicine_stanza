@@ -1,15 +1,20 @@
-<script>
+<script lang="ts">
   import Fa from "svelte-fa";
   import {
     faCircleChevronRight,
     faTriangleExclamation,
   } from "@fortawesome/free-solid-svg-icons";
+  import TextWithIcon from "@/lib/TextWithIcon.svelte";
+  import Popup from "@/lib/popup/Popup.svelte";
   import drugIcon from "@/assets/drug.svg";
   import proteinIcon from "@/assets/protein.svg";
+  import { upperFirst } from "lodash";
 
   export let assembly, isPosition, term;
   const grch = `GRCh${assembly.replace(/\D/g, "")}`;
   let promise = search(term);
+
+  let refs = [] as HTMLElement[];
 
   async function search(term) {
     let response;
@@ -25,7 +30,6 @@
       );
     }
     const json = await response.json();
-    console.log(json);
     if (response.ok) {
       return json;
     } else {
@@ -75,10 +79,33 @@
             </td>
             <td class="td-calc">
               <ul>
-                {#each Object.keys(calculation) as calc}
-                  <li>
-                    <img class="icon" src={drugIcon} alt="drug" />
-                    {calc}
+                {#each Object.keys(calculation) as calcName, index}
+                  <li bind:this={refs[index]}>
+                    <Popup popperParams={{ placement: "top" }}>
+                      <ul class="compound-list" slot="tooltip">
+                        {#each calculation[calcName] as { Compound_ID, PDB_ID }}
+                          <li>
+                            <a
+                              href={`${window.location.origin}/dev/calculation/details?assembly=${assembly}&genename=${genename}&calculation_type=${calcName}&Compound_ID=${Compound_ID}&PDB_ID=${PDB_ID}&variant=${variant}`}
+                              class="link-calc"
+                            >
+                              {upperFirst(Compound_ID)}
+                              <Fa
+                                icon={faCircleChevronRight}
+                                size="90%"
+                                color="var(--calc-color)"
+                              />
+                            </a>
+                          </li>
+                        {/each}
+                      </ul>
+                      <TextWithIcon
+                        text={calcName}
+                        iconAlt={calcName}
+                        slot="trigger"
+                        icon={drugIcon}
+                      />
+                    </Popup>
                   </li>
                 {/each}
               </ul>
