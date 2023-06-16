@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { Writable } from "svelte/store";
   import Table from "./Table.svelte";
   import VariantsList from "./VariantsList.svelte";
 
@@ -11,7 +12,13 @@
 
   import fetchToStore from "./utils/fetchStore";
 
-  const { loading, error } = fetchToStore(dataUrl);
+  let loading: Writable<boolean>, error: Writable<null | Error>;
+
+  $: {
+    const fetchResult = fetchToStore(dataUrl);
+    loading = fetchResult.loading;
+    error = fetchResult.error;
+  }
 
   $: if ($loading) {
     stanzaElement.setAttribute("loading", "");
