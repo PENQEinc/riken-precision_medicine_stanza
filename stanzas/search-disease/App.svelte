@@ -11,7 +11,8 @@
 
   async function search(disease) {
     const response = await fetch(
-      `https://precisionmd-db.med.kyoto-u.ac.jp/api/positions/search?assembly=${assembly}&disease=${disease}`
+      `https://raw.githubusercontent.com/PENQEinc/riken-precision_medicine_stanza/main/stanzas/search-disease/assets/sample.json`
+      // `https://precisionmd-db.med.kyoto-u.ac.jp/api/positions/search?assembly=${assembly}&disease=${disease}`
     );
     const json = await response.json();
     if (response.ok) {
@@ -40,7 +41,7 @@
       {#await promise}
         <tr><td colspan="10">Loading...</td></tr>
       {:then dataset}
-        {#each dataset.data as { MGeND_DiseaseName, ClinVar_DiseaseName, genename, uniprot_acc, variant, MGeND_ClinicalSignificance, ClinVar_ClinicalSignificance, calculation_type, assembly, chr, alt, ref, start, end, Compound_ID, PDB_ID }}
+        {#each dataset.data as { MGeND_DiseaseName, ClinVar_DiseaseName, genename, uniprot_acc, variant, MGeND_ClinicalSignificance, ClinVar_ClinicalSignificance, calculation, assembly, chr, alt, ref, start, end, Compound_ID, PDB_ID }}
           <tr>
             <td class="td-disease">{@html MGeND_DiseaseName.join("<br>")}</td>
             <td class="td-disease">{@html ClinVar_DiseaseName.join("<br>")}</td>
@@ -69,8 +70,8 @@
                   size="90%"
                   color="var(--variant-color)"
                 />
-              </a></td
-            >
+              </a>
+            </td>
             <td>
               {MGeND_ClinicalSignificance.length === 0
                 ? ""
@@ -82,8 +83,8 @@
                 : ClinVar_ClinicalSignificance}</td
             >
             <td class="td-calc"
-              >{#if calculation_type.length > 0}
-                {#each calculation_type as calc}
+              >{#if calculation.length > 0}
+                {#each calculation as calc}
                   <a
                     class="link-calc"
                     href={`${window.location.origin}/dev/calculation/details?assembly=${assembly}&genename=${genename}&calculation_type=${calc}&Compound_ID=${Compound_ID}&PDB_ID=${PDB_ID}&variant=${variant}`}
