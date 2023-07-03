@@ -78,7 +78,7 @@
             <td class="td-calc">
               <ul>
                 {#each Object.keys(calculation) as calcName, index}
-                  <li bind:this={refs[index]}>
+                  <li class="li-calc" bind:this={refs[index]}>
                     <Popup popperParams={{ placement: "top" }}>
                       <ul class="compound-list" slot="tooltip">
                         {#each calculation[calcName] as { Compound_ID, PDB_ID }}
