@@ -98,7 +98,6 @@
                               class="link-calc"
                               href={`${window.location.origin}/dev/calculation/details?assembly=${assembly}&genename=${genename}&calculation_type=${calcName}&Compound_ID=${Compound_ID}&PDB_ID=${PDB_ID}&variant=${variant}`}
                             >
-                              <img class="icon" src={drugIcon} alt="drug" />
                               {upperFirst(Compound_ID)}
                               <Fa
                                 icon={faCircleChevronRight}
