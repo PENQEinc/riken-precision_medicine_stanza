@@ -3,12 +3,7 @@
   import Table from "./Table.svelte";
   import VariantsList from "./VariantsList.svelte";
 
-  export let uniprotAcc,
-    assembly,
-    genename,
-    root: HTMLElement,
-    stanzaElement: HTMLElement,
-    dataUrl: string;
+  export let root: HTMLElement, stanzaElement: HTMLElement, dataUrl: string;
 
   import fetchToStore from "./utils/fetchStore";
 

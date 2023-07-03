@@ -12,24 +12,6 @@
   "stanza:updated": "2023-03-16",
   "stanza:parameter": [
     {
-      "stanza:key": "stanza-uniprot_acc",
-      "stanza:example": "Q9UM73",
-      "stanza:description": "UniProt Accession",
-      "stanza:required": true
-    },
-    {
-      "stanza:key": "stanza-assembly",
-      "stanza:example": "hg38",
-      "stanza:description": "Assembly",
-      "stanza:required": true
-    },
-    {
-      "stanza:key": "stanza-genename",
-      "stanza:example": "ALK",
-      "stanza:description": "Genename",
-      "stanza:required": true
-    },
-    {
       "stanza:key": "stanza-dataurl",
       "stanza:example": "https://raw.githubusercontent.com/PENQEinc/riken-precision_medicine_stanza/feature/minor-fixes/stanzas/heatmap-table/assets/geneVariantSampleNewFormat.json",
       "stanza:description": "Data URL",
