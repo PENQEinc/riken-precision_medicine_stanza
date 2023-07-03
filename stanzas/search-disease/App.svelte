@@ -1,18 +1,22 @@
-<script>
+<script lang="ts">
   import Fa from "svelte-fa";
   import {
     faCircleChevronRight,
     faTriangleExclamation,
   } from "@fortawesome/free-solid-svg-icons";
+  import TextWithIcon from "@/lib/TextWithIcon.svelte";
+  import Popup from "@/lib/popup/Popup.svelte";
   import drugIcon from "@/assets/drug.svg";
   import proteinIcon from "@/assets/protein.svg";
+  import { upperFirst } from "lodash";
   export let assembly, term;
   let promise = search(term);
 
+  let refs = [] as HTMLElement[];
+
   async function search(disease) {
     const response = await fetch(
-      `https://raw.githubusercontent.com/PENQEinc/riken-precision_medicine_stanza/main/stanzas/search-disease/assets/sample.json`
-      // `https://precisionmd-db.med.kyoto-u.ac.jp/api/positions/search?assembly=${assembly}&disease=${disease}`
+      `https://precisionmd-db.med.kyoto-u.ac.jp/api/positions/search?assembly=${assembly}&disease=${disease}`
     );
     const json = await response.json();
     if (response.ok) {
@@ -82,23 +86,39 @@
                 ? ""
                 : ClinVar_ClinicalSignificance}</td
             >
-            <td class="td-calc"
-              >{#if calculation.length > 0}
-                {#each calculation as calc}
-                  <a
-                    class="link-calc"
-                    href={`${window.location.origin}/dev/calculation/details?assembly=${assembly}&genename=${genename}&calculation_type=${calc}&Compound_ID=${Compound_ID}&PDB_ID=${PDB_ID}&variant=${variant}`}
-                  >
-                    <img class="icon" src={drugIcon} alt="drug" />
-                    {calc}
-                    <Fa
-                      icon={faCircleChevronRight}
-                      size="90%"
-                      color="var(--calc-color)"
-                    />
-                  </a>
+            <td class="td-calc">
+              <ul>
+                {#each Object.keys(calculation) as calcName, index}
+                  <li class="li-calc" bind:this={refs[index]}>
+                    <Popup popperParams={{ placement: "top" }}>
+                      <ul class="compound-list" slot="tooltip">
+                        {#each calculation[calcName] as { Compound_ID, PDB_ID }}
+                          <li>
+                            <a
+                              class="link-calc"
+                              href={`${window.location.origin}/dev/calculation/details?assembly=${assembly}&genename=${genename}&calculation_type=${calcName}&Compound_ID=${Compound_ID}&PDB_ID=${PDB_ID}&variant=${variant}`}
+                            >
+                              <img class="icon" src={drugIcon} alt="drug" />
+                              {upperFirst(Compound_ID)}
+                              <Fa
+                                icon={faCircleChevronRight}
+                                size="90%"
+                                color="var(--calc-color)"
+                              />
+                            </a>
+                          </li>
+                        {/each}
+                      </ul>
+                      <TextWithIcon
+                        text={calcName}
+                        iconAlt={calcName}
+                        slot="trigger"
+                        icon={drugIcon}
+                      />
+                    </Popup>
+                  </li>
                 {/each}
-              {/if}
+              </ul>
             </td>
           </tr>
         {/each}
