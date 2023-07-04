@@ -36,6 +36,7 @@ export default function (url: string) {
       const { data: loadedDataset } = (await response.json()) as FetchedData;
 
       dataset.set(convertCalcData(loadedDataset));
+
       const calcCount = getCalculationTypesAndCounts(loadedDataset);
 
       calculationsCount.set({
@@ -59,11 +60,13 @@ function convertCalcData(dataset: Datum[]): DatumConverted[] {
     const calcData = d.calculation;
     const calcDataConverted = {} as CalculationDatumConverted;
 
-    for (const [calculation, calcContents] of Object.entries(calcData)) {
-      calcDataConverted[calculation] = calcContents.reduce((acc, curr) => {
-        acc[curr.Compound_ID] = curr;
-        return acc;
-      }, {} as { [key: string]: CalculationDatum });
+    if (calcData) {
+      for (const [calculation, calcContents] of Object.entries(calcData)) {
+        calcDataConverted[calculation] = calcContents.reduce((acc, curr) => {
+          acc[curr.Compound_ID] = curr;
+          return acc;
+        }, {} as { [key: string]: CalculationDatum });
+      }
     }
 
     return { ...d, calculation: calcDataConverted };
@@ -76,6 +79,9 @@ function getCalculationTypesAndCounts(dataset: Datum[]) {
   const result = {} as Counts;
 
   dataset.forEach((d) => {
+    if (!d.calculation) {
+      return;
+    }
     Object.keys(d.calculation).forEach((calcType) => {
       const compoundsToAdd = result[calcType]?.compounds || {};
       let calculationSize = 0;
