@@ -110,6 +110,8 @@
           </div>
         {:else}
           {#each filteredDataset as dataRow, index}
+            {@const showLink = dataRow.ClinVar_ClinicalSignificance.length > 0}
+
             <tr
               on:click={() => {
                 if (selectedRowIndex === index) {
@@ -131,16 +133,22 @@
               </td>
 
               <td>
-                <a
-                  class="link-variant"
-                  href={`${window.location.origin}/dev/variants/details?assembly=${dataRow.assembly}&chr=${dataRow.chr}&start=${dataRow.start}&end=${dataRow.end}&ref=${dataRow.ref}&alt=${dataRow.alt}&variant=${dataRow.variant}`}
-                >
-                  {dataRow.variant}<Fa
-                    icon={faCircleChevronRight}
-                    size="90%"
-                    color="var(--variant-color)"
-                  /></a
-                >
+                {#if showLink}
+                  <a
+                    class="link-variant"
+                    href={`${window.location.origin}/dev/variants/details?assembly=${dataRow.assembly}&chr=${dataRow.chr}&start=${dataRow.start}&end=${dataRow.end}&ref=${dataRow.ref}&alt=${dataRow.alt}&variant=${dataRow.variant}`}
+                  >
+                    {dataRow.variant}<Fa
+                      icon={faCircleChevronRight}
+                      size="90%"
+                      color="var(--variant-color)"
+                    /></a
+                  >
+                {:else}
+                  <span>
+                    {dataRow.variant}
+                  </span>
+                {/if}
               </td>
               <td>{dataRow.GenBank[0] === undefined ? "" : dataRow.GenBank}</td>
               <td
