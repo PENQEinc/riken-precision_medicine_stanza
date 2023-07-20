@@ -110,7 +110,10 @@
           </div>
         {:else}
           {#each filteredDataset as dataRow, index}
-            {@const showLink = dataRow.ClinVar_ClinicalSignificance.length > 0}
+            {@const showLink =
+              dataRow.ClinVar_ClinicalSignificance.length > 0 &&
+              dataRow.ref &&
+              dataRow.alt}
 
             <tr
               on:click={() => {
