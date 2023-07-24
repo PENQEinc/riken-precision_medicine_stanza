@@ -42,26 +42,24 @@
       cursor: pointer;
       border-radius: 2px;
       text-transform: capitalize;
+      clip-path: polygon(
+        0% 0%,
+        calc(100% - 10px) 0%,
+        100% 50%,
+        calc(100% - 10px) 100%,
+        0% 100%
+      );
+      background-color: transparent;
       &:focus {
         outline: none;
       }
       &:hover,
       &.selected {
-        clip-path: polygon(
-          0% 0%,
-          calc(100% - 10px) 0%,
-          100% 50%,
-          calc(100% - 10px) 100%,
-          0% 100%
-        );
         color: #000;
         background-color: var(--calc-color);
       }
       &:active {
         background-color: var(--calc-color_30);
-        .svelte-fa {
-          display: none;
-        }
       }
     }
     &.column-list,
@@ -89,17 +87,7 @@
       > ul > li:first-child {
         &:hover,
         &.selected {
-          clip-path: polygon(
-            0% 0%,
-            calc(100% - 10px) 0%,
-            100% 50%,
-            calc(100% - 10px) 100%,
-            0% 100%
-          );
-          color: #000;
-          cursor: pointer;
           background-color: var(--variant-color);
-          border-radius: 2px;
         }
         &:active {
           background-color: var(--variant-color_30);
