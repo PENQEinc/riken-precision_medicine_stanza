@@ -88,11 +88,6 @@
                               class="link-calc"
                             >
                               {upperFirst(Compound_ID)}
-                              <Fa
-                                icon={faCircleChevronRight}
-                                size="90%"
-                                color="var(--calc-color)"
-                              />
                             </a>
                           </li>
                         {/each}
@@ -102,7 +97,13 @@
                         iconAlt={calcName}
                         slot="trigger"
                         icon={drugIcon}
-                      />
+                      >
+                        <Fa
+                          icon={faCircleChevronRight}
+                          size="90%"
+                          color="var(--calc-color)"
+                        />
+                      </TextWithIcon>
                     </Popup>
                   </li>
                 {/each}

@@ -51,11 +51,6 @@
                     class="link-calc compound"
                   >
                     {compound}
-                    <Fa
-                      icon={faCircleChevronRight}
-                      size="90%"
-                      color="var(--calc-color)"
-                    />
                   </a>
                 </li>
               {/each}
@@ -65,7 +60,13 @@
               iconAlt={calcName}
               slot="trigger"
               icon={calculationType(calcName).src}
-            />
+            >
+              <Fa
+                icon={faCircleChevronRight}
+                size="90%"
+                color="var(--calc-color)"
+              />
+            </TextWithIcon>
           </Popup>
         </li>
       {/each}

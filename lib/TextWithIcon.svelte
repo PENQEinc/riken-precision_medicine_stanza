@@ -17,4 +17,5 @@
     <img class="icon" src={icon} alt={iconAlt ?? ""} />
   {/if}
   <span>{text}</span>
+  <slot />
 {/if}
