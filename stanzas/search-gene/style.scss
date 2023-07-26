@@ -1,18 +1,29 @@
 @use "@/common.scss";
+main {
+  border-bottom: 1px solid #fff;
+}
+
 .search-gene {
-  border-top: 1px solid #fff;
-  border-radius: 3px;
+  white-space: nowrap;
+  max-height: calc(100vh - 255px);
   table {
     width: 100%;
     line-height: 2;
     border-spacing: 0;
-    border-bottom: 1px solid #fff;
+    thead {
+      position: sticky;
+      top: 0;
+      border-top: 1px solid #fff;
+      backdrop-filter: blur(10px);
+    }
     tr {
       th {
         width: 120px;
         padding-left: 10px;
         font-weight: 500;
         text-align: left;
+        vertical-align: bottom;
+        border-top: 1px solid #fff;
         border-bottom: 1px solid #fff;
       }
       td {
