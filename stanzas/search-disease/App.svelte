@@ -45,7 +45,7 @@
       {#await promise}
         <tr><td colspan="10">Loading...</td></tr>
       {:then dataset}
-        {#each dataset.data as { MGeND_DiseaseName, ClinVar_DiseaseName, genename, uniprot_acc, variant, MGeND_ClinicalSignificance, ClinVar_ClinicalSignificance, calculation, assembly, chr, alt, ref, start, end, Compound_ID, PDB_ID }}
+        {#each dataset.data as { MGeND_DiseaseName, ClinVar_DiseaseName, genename, uniprot_acc, variant, MGeND_ClinicalSignificance, ClinVar_ClinicalSignificance, calculation, assembly, chr, alt, ref, start, end }}
           <tr>
             <td class="td-disease">{@html MGeND_DiseaseName.join("<br>")}</td>
             <td class="td-disease">{@html ClinVar_DiseaseName.join("<br>")}</td>
@@ -61,20 +61,21 @@
               </a></td
             >
             <td> {uniprot_acc}</td>
-            <td class="td-variant"
-              ><a
-                class="link-variant"
-                href={`${
-                  window.location.origin
-                }/dev/variants/details?assembly=${assembly}&chr=${
-                  chr ? chr : "chr2"
-                }&start=${start}&end=${end}&alt=${alt}&ref=${ref}&variant=${variant}`}
-                >{variant}<Fa
-                  icon={faCircleChevronRight}
-                  size="90%"
-                  color="var(--variant-color)"
-                />
-              </a>
+            <td class="td-variant">
+              {#if ClinVar_ClinicalSignificance.length > 0 && alt && ref}
+                <a
+                  class="link-variant"
+                  href={`${window.location.origin}/dev/variants/details?assembly=${assembly}&chr=${chr}&start=${start}&end=${end}&alt=${alt}&ref=${ref}&variant=${variant}`}
+                  >{variant}
+                  <Fa
+                    icon={faCircleChevronRight}
+                    size="90%"
+                    color="var(--variant-color)"
+                  />
+                </a>
+              {:else}
+                {variant}
+              {/if}
             </td>
             <td>
               {MGeND_ClinicalSignificance.length === 0
