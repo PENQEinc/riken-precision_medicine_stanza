@@ -1775,14 +1775,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.046, 0.132, 0.196],
+            "FE_Bind": [0.196, 0.132, 0.046],
             "FE_Bind_mean": 0.1247,
             "FE_Bind_std": 0.0753,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.115, -0.61, -0.025],
+            "FE_Bind": [-0.025, -0.61, 0.115],
             "FE_Bind_mean": -0.1733,
             "FE_Bind_std": 0.3846,
             "PDB_ID": "2xp2"
@@ -1858,7 +1858,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.25, 0.09, -0.42],
+            "FE_Bind": [0.09, -0.25, -0.42],
             "FE_Bind_mean": -0.1933,
             "FE_Bind_std": 0.2597,
             "PDB_ID": "3aox"
@@ -1941,14 +1941,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.13, -0.58, -0.43],
+            "FE_Bind": [-0.43, -0.58, -0.13],
             "FE_Bind_mean": -0.38,
             "FE_Bind_std": 0.2291,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.22, -0.4, 0.28],
+            "FE_Bind": [0.28, -0.4, 0.22],
             "FE_Bind_mean": 0.0333,
             "FE_Bind_std": 0.3765,
             "PDB_ID": "2xp2"
@@ -2031,7 +2031,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.015, 0.27, 0.036],
+            "FE_Bind": [0.27, 0.036, 0.015],
             "FE_Bind_mean": 0.107,
             "FE_Bind_std": 0.1416,
             "PDB_ID": "2xp2"
@@ -2107,21 +2107,21 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.64, -0.15, 0.34],
+            "FE_Bind": [-0.15, 0.64, 0.34],
             "FE_Bind_mean": 0.2767,
             "FE_Bind_std": 0.3988,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.75, -0.37, 0.3],
+            "FE_Bind": [-0.37, -0.75, 0.3],
             "FE_Bind_mean": -0.2733,
             "FE_Bind_std": 0.5316,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.12, -0.83, 0.32],
+            "FE_Bind": [-0.83, -0.12, 0.32],
             "FE_Bind_mean": -0.21,
             "FE_Bind_std": 0.5803,
             "PDB_ID": "4cli"
@@ -2345,14 +2345,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.17, 2.46, 0.44],
+            "FE_Bind": [0.44, 2.46, -0.17],
             "FE_Bind_mean": 0.91,
             "FE_Bind_std": 1.3766,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-2.33, -2.34, -1.74],
+            "FE_Bind": [-2.34, -2.33, -1.74],
             "FE_Bind_mean": -2.1367,
             "FE_Bind_std": 0.3436,
             "PDB_ID": "2xp2"
@@ -2792,7 +2792,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.98, 0.85, -1.05],
+            "FE_Bind": [0.85, -0.98, -1.05],
             "FE_Bind_mean": -0.3933,
             "FE_Bind_std": 1.0773,
             "PDB_ID": "2xp2"
@@ -2978,7 +2978,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.39, 0.6, 1.47],
+            "FE_Bind": [0.6, 1.47, 0.39],
             "FE_Bind_mean": 0.82,
             "FE_Bind_std": 0.5726,
             "PDB_ID": "4cli"
@@ -3061,7 +3061,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.95, 0.83, -0.61],
+            "FE_Bind": [-0.61, -0.95, 0.83],
             "FE_Bind_mean": -0.2433,
             "FE_Bind_std": 0.945,
             "PDB_ID": "4cli"
@@ -3144,7 +3144,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.391, 0.403, 0.016],
+            "FE_Bind": [0.016, 0.391, 0.403],
             "FE_Bind_mean": 0.27,
             "FE_Bind_std": 0.2201,
             "PDB_ID": "4cli"
@@ -3536,14 +3536,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.118, 0.205, 0.459],
+            "FE_Bind": [0.205, -0.118, 0.459],
             "FE_Bind_mean": 0.182,
             "FE_Bind_std": 0.2892,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.263, -0.121, 0.261],
+            "FE_Bind": [0.261, -0.263, -0.121],
             "FE_Bind_mean": -0.041,
             "FE_Bind_std": 0.271,
             "PDB_ID": "2xp2"
@@ -3626,7 +3626,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.02, -1.87, -1.57],
+            "FE_Bind": [0.02, -1.57, -1.87],
             "FE_Bind_mean": -1.14,
             "FE_Bind_std": 1.0157,
             "PDB_ID": "2xp2"
@@ -3792,7 +3792,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.54, 0.36, -1.15],
+            "FE_Bind": [0.36, 0.54, -1.15],
             "FE_Bind_mean": -0.0833,
             "FE_Bind_std": 0.9281,
             "PDB_ID": "2xp2"
@@ -3875,7 +3875,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.04, 1.09, 0.71],
+            "FE_Bind": [0.71, 1.09, 0.04],
             "FE_Bind_mean": 0.6133,
             "FE_Bind_std": 0.5316,
             "PDB_ID": "2xp2"
@@ -4138,7 +4138,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.32, 1.16, 0.82],
+            "FE_Bind": [0.82, 1.16, 0.32],
             "FE_Bind_mean": 0.7667,
             "FE_Bind_std": 0.4225,
             "PDB_ID": "2xp2"
@@ -4221,14 +4221,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.47, -0.7, -1.34],
+            "FE_Bind": [-0.7, 0.47, -1.34],
             "FE_Bind_mean": -0.5233,
             "FE_Bind_std": 0.9178,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.39, 1.99, -0.41],
+            "FE_Bind": [-0.41, 1.99, -0.39],
             "FE_Bind_mean": 0.3967,
             "FE_Bind_std": 1.3799,
             "PDB_ID": "4cli"
@@ -4523,14 +4523,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.745, -0.316, 0.169],
+            "FE_Bind": [-0.316, 0.745, 0.169],
             "FE_Bind_mean": 0.1993,
             "FE_Bind_std": 0.5312,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.446, 0.401, -0.092],
+            "FE_Bind": [-0.092, 0.401, 0.446],
             "FE_Bind_mean": 0.2517,
             "FE_Bind_std": 0.2985,
             "PDB_ID": "2xp2"
@@ -4606,7 +4606,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.142, 0.22, 0.158],
+            "FE_Bind": [0.22, -0.142, 0.158],
             "FE_Bind_mean": 0.0787,
             "FE_Bind_std": 0.1936,
             "PDB_ID": "3aox"
@@ -4620,7 +4620,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.401, 0.553, 0.457],
+            "FE_Bind": [0.457, -0.401, 0.553],
             "FE_Bind_mean": 0.203,
             "FE_Bind_std": 0.5253,
             "PDB_ID": "4cli"
@@ -4696,7 +4696,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.312, 1.692, -0.289],
+            "FE_Bind": [-0.289, 1.692, 0.312],
             "FE_Bind_mean": 0.5717,
             "FE_Bind_std": 1.0157,
             "PDB_ID": "2xp2"
@@ -4839,7 +4839,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.13, 1.1, -0.66],
+            "FE_Bind": [-0.66, -0.13, 1.1],
             "FE_Bind_mean": 0.1033,
             "FE_Bind_std": 0.9029,
             "PDB_ID": "2xp2"
@@ -4922,14 +4922,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.426, -0.667, -0.058],
+            "FE_Bind": [-0.058, -0.667, 0.426],
             "FE_Bind_mean": -0.0997,
             "FE_Bind_std": 0.5477,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.403, 0.405, 0.911],
+            "FE_Bind": [0.911, -0.403, 0.405],
             "FE_Bind_mean": 0.3043,
             "FE_Bind_std": 0.6628,
             "PDB_ID": "4cli"
@@ -5005,7 +5005,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.29, 1.18, 1.35],
+            "FE_Bind": [-0.29, 1.35, 1.18],
             "FE_Bind_mean": 0.7467,
             "FE_Bind_std": 0.9018,
             "PDB_ID": "2xp2"
@@ -5088,14 +5088,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.26, -0.37, 0.48],
+            "FE_Bind": [0.48, -0.26, -0.37],
             "FE_Bind_mean": -0.05,
             "FE_Bind_std": 0.4623,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.42, 0.7, 0.07],
+            "FE_Bind": [0.7, 0.07, -0.42],
             "FE_Bind_mean": 0.1167,
             "FE_Bind_std": 0.5615,
             "PDB_ID": "4cli"
@@ -5164,7 +5164,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.877, 0.103, 0.342],
+            "FE_Bind": [0.342, -0.877, 0.103],
             "FE_Bind_mean": -0.144,
             "FE_Bind_std": 0.6459,
             "PDB_ID": "3aox"
@@ -5178,7 +5178,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.004, 0.388, -0.359],
+            "FE_Bind": [-0.359, 0.388, 0.004],
             "FE_Bind_mean": 0.011,
             "FE_Bind_std": 0.3735,
             "PDB_ID": "4cli"
@@ -5261,7 +5261,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.314, -0.033, -0.155],
+            "FE_Bind": [-0.033, -0.155, 0.314],
             "FE_Bind_mean": 0.042,
             "FE_Bind_std": 0.2433,
             "PDB_ID": "4cli"
@@ -5330,7 +5330,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.52, -0.19, 0.07],
+            "FE_Bind": [0.07, -0.52, -0.19],
             "FE_Bind_mean": -0.2133,
             "FE_Bind_std": 0.2957,
             "PDB_ID": "3aox"
@@ -5344,7 +5344,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.03, -0.06, -0.08],
+            "FE_Bind": [-0.06, -0.08, 0.03],
             "FE_Bind_mean": -0.0367,
             "FE_Bind_std": 0.0586,
             "PDB_ID": "4cli"
@@ -5420,7 +5420,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.443, -0.195, -0.116],
+            "FE_Bind": [-0.195, 0.443, -0.116],
             "FE_Bind_mean": 0.044,
             "FE_Bind_std": 0.3478,
             "PDB_ID": "4cli"
@@ -5556,14 +5556,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.031, -0.555, -0.007],
+            "FE_Bind": [-0.555, -0.007, 0.031],
             "FE_Bind_mean": -0.177,
             "FE_Bind_std": 0.3279,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.55, -0.348, 0.03],
+            "FE_Bind": [-0.348, 0.55, 0.03],
             "FE_Bind_mean": 0.0773,
             "FE_Bind_std": 0.4509,
             "PDB_ID": "4cli"
@@ -5632,7 +5632,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.954, 0.613, 0.77],
+            "FE_Bind": [0.613, 0.77, 0.954],
             "FE_Bind_mean": 0.779,
             "FE_Bind_std": 0.1707,
             "PDB_ID": "3aox"
@@ -5646,7 +5646,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.241, 0.69, 0.029],
+            "FE_Bind": [0.69, -0.241, 0.029],
             "FE_Bind_mean": 0.1593,
             "FE_Bind_std": 0.479,
             "PDB_ID": "4cli"
@@ -5722,7 +5722,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.451, -0.285, -0.188],
+            "FE_Bind": [-0.285, 0.451, -0.188],
             "FE_Bind_mean": -0.0073,
             "FE_Bind_std": 0.3999,
             "PDB_ID": "2xp2"
@@ -5805,7 +5805,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.451, -0.285, -0.188],
+            "FE_Bind": [-0.285, 0.451, -0.188],
             "FE_Bind_mean": -0.0073,
             "FE_Bind_std": 0.3999,
             "PDB_ID": "2xp2"
@@ -5888,14 +5888,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.016, 0.083, -0.059],
+            "FE_Bind": [-0.059, 0.083, 0.016],
             "FE_Bind_mean": 0.0133,
             "FE_Bind_std": 0.071,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.042, -0.276, -0.037],
+            "FE_Bind": [-0.037, -0.276, 0.042],
             "FE_Bind_mean": -0.0903,
             "FE_Bind_std": 0.1656,
             "PDB_ID": "4cli"
@@ -5971,7 +5971,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.58, -0.38, -1.4],
+            "FE_Bind": [-0.38, -0.58, -1.4],
             "FE_Bind_mean": -0.7867,
             "FE_Bind_std": 0.5405,
             "PDB_ID": "2xp2"
@@ -6047,7 +6047,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.427, 0.969, 0.168],
+            "FE_Bind": [0.969, 0.427, 0.168],
             "FE_Bind_mean": 0.5213,
             "FE_Bind_std": 0.4087,
             "PDB_ID": "3aox"
@@ -6061,7 +6061,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.736, -1.089, -1.244],
+            "FE_Bind": [-0.736, -1.244, -1.089],
             "FE_Bind_mean": -1.023,
             "FE_Bind_std": 0.2604,
             "PDB_ID": "4cli"
@@ -6130,7 +6130,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.015, 0.215, -0.006],
+            "FE_Bind": [0.215, -0.015, -0.006],
             "FE_Bind_mean": 0.0647,
             "FE_Bind_std": 0.1303,
             "PDB_ID": "3aox"
@@ -6144,7 +6144,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.213, -0.008, -0.239],
+            "FE_Bind": [-0.239, -0.008, -0.213],
             "FE_Bind_mean": -0.1533,
             "FE_Bind_std": 0.1265,
             "PDB_ID": "4cli"
@@ -6227,7 +6227,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.82, 0.71, -1.92],
+            "FE_Bind": [0.71, 0.82, -1.92],
             "FE_Bind_mean": -0.13,
             "FE_Bind_std": 1.5512,
             "PDB_ID": "4cli"
@@ -6303,7 +6303,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.455, 0.488, 0.152],
+            "FE_Bind": [0.488, -0.455, 0.152],
             "FE_Bind_mean": 0.0617,
             "FE_Bind_std": 0.4779,
             "PDB_ID": "2xp2"
@@ -6522,14 +6522,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.8, 0.623, 0.69],
+            "FE_Bind": [0.623, 0.69, -0.8],
             "FE_Bind_mean": 0.171,
             "FE_Bind_std": 0.8416,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.02, -0.15, -0.31],
+            "FE_Bind": [-0.31, -0.02, -0.15],
             "FE_Bind_mean": -0.16,
             "FE_Bind_std": 0.1453,
             "PDB_ID": "2xp2"
@@ -6605,14 +6605,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.25, 0.45, -0.06],
+            "FE_Bind": [0.45, -0.25, -0.06],
             "FE_Bind_mean": 0.0467,
             "FE_Bind_std": 0.362,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.25, 0.14, -0.44],
+            "FE_Bind": [0.14, 0.25, -0.44],
             "FE_Bind_mean": -0.0167,
             "FE_Bind_std": 0.3707,
             "PDB_ID": "2xp2"
@@ -6695,14 +6695,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.19, -0.32, -0.45],
+            "FE_Bind": [-0.45, -0.32, 0.19],
             "FE_Bind_mean": -0.1933,
             "FE_Bind_std": 0.3383,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.17, -0.58, 0.33],
+            "FE_Bind": [-0.58, -0.17, 0.33],
             "FE_Bind_mean": -0.14,
             "FE_Bind_std": 0.4557,
             "PDB_ID": "4cli"
@@ -6854,21 +6854,21 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.7, 0.081, -0.192],
+            "FE_Bind": [0.081, -0.7, -0.192],
             "FE_Bind_mean": -0.2703,
             "FE_Bind_std": 0.3963,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.705, -0.644, -0.234],
+            "FE_Bind": [-0.234, -0.644, -0.705],
             "FE_Bind_mean": -0.5277,
             "FE_Bind_std": 0.2561,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.749, 0.017, -0.145],
+            "FE_Bind": [0.017, 0.749, -0.145],
             "FE_Bind_mean": 0.207,
             "FE_Bind_std": 0.4763,
             "PDB_ID": "4cli"
@@ -6951,7 +6951,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.411, -0.584, 0.18],
+            "FE_Bind": [-0.584, 0.18, -0.411],
             "FE_Bind_mean": -0.2717,
             "FE_Bind_std": 0.4006,
             "PDB_ID": "4cli"
@@ -7070,7 +7070,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.835, 0.224, -0.322],
+            "FE_Bind": [-0.322, -0.835, 0.224],
             "FE_Bind_mean": -0.311,
             "FE_Bind_std": 0.5296,
             "PDB_ID": "4cli"
@@ -7146,14 +7146,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.38, 0.52, 0.1],
+            "FE_Bind": [0.52, -0.38, 0.1],
             "FE_Bind_mean": 0.08,
             "FE_Bind_std": 0.4503,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.18, -0.39, -0.58],
+            "FE_Bind": [-0.58, -0.39, 0.18],
             "FE_Bind_mean": -0.2633,
             "FE_Bind_std": 0.3955,
             "PDB_ID": "4cli"
@@ -7236,7 +7236,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.008, 0.24, 0.154],
+            "FE_Bind": [0.24, -0.008, 0.154],
             "FE_Bind_mean": 0.1287,
             "FE_Bind_std": 0.1259,
             "PDB_ID": "4cli"
@@ -7365,7 +7365,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.66, 0.65, 1.11],
+            "FE_Bind": [0.65, 1.11, -0.66],
             "FE_Bind_mean": 0.3667,
             "FE_Bind_std": 0.9184,
             "PDB_ID": "3aox"
@@ -7538,7 +7538,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.35, -0.25, 0.34],
+            "FE_Bind": [0.34, -0.35, -0.25],
             "FE_Bind_mean": -0.0867,
             "FE_Bind_std": 0.3729,
             "PDB_ID": "2xp2"
@@ -7614,14 +7614,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.57, 1.65, 1.01],
+            "FE_Bind": [0.57, 1.01, 1.65],
             "FE_Bind_mean": 1.0767,
             "FE_Bind_std": 0.5431,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.1, -0.66, -3.28],
+            "FE_Bind": [-0.66, 0.1, -3.28],
             "FE_Bind_mean": -1.28,
             "FE_Bind_std": 1.7732,
             "PDB_ID": "2xp2"
@@ -7944,14 +7944,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.279, -0.119, 0.218],
+            "FE_Bind": [-0.119, 0.279, 0.218],
             "FE_Bind_mean": 0.126,
             "FE_Bind_std": 0.2144,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.412, 0.29, -0.317],
+            "FE_Bind": [-0.317, 0.29, -0.412],
             "FE_Bind_mean": -0.1463,
             "FE_Bind_std": 0.3808,
             "PDB_ID": "4cli"
@@ -8034,7 +8034,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.243, 0.557, -0.05],
+            "FE_Bind": [0.557, -0.243, -0.05],
             "FE_Bind_mean": 0.088,
             "FE_Bind_std": 0.4175,
             "PDB_ID": "4cli"
@@ -8117,7 +8117,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.083, -0.011, 0.091],
+            "FE_Bind": [-0.011, 0.091, 0.083],
             "FE_Bind_mean": 0.0543,
             "FE_Bind_std": 0.0567,
             "PDB_ID": "4cli"
@@ -8313,7 +8313,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.026, -0.029, 0.229],
+            "FE_Bind": [-0.029, -0.026, 0.229],
             "FE_Bind_mean": 0.058,
             "FE_Bind_std": 0.1481,
             "PDB_ID": "2xp2"
@@ -8432,7 +8432,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.05, 0.89, -5.04],
+            "FE_Bind": [0.89, -5.04, -0.05],
             "FE_Bind_mean": -1.4,
             "FE_Bind_std": 3.1872,
             "PDB_ID": "2xp2"
@@ -8508,7 +8508,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.05, 0.89, -5.04],
+            "FE_Bind": [0.89, -5.04, -0.05],
             "FE_Bind_mean": -1.4,
             "FE_Bind_std": 3.1872,
             "PDB_ID": "2xp2"
@@ -8584,14 +8584,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.34, 0.61, -0.07],
+            "FE_Bind": [-0.07, 0.61, -0.34],
             "FE_Bind_mean": 0.0667,
             "FE_Bind_std": 0.4895,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.26, 0.06, -0.22],
+            "FE_Bind": [0.06, 0.26, -0.22],
             "FE_Bind_mean": 0.0333,
             "FE_Bind_std": 0.2411,
             "PDB_ID": "4cli"
@@ -8676,7 +8676,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.608, 0.822, 0.29],
+            "FE_Bind": [0.29, -0.608, 0.822],
             "FE_Bind_mean": 0.168,
             "FE_Bind_std": 0.7228,
             "PDB_ID": "4cli"
@@ -8749,21 +8749,21 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.131, -0.407, -0.313],
+            "FE_Bind": [-0.407, -0.131, -0.313],
             "FE_Bind_mean": -0.2837,
             "FE_Bind_std": 0.1403,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.464, 0.127, 0.088],
+            "FE_Bind": [0.127, 0.088, -0.464],
             "FE_Bind_mean": -0.083,
             "FE_Bind_std": 0.3305,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.044, 0.122, -0.333],
+            "FE_Bind": [-0.333, 0.122, 0.044],
             "FE_Bind_mean": -0.0557,
             "FE_Bind_std": 0.2433,
             "PDB_ID": "4cli"
@@ -9011,14 +9011,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.339, 0.544, -0.006],
+            "FE_Bind": [0.544, -0.006, 0.339],
             "FE_Bind_mean": 0.2923,
             "FE_Bind_std": 0.278,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.043, -0.352, 0.366],
+            "FE_Bind": [0.366, -0.352, 0.043],
             "FE_Bind_mean": 0.019,
             "FE_Bind_std": 0.3596,
             "PDB_ID": "4cli"
@@ -9096,14 +9096,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.518, -0.356, 0.016],
+            "FE_Bind": [0.016, -0.518, -0.356],
             "FE_Bind_mean": -0.286,
             "FE_Bind_std": 0.2738,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.456, -0.139, -0.284],
+            "FE_Bind": [-0.284, -0.139, -0.456],
             "FE_Bind_mean": -0.293,
             "FE_Bind_std": 0.1587,
             "PDB_ID": "4cli"
@@ -9181,14 +9181,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.456, 0.286, 0.44],
+            "FE_Bind": [0.44, 0.456, 0.286],
             "FE_Bind_mean": 0.394,
             "FE_Bind_std": 0.0939,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.202, -0.148, -0.055],
+            "FE_Bind": [-0.055, -0.148, 0.202],
             "FE_Bind_mean": -0.0003,
             "FE_Bind_std": 0.1813,
             "PDB_ID": "4cli"
@@ -9321,7 +9321,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.17, 0.29, -2.56],
+            "FE_Bind": [0.29, -2.56, 0.17],
             "FE_Bind_mean": -0.7,
             "FE_Bind_std": 1.6119,
             "PDB_ID": "3aox"
@@ -9335,7 +9335,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.62, 1.5, 0.05],
+            "FE_Bind": [0.05, 1.5, 0.62],
             "FE_Bind_mean": 0.7233,
             "FE_Bind_std": 0.7305,
             "PDB_ID": "4cli"
@@ -9413,7 +9413,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.14, -0.495, -0.468],
+            "FE_Bind": [-0.495, 0.14, -0.468],
             "FE_Bind_mean": -0.2743,
             "FE_Bind_std": 0.3591,
             "PDB_ID": "2xp2"
@@ -9489,14 +9489,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.356, -0.056, -0.07],
+            "FE_Bind": [-0.056, 0.356, -0.07],
             "FE_Bind_mean": 0.0767,
             "FE_Bind_std": 0.242,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.65, -0.584, -0.328],
+            "FE_Bind": [-0.328, -0.584, 0.65],
             "FE_Bind_mean": -0.0873,
             "FE_Bind_std": 0.6513,
             "PDB_ID": "2xp2"
@@ -9579,7 +9579,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.35, 1.22, -0.08],
+            "FE_Bind": [-0.08, 0.35, 1.22],
             "FE_Bind_mean": 0.4967,
             "FE_Bind_std": 0.6623,
             "PDB_ID": "2xp2"
@@ -9745,7 +9745,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.39, 0.123, -0.192],
+            "FE_Bind": [0.123, -0.39, -0.192],
             "FE_Bind_mean": -0.153,
             "FE_Bind_std": 0.2587,
             "PDB_ID": "2xp2"
@@ -9828,7 +9828,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [1.74, 3.47, 1.72],
+            "FE_Bind": [1.72, 3.47, 1.74],
             "FE_Bind_mean": 2.31,
             "FE_Bind_std": 1.0046,
             "PDB_ID": "2xp2"
@@ -9994,7 +9994,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.623, -0.014, 0.319],
+            "FE_Bind": [0.319, 0.623, -0.014],
             "FE_Bind_mean": 0.3093,
             "FE_Bind_std": 0.3186,
             "PDB_ID": "2xp2"
@@ -10077,7 +10077,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [10.74, 11.86, 10.56],
+            "FE_Bind": [11.86, 10.56, 10.74],
             "FE_Bind_mean": 11.0533,
             "FE_Bind_std": 0.7044,
             "PDB_ID": "2xp2"
@@ -10153,7 +10153,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.253, 1.555, 0.485],
+            "FE_Bind": [0.485, 1.555, -0.253],
             "FE_Bind_mean": 0.5957,
             "FE_Bind_std": 0.9091,
             "PDB_ID": "3aox"
@@ -10243,7 +10243,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.12, -0.74, 0.34],
+            "FE_Bind": [0.34, -0.12, -0.74],
             "FE_Bind_mean": -0.1733,
             "FE_Bind_std": 0.542,
             "PDB_ID": "2xp2"
@@ -10326,7 +10326,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.54, 0.25, 2.07],
+            "FE_Bind": [0.25, -0.54, 2.07],
             "FE_Bind_mean": 0.5933,
             "FE_Bind_std": 1.3384,
             "PDB_ID": "2xp2"
@@ -10409,14 +10409,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.066, -0.04, 0.028],
+            "FE_Bind": [0.028, -0.04, -0.066],
             "FE_Bind_mean": -0.026,
             "FE_Bind_std": 0.0485,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.049, -0.123, 0.08],
+            "FE_Bind": [0.08, -0.123, 0.049],
             "FE_Bind_mean": 0.002,
             "FE_Bind_std": 0.1094,
             "PDB_ID": "4cli"
@@ -10492,7 +10492,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.77, 0.21, -0.45],
+            "FE_Bind": [-0.45, -0.77, 0.21],
             "FE_Bind_mean": -0.3367,
             "FE_Bind_std": 0.4997,
             "PDB_ID": "2xp2"
@@ -10575,7 +10575,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.04, 1.01, -0.92],
+            "FE_Bind": [-0.92, 1.01, -0.04],
             "FE_Bind_mean": 0.0167,
             "FE_Bind_std": 0.9662,
             "PDB_ID": "2xp2"
@@ -10658,14 +10658,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.109, -0.024, 0.435],
+            "FE_Bind": [0.435, 0.109, -0.024],
             "FE_Bind_mean": 0.1733,
             "FE_Bind_std": 0.2362,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.283, 0.27, 0.21],
+            "FE_Bind": [0.27, 0.21, 0.283],
             "FE_Bind_mean": 0.2543,
             "FE_Bind_std": 0.0389,
             "PDB_ID": "4cli"
@@ -10957,7 +10957,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.128, 0.487, -0.31],
+            "FE_Bind": [-0.31, 0.128, 0.487],
             "FE_Bind_mean": 0.1017,
             "FE_Bind_std": 0.3992,
             "PDB_ID": "2xp2"
@@ -11040,14 +11040,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.323, -0.261, 0.223],
+            "FE_Bind": [-0.261, 0.223, 0.323],
             "FE_Bind_mean": 0.095,
             "FE_Bind_std": 0.3123,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.859, -1.058, -1.385],
+            "FE_Bind": [-0.859, -1.385, -1.058],
             "FE_Bind_mean": -1.1007,
             "FE_Bind_std": 0.2656,
             "PDB_ID": "4cli"
@@ -11123,7 +11123,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.37, 4.29, 0.19],
+            "FE_Bind": [0.19, 0.37, 4.29],
             "FE_Bind_mean": 1.6167,
             "FE_Bind_std": 2.3169,
             "PDB_ID": "2xp2"
@@ -11206,7 +11206,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.106, -0.331, -0.196],
+            "FE_Bind": [-0.331, -0.106, -0.196],
             "FE_Bind_mean": -0.211,
             "FE_Bind_std": 0.1132,
             "PDB_ID": "2xp2"
@@ -11372,7 +11372,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.043, 0.278, -0.086],
+            "FE_Bind": [-0.086, 0.278, -0.043],
             "FE_Bind_mean": 0.0497,
             "FE_Bind_std": 0.1989,
             "PDB_ID": "2xp2"
@@ -11455,14 +11455,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.392, 0.229, 0.414],
+            "FE_Bind": [0.229, -0.392, 0.414],
             "FE_Bind_mean": 0.0837,
             "FE_Bind_std": 0.4222,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.68, 0.61, 0.51],
+            "FE_Bind": [0.61, 0.51, 0.68],
             "FE_Bind_mean": 0.6,
             "FE_Bind_std": 0.0854,
             "PDB_ID": "4cli"
@@ -11538,14 +11538,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.34, 0.52, -0.6],
+            "FE_Bind": [-0.6, 0.52, -0.34],
             "FE_Bind_mean": -0.14,
             "FE_Bind_std": 0.5862,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.24, -0.37, -0.07],
+            "FE_Bind": [-0.37, 0.24, -0.07],
             "FE_Bind_mean": -0.0667,
             "FE_Bind_std": 0.305,
             "PDB_ID": "4cli"
@@ -11614,14 +11614,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.165, 0.18, 0.169],
+            "FE_Bind": [0.18, 0.165, 0.169],
             "FE_Bind_mean": 0.1713,
             "FE_Bind_std": 0.0078,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.706, 0.508, -0.016],
+            "FE_Bind": [-0.016, -0.706, 0.508],
             "FE_Bind_mean": -0.0713,
             "FE_Bind_std": 0.6089,
             "PDB_ID": "2xp2"
@@ -11704,7 +11704,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.98, -0.61, -1.29],
+            "FE_Bind": [-0.61, -0.98, -1.29],
             "FE_Bind_mean": -0.96,
             "FE_Bind_std": 0.3404,
             "PDB_ID": "2xp2"
@@ -11870,7 +11870,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.68, -1.15, -0.22],
+            "FE_Bind": [-0.68, -0.22, -1.15],
             "FE_Bind_mean": -0.6833,
             "FE_Bind_std": 0.465,
             "PDB_ID": "2xp2"
@@ -12103,7 +12103,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.14, 1.08, 0.03],
+            "FE_Bind": [0.03, 0.14, 1.08],
             "FE_Bind_mean": 0.4167,
             "FE_Bind_std": 0.5771,
             "PDB_ID": "4cli"
@@ -12179,14 +12179,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.395, -0.825, 0.134],
+            "FE_Bind": [0.134, 0.395, -0.825],
             "FE_Bind_mean": -0.0987,
             "FE_Bind_std": 0.6424,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.519, 0.278, 0.008],
+            "FE_Bind": [0.278, -0.519, 0.008],
             "FE_Bind_mean": -0.0777,
             "FE_Bind_std": 0.4053,
             "PDB_ID": "4cli"
@@ -12262,14 +12262,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.395, -0.825, 0.134],
+            "FE_Bind": [0.134, 0.395, -0.825],
             "FE_Bind_mean": -0.0987,
             "FE_Bind_std": 0.6424,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.519, 0.278, 0.008],
+            "FE_Bind": [0.278, -0.519, 0.008],
             "FE_Bind_mean": -0.0777,
             "FE_Bind_std": 0.4053,
             "PDB_ID": "4cli"
@@ -12338,7 +12338,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.059, -0.111, 0.193],
+            "FE_Bind": [-0.111, -0.059, 0.193],
             "FE_Bind_mean": 0.0077,
             "FE_Bind_std": 0.1626,
             "PDB_ID": "3aox"
@@ -12352,7 +12352,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.048, 0.207, -0.418],
+            "FE_Bind": [-0.418, 0.207, -0.048],
             "FE_Bind_mean": -0.0863,
             "FE_Bind_std": 0.3143,
             "PDB_ID": "4cli"
@@ -12421,21 +12421,21 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.231, -0.174, -0.458],
+            "FE_Bind": [-0.174, -0.458, -0.231],
             "FE_Bind_mean": -0.2877,
             "FE_Bind_std": 0.1502,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.105, -0.247, -0.131],
+            "FE_Bind": [-0.247, -0.131, -0.105],
             "FE_Bind_mean": -0.161,
             "FE_Bind_std": 0.0756,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.078, 0.499, 0.305],
+            "FE_Bind": [0.305, 0.499, 0.078],
             "FE_Bind_mean": 0.294,
             "FE_Bind_std": 0.2107,
             "PDB_ID": "4cli"
@@ -12511,14 +12511,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.395, -0.825, 0.134],
+            "FE_Bind": [0.134, 0.395, -0.825],
             "FE_Bind_mean": -0.0987,
             "FE_Bind_std": 0.6424,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.519, 0.278, 0.008],
+            "FE_Bind": [0.278, -0.519, 0.008],
             "FE_Bind_mean": -0.0777,
             "FE_Bind_std": 0.4053,
             "PDB_ID": "4cli"
@@ -12594,7 +12594,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.269, 0.256, 0.235],
+            "FE_Bind": [0.235, 0.269, 0.256],
             "FE_Bind_mean": 0.2533,
             "FE_Bind_std": 0.0172,
             "PDB_ID": "2xp2"
@@ -12670,7 +12670,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.11, 1.39, 0.16],
+            "FE_Bind": [0.16, 1.39, -0.11],
             "FE_Bind_mean": 0.48,
             "FE_Bind_std": 0.7996,
             "PDB_ID": "3aox"
@@ -12760,7 +12760,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.111, 0.392, 0.076],
+            "FE_Bind": [0.076, 0.392, 0.111],
             "FE_Bind_mean": 0.193,
             "FE_Bind_std": 0.1732,
             "PDB_ID": "2xp2"
@@ -13009,7 +13009,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.3, -0.27, -0.31],
+            "FE_Bind": [-0.31, -0.27, 0.3],
             "FE_Bind_mean": -0.0933,
             "FE_Bind_std": 0.3412,
             "PDB_ID": "2xp2"
@@ -13092,7 +13092,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.164, -0.223, 0.015],
+            "FE_Bind": [-0.223, 0.015, 0.164],
             "FE_Bind_mean": -0.0147,
             "FE_Bind_std": 0.1952,
             "PDB_ID": "2xp2"
@@ -13175,7 +13175,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.041, -0.12, -0.301],
+            "FE_Bind": [-0.12, -0.301, 0.041],
             "FE_Bind_mean": -0.1267,
             "FE_Bind_std": 0.1711,
             "PDB_ID": "2xp2"
@@ -13251,14 +13251,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.25, 0.54, 0.1],
+            "FE_Bind": [0.1, 0.54, -0.25],
             "FE_Bind_mean": 0.13,
             "FE_Bind_std": 0.3959,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.59, -0.14, 0.9],
+            "FE_Bind": [0.9, -0.59, -0.14],
             "FE_Bind_mean": 0.0567,
             "FE_Bind_std": 0.7642,
             "PDB_ID": "2xp2"
@@ -13334,7 +13334,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.34, 0.77, 1.25],
+            "FE_Bind": [0.77, 1.25, -0.34],
             "FE_Bind_mean": 0.56,
             "FE_Bind_std": 0.8155,
             "PDB_ID": "3aox"
@@ -13348,7 +13348,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.82, 0.99, -1.03],
+            "FE_Bind": [0.99, -0.82, -1.03],
             "FE_Bind_mean": -0.2867,
             "FE_Bind_std": 1.1106,
             "PDB_ID": "4cli"
@@ -13493,7 +13493,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.93, 1.1, 1.65],
+            "FE_Bind": [-0.93, 1.65, 1.1],
             "FE_Bind_mean": 0.6067,
             "FE_Bind_std": 1.3589,
             "PDB_ID": "4cli"
@@ -13569,14 +13569,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.54, 1.36, -0.94],
+            "FE_Bind": [-0.54, -0.94, 1.36],
             "FE_Bind_mean": -0.04,
             "FE_Bind_std": 1.2288,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.33, -0.59, -2.13],
+            "FE_Bind": [-0.59, 0.33, -2.13],
             "FE_Bind_mean": -0.7967,
             "FE_Bind_std": 1.243,
             "PDB_ID": "4cli"
@@ -13695,7 +13695,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.12, 0.11, -0.15],
+            "FE_Bind": [-0.15, -0.12, 0.11],
             "FE_Bind_mean": -0.0533,
             "FE_Bind_std": 0.1422,
             "PDB_ID": "4cli"
@@ -13764,7 +13764,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.262, -0.381, -0.237],
+            "FE_Bind": [-0.381, -0.237, -0.262],
             "FE_Bind_mean": -0.2933,
             "FE_Bind_std": 0.0769,
             "PDB_ID": "3aox"
@@ -13778,7 +13778,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.509, -0.121, -0.432],
+            "FE_Bind": [-0.121, -0.509, -0.432],
             "FE_Bind_mean": -0.354,
             "FE_Bind_std": 0.2054,
             "PDB_ID": "4cli"
@@ -13847,7 +13847,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.102, 0.239, -0.045],
+            "FE_Bind": [-0.045, 0.239, 0.102],
             "FE_Bind_mean": 0.0987,
             "FE_Bind_std": 0.142,
             "PDB_ID": "3aox"
@@ -13861,7 +13861,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.34, 0.994, -0.101],
+            "FE_Bind": [0.994, 0.34, -0.101],
             "FE_Bind_mean": 0.411,
             "FE_Bind_std": 0.5509,
             "PDB_ID": "4cli"
@@ -13937,14 +13937,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.302, -0.525, -0.862],
+            "FE_Bind": [-0.862, -0.525, -0.302],
             "FE_Bind_mean": -0.563,
             "FE_Bind_std": 0.2819,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.026, -0.51, -0.306],
+            "FE_Bind": [-0.51, -0.306, 0.026],
             "FE_Bind_mean": -0.2633,
             "FE_Bind_std": 0.2705,
             "PDB_ID": "4cli"
@@ -14020,14 +14020,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.086, 0.12, 0.188],
+            "FE_Bind": [0.12, 0.188, -0.086],
             "FE_Bind_mean": 0.074,
             "FE_Bind_std": 0.1427,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.153, -0.308, -0.115],
+            "FE_Bind": [-0.115, -0.153, -0.308],
             "FE_Bind_mean": -0.192,
             "FE_Bind_std": 0.1022,
             "PDB_ID": "4cli"
@@ -14170,7 +14170,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [2.0, -1.79, -1.25],
+            "FE_Bind": [2.0, -1.25, -1.79],
             "FE_Bind_mean": -0.3467,
             "FE_Bind_std": 2.0501,
             "PDB_ID": "4cli"
@@ -14246,14 +14246,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.12, -0.33, -0.06],
+            "FE_Bind": [-0.06, -0.12, -0.33],
             "FE_Bind_mean": -0.17,
             "FE_Bind_std": 0.1418,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.28, -0.14, 0.17],
+            "FE_Bind": [0.17, -0.14, -0.28],
             "FE_Bind_mean": -0.0833,
             "FE_Bind_std": 0.2303,
             "PDB_ID": "4cli"
@@ -14329,14 +14329,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.02, 0.285, 0.203],
+            "FE_Bind": [0.285, 0.203, 0.02],
             "FE_Bind_mean": 0.1693,
             "FE_Bind_std": 0.1357,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.356, 0.538, 0.193],
+            "FE_Bind": [0.538, -0.356, 0.193],
             "FE_Bind_mean": 0.125,
             "FE_Bind_std": 0.4509,
             "PDB_ID": "4cli"
@@ -14412,14 +14412,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.02, 0.285, 0.203],
+            "FE_Bind": [0.285, 0.203, 0.02],
             "FE_Bind_mean": 0.1693,
             "FE_Bind_std": 0.1357,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.356, 0.538, 0.193],
+            "FE_Bind": [0.538, -0.356, 0.193],
             "FE_Bind_mean": 0.125,
             "FE_Bind_std": 0.4509,
             "PDB_ID": "4cli"
@@ -14555,14 +14555,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.101, -0.55, 0.167],
+            "FE_Bind": [-0.55, -0.101, 0.167],
             "FE_Bind_mean": -0.1613,
             "FE_Bind_std": 0.3623,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.102, -0.156, 0.155],
+            "FE_Bind": [0.155, -0.102, -0.156],
             "FE_Bind_mean": -0.0343,
             "FE_Bind_std": 0.1662,
             "PDB_ID": "4cli"
@@ -14667,14 +14667,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.1, 0.4, -0.75],
+            "FE_Bind": [0.4, -0.75, 0.1],
             "FE_Bind_mean": -0.0833,
             "FE_Bind_std": 0.5965,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.64, -0.39, 0.3],
+            "FE_Bind": [-0.39, -0.64, 0.3],
             "FE_Bind_mean": -0.2433,
             "FE_Bind_std": 0.4869,
             "PDB_ID": "2xp2"
@@ -14757,7 +14757,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-4.16, -2.8, -2.63],
+            "FE_Bind": [-2.8, -4.16, -2.63],
             "FE_Bind_mean": -3.1967,
             "FE_Bind_std": 0.8386,
             "PDB_ID": "2xp2"
@@ -14840,14 +14840,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.33, 0.03],
+            "FE_Bind": [0.03, -0.33],
             "FE_Bind_mean": -0.09,
             "FE_Bind_std": 0.2078,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.27, 0.04, -0.09],
+            "FE_Bind": [0.04, -0.27, -0.09],
             "FE_Bind_mean": -0.1067,
             "FE_Bind_std": 0.1557,
             "PDB_ID": "4cli"
@@ -15103,7 +15103,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [1.93, 4.21, 1.69],
+            "FE_Bind": [1.69, 4.21, 1.93],
             "FE_Bind_mean": 2.61,
             "FE_Bind_std": 1.3908,
             "PDB_ID": "2xp2"
@@ -15532,7 +15532,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [1.09, 1.6, 1.22],
+            "FE_Bind": [1.6, 1.22, 1.09],
             "FE_Bind_mean": 1.3033,
             "FE_Bind_std": 0.265,
             "PDB_ID": "2xp2"
@@ -15608,7 +15608,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.7, 1.93, 1.94],
+            "FE_Bind": [0.7, 1.94, 1.93],
             "FE_Bind_mean": 1.5233,
             "FE_Bind_std": 0.713,
             "PDB_ID": "3aox"
@@ -15622,7 +15622,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.51, -0.12, -1.9],
+            "FE_Bind": [-0.12, 0.51, -1.9],
             "FE_Bind_mean": -0.5033,
             "FE_Bind_std": 1.2499,
             "PDB_ID": "4cli"
@@ -15751,14 +15751,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.14, 0.76, -0.73],
+            "FE_Bind": [0.76, -0.73, 0.14],
             "FE_Bind_mean": 0.0567,
             "FE_Bind_std": 0.7485,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.81, 0.63, 0.91],
+            "FE_Bind": [0.63, 0.91, 0.81],
             "FE_Bind_mean": 0.7833,
             "FE_Bind_std": 0.1419,
             "PDB_ID": "2xp2"
@@ -15848,7 +15848,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.288, -0.102, 1.243],
+            "FE_Bind": [0.288, 1.243, -0.102],
             "FE_Bind_mean": 0.4763,
             "FE_Bind_std": 0.692,
             "PDB_ID": "4cli"
@@ -15917,21 +15917,21 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.24, 0.63, 0.1],
+            "FE_Bind": [0.63, -0.24, 0.1],
             "FE_Bind_mean": 0.1633,
             "FE_Bind_std": 0.4384,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.05, 0.33, -0.29],
+            "FE_Bind": [0.33, -0.05, -0.29],
             "FE_Bind_mean": -0.0033,
             "FE_Bind_std": 0.3126,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.66, -0.54, 0.33],
+            "FE_Bind": [-0.54, 0.66, 0.33],
             "FE_Bind_mean": 0.15,
             "FE_Bind_std": 0.6199,
             "PDB_ID": "4cli"
@@ -16007,14 +16007,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.22, 0.51, 0.04],
+            "FE_Bind": [0.51, 0.04, -0.22],
             "FE_Bind_mean": 0.11,
             "FE_Bind_std": 0.37,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.53, 0.34, 0.45],
+            "FE_Bind": [0.45, 0.53, 0.34],
             "FE_Bind_mean": 0.44,
             "FE_Bind_std": 0.0954,
             "PDB_ID": "4cli"
@@ -16090,7 +16090,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.096, -0.238, 0.431],
+            "FE_Bind": [0.431, -0.238, 0.096],
             "FE_Bind_mean": 0.0963,
             "FE_Bind_std": 0.3345,
             "PDB_ID": "2xp2"
@@ -16339,7 +16339,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.85, 1.26, 0.84],
+            "FE_Bind": [0.84, 1.26, 0.85],
             "FE_Bind_mean": 0.9833,
             "FE_Bind_std": 0.2397,
             "PDB_ID": "2xp2"
@@ -16588,14 +16588,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.35, -0.13, -2.35],
+            "FE_Bind": [-0.13, -0.35, -2.35],
             "FE_Bind_mean": -0.9433,
             "FE_Bind_std": 1.2232,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.66, 0.5, 0.01],
+            "FE_Bind": [0.5, 0.66, 0.01],
             "FE_Bind_mean": 0.39,
             "FE_Bind_std": 0.3387,
             "PDB_ID": "4cli"
@@ -16671,7 +16671,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.0, 2.67, 0.16],
+            "FE_Bind": [0.16, 0.0, 2.67],
             "FE_Bind_mean": 0.9433,
             "FE_Bind_std": 1.4975,
             "PDB_ID": "2xp2"
@@ -16747,21 +16747,21 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.256, -0.778, -0.597],
+            "FE_Bind": [-0.778, -0.597, -0.256],
             "FE_Bind_mean": -0.5437,
             "FE_Bind_std": 0.2651,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.145, -0.043, -0.22],
+            "FE_Bind": [-0.22, -0.145, -0.043],
             "FE_Bind_mean": -0.136,
             "FE_Bind_std": 0.0888,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.77, -0.974, -0.937],
+            "FE_Bind": [-0.974, -0.937, -0.77],
             "FE_Bind_mean": -0.8937,
             "FE_Bind_std": 0.1087,
             "PDB_ID": "4cli"
@@ -16837,14 +16837,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [1.951, 2.646, 1.653],
+            "FE_Bind": [1.653, 2.646, 1.951],
             "FE_Bind_mean": 2.0833,
             "FE_Bind_std": 0.5096,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [4.937, 5.087, 4.949],
+            "FE_Bind": [5.087, 4.937, 4.949],
             "FE_Bind_mean": 4.991,
             "FE_Bind_std": 0.0834,
             "PDB_ID": "4cli"
@@ -16913,14 +16913,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.323, -0.35, -0.296],
+            "FE_Bind": [-0.35, -0.323, -0.296],
             "FE_Bind_mean": -0.323,
             "FE_Bind_std": 0.027,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.351, -0.391, -0.916],
+            "FE_Bind": [-0.916, -0.351, -0.391],
             "FE_Bind_mean": -0.5527,
             "FE_Bind_std": 0.3153,
             "PDB_ID": "2xp2"
@@ -16996,7 +16996,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [1.942, 2.088, 1.65],
+            "FE_Bind": [1.65, 2.088, 1.942],
             "FE_Bind_mean": 1.8933,
             "FE_Bind_std": 0.223,
             "PDB_ID": "3aox"
@@ -17079,14 +17079,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.323, -0.35, -0.296],
+            "FE_Bind": [-0.35, -0.323, -0.296],
             "FE_Bind_mean": -0.323,
             "FE_Bind_std": 0.027,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.351, -0.391, -0.916],
+            "FE_Bind": [-0.916, -0.351, -0.391],
             "FE_Bind_mean": -0.5527,
             "FE_Bind_std": 0.3153,
             "PDB_ID": "2xp2"
@@ -17169,14 +17169,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-1.373, -1.176, -1.552],
+            "FE_Bind": [-1.552, -1.176, -1.373],
             "FE_Bind_mean": -1.367,
             "FE_Bind_std": 0.1881,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [2.39, 2.19, 2.434],
+            "FE_Bind": [2.19, 2.434, 2.39],
             "FE_Bind_mean": 2.338,
             "FE_Bind_std": 0.13,
             "PDB_ID": "4cli"
@@ -17252,7 +17252,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.049, -0.273, -0.413],
+            "FE_Bind": [-0.413, -0.273, 0.049],
             "FE_Bind_mean": -0.2123,
             "FE_Bind_std": 0.2369,
             "PDB_ID": "2xp2"
@@ -17335,7 +17335,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.86, 0.48, 2.18],
+            "FE_Bind": [0.48, 0.86, 2.18],
             "FE_Bind_mean": 1.1733,
             "FE_Bind_std": 0.8923,
             "PDB_ID": "2xp2"
@@ -17454,7 +17454,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [1.33, 1.97, 1.32],
+            "FE_Bind": [1.97, 1.32, 1.33],
             "FE_Bind_mean": 1.54,
             "FE_Bind_std": 0.3724,
             "PDB_ID": "2xp2"
@@ -17530,14 +17530,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.44, -0.13, 0.21],
+            "FE_Bind": [-0.13, 0.21, 0.44],
             "FE_Bind_mean": 0.1733,
             "FE_Bind_std": 0.2868,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.33, 0.36, 0.53],
+            "FE_Bind": [0.53, 0.36, 0.33],
             "FE_Bind_mean": 0.4067,
             "FE_Bind_std": 0.1079,
             "PDB_ID": "2xp2"
@@ -17683,7 +17683,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.51, 1.12, -0.13],
+            "FE_Bind": [-0.13, 1.12, 0.51],
             "FE_Bind_mean": 0.5,
             "FE_Bind_std": 0.6251,
             "PDB_ID": "2xp2"
@@ -17773,7 +17773,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.21, -0.02, -1.81],
+            "FE_Bind": [-0.02, 0.21, -1.81],
             "FE_Bind_mean": -0.54,
             "FE_Bind_std": 1.1058,
             "PDB_ID": "4cli"
@@ -18172,7 +18172,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.33, 1.41, 0.78],
+            "FE_Bind": [0.78, 1.41, -0.33],
             "FE_Bind_mean": 0.62,
             "FE_Bind_std": 0.881,
             "PDB_ID": "2xp2"
@@ -18248,21 +18248,21 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.04, -0.267, 0.093],
+            "FE_Bind": [-0.267, 0.093, 0.04],
             "FE_Bind_mean": -0.0447,
             "FE_Bind_std": 0.1944,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.247, 0.222, 0.09],
+            "FE_Bind": [0.222, 0.247, 0.09],
             "FE_Bind_mean": 0.1863,
             "FE_Bind_std": 0.0844,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.025, -0.036, 0.163],
+            "FE_Bind": [-0.036, 0.163, 0.025],
             "FE_Bind_mean": 0.0507,
             "FE_Bind_std": 0.102,
             "PDB_ID": "4cli"
@@ -18345,7 +18345,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.463, -0.032, 0.163],
+            "FE_Bind": [0.163, -0.032, 0.463],
             "FE_Bind_mean": 0.198,
             "FE_Bind_std": 0.2493,
             "PDB_ID": "4cli"
@@ -18450,21 +18450,21 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.603, -0.13, 0.072],
+            "FE_Bind": [-0.13, -0.603, 0.072],
             "FE_Bind_mean": -0.2203,
             "FE_Bind_std": 0.3464,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.563, -0.814, 0.063],
+            "FE_Bind": [0.063, -0.814, -0.563],
             "FE_Bind_mean": -0.438,
             "FE_Bind_std": 0.4517,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-1.537, -2.654, -1.812],
+            "FE_Bind": [-1.812, -2.654, -1.537],
             "FE_Bind_mean": -2.001,
             "FE_Bind_std": 0.582,
             "PDB_ID": "4cli"
@@ -18547,7 +18547,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.24, -0.32, 0.07],
+            "FE_Bind": [-0.32, -0.24, 0.07],
             "FE_Bind_mean": -0.1633,
             "FE_Bind_std": 0.206,
             "PDB_ID": "4cli"
@@ -18616,14 +18616,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.566, 0.077, -0.184],
+            "FE_Bind": [-0.184, -0.566, 0.077],
             "FE_Bind_mean": -0.2243,
             "FE_Bind_std": 0.3234,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.385, -0.527, 0.717],
+            "FE_Bind": [0.717, -0.385, -0.527],
             "FE_Bind_mean": -0.065,
             "FE_Bind_std": 0.6809,
             "PDB_ID": "2xp2"
@@ -18706,7 +18706,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.8, 1.13, -0.54],
+            "FE_Bind": [-0.54, -0.8, 1.13],
             "FE_Bind_mean": -0.07,
             "FE_Bind_std": 1.0473,
             "PDB_ID": "2xp2"
@@ -18789,7 +18789,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.09, 0.13, 0.22],
+            "FE_Bind": [0.22, 0.13, -0.09],
             "FE_Bind_mean": 0.0867,
             "FE_Bind_std": 0.1595,
             "PDB_ID": "2xp2"
@@ -18872,7 +18872,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.255, 0.754, -0.009],
+            "FE_Bind": [0.754, 0.255, -0.009],
             "FE_Bind_mean": 0.3333,
             "FE_Bind_std": 0.3875,
             "PDB_ID": "2xp2"
@@ -18955,7 +18955,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.81, 2.53, -0.11],
+            "FE_Bind": [-0.11, -0.81, 2.53],
             "FE_Bind_mean": 0.5367,
             "FE_Bind_std": 1.7614,
             "PDB_ID": "2xp2"
@@ -19038,7 +19038,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.77, 0.69, 0.34],
+            "FE_Bind": [0.34, 0.77, 0.69],
             "FE_Bind_mean": 0.6,
             "FE_Bind_std": 0.2287,
             "PDB_ID": "2xp2"
@@ -19114,21 +19114,21 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.949, 0.118, 0.377],
+            "FE_Bind": [0.118, 0.377, 0.949],
             "FE_Bind_mean": 0.4813,
             "FE_Bind_std": 0.4252,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.54, -0.472, -0.597],
+            "FE_Bind": [-0.472, -0.597, -0.54],
             "FE_Bind_mean": -0.5363,
             "FE_Bind_std": 0.0626,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.965, -0.626, -1.21],
+            "FE_Bind": [-0.626, -0.965, -1.21],
             "FE_Bind_mean": -0.9337,
             "FE_Bind_std": 0.2933,
             "PDB_ID": "4cli"
@@ -19204,7 +19204,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.42, -0.48, 0.38],
+            "FE_Bind": [0.38, -0.48, -0.42],
             "FE_Bind_mean": -0.1733,
             "FE_Bind_std": 0.4801,
             "PDB_ID": "2xp2"
@@ -19287,7 +19287,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.42, -0.48, 0.38],
+            "FE_Bind": [0.38, -0.48, -0.42],
             "FE_Bind_mean": -0.1733,
             "FE_Bind_std": 0.4801,
             "PDB_ID": "2xp2"
@@ -19430,7 +19430,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.152, 0.111, 0.103],
+            "FE_Bind": [0.103, 0.111, 0.152],
             "FE_Bind_mean": 0.122,
             "FE_Bind_std": 0.0263,
             "PDB_ID": "2xp2"
@@ -19506,14 +19506,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.34, -0.66, 0.77],
+            "FE_Bind": [-0.66, 0.77, 0.34],
             "FE_Bind_mean": 0.15,
             "FE_Bind_std": 0.7337,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.05, 1.06, -0.16],
+            "FE_Bind": [-0.16, 1.06, -0.05],
             "FE_Bind_mean": 0.2833,
             "FE_Bind_std": 0.6749,
             "PDB_ID": "2xp2"
@@ -19596,7 +19596,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.176, 0.549, 0.099],
+            "FE_Bind": [0.549, 0.099, 0.176],
             "FE_Bind_mean": 0.2747,
             "FE_Bind_std": 0.2407,
             "PDB_ID": "2xp2"
@@ -19679,7 +19679,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.176, 0.549, 0.099],
+            "FE_Bind": [0.549, 0.099, 0.176],
             "FE_Bind_mean": 0.2747,
             "FE_Bind_std": 0.2407,
             "PDB_ID": "2xp2"
@@ -19762,7 +19762,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.149, -0.119, -0.174],
+            "FE_Bind": [-0.119, -0.174, 0.149],
             "FE_Bind_mean": -0.048,
             "FE_Bind_std": 0.1728,
             "PDB_ID": "2xp2"
@@ -19838,14 +19838,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.334, -0.733, 0.765],
+            "FE_Bind": [-0.733, 0.765, -0.334],
             "FE_Bind_mean": -0.1007,
             "FE_Bind_std": 0.7758,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.802, 0.571, -0.53],
+            "FE_Bind": [-0.53, 0.802, 0.571],
             "FE_Bind_mean": 0.281,
             "FE_Bind_std": 0.7118,
             "PDB_ID": "2xp2"
@@ -19928,7 +19928,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.846, 0.258, -0.039],
+            "FE_Bind": [0.258, -0.846, -0.039],
             "FE_Bind_mean": -0.209,
             "FE_Bind_std": 0.5713,
             "PDB_ID": "2xp2"
@@ -20011,7 +20011,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.176, 0.549, 0.099],
+            "FE_Bind": [0.549, 0.099, 0.176],
             "FE_Bind_mean": 0.2747,
             "FE_Bind_std": 0.2407,
             "PDB_ID": "2xp2"
@@ -20094,7 +20094,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.764, -0.762, 0.906],
+            "FE_Bind": [0.906, 0.764, -0.762],
             "FE_Bind_mean": 0.3027,
             "FE_Bind_std": 0.9248,
             "PDB_ID": "2xp2"
@@ -20177,14 +20177,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.237, 0.297, -0.203],
+            "FE_Bind": [0.297, -0.237, -0.203],
             "FE_Bind_mean": -0.0477,
             "FE_Bind_std": 0.299,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.167, 0.164, -0.095],
+            "FE_Bind": [-0.095, -0.167, 0.164],
             "FE_Bind_mean": -0.0327,
             "FE_Bind_std": 0.1741,
             "PDB_ID": "4cli"
@@ -20267,7 +20267,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.02, 0.12, 0.08],
+            "FE_Bind": [0.08, 0.12, -0.02],
             "FE_Bind_mean": 0.06,
             "FE_Bind_std": 0.0721,
             "PDB_ID": "4cli"
@@ -20343,14 +20343,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.74, 0.77, 0.07],
+            "FE_Bind": [0.07, 0.74, 0.77],
             "FE_Bind_mean": 0.5267,
             "FE_Bind_std": 0.3958,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.65, 0.8, 0.36],
+            "FE_Bind": [0.8, 0.36, 0.65],
             "FE_Bind_mean": 0.6033,
             "FE_Bind_std": 0.2237,
             "PDB_ID": "4cli"
@@ -20426,7 +20426,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.46, -0.16, 0.29],
+            "FE_Bind": [-0.16, 0.29, 0.46],
             "FE_Bind_mean": 0.1967,
             "FE_Bind_std": 0.3204,
             "PDB_ID": "2xp2"
@@ -20509,14 +20509,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.165, 0.26, -0.159],
+            "FE_Bind": [-0.159, 0.26, -0.165],
             "FE_Bind_mean": -0.0213,
             "FE_Bind_std": 0.2437,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.52, 0.232, -0.466],
+            "FE_Bind": [0.232, 0.52, -0.466],
             "FE_Bind_mean": 0.0953,
             "FE_Bind_std": 0.507,
             "PDB_ID": "4cli"
@@ -20599,7 +20599,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.96, 0.45, -0.08],
+            "FE_Bind": [-0.08, 0.96, 0.45],
             "FE_Bind_mean": 0.4433,
             "FE_Bind_std": 0.52,
             "PDB_ID": "4cli"
@@ -20675,14 +20675,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.05, -0.73, 0.54],
+            "FE_Bind": [0.54, -0.73, -0.05],
             "FE_Bind_mean": -0.08,
             "FE_Bind_std": 0.6355,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.65, -0.13, -0.2],
+            "FE_Bind": [-0.13, 0.65, -0.2],
             "FE_Bind_mean": 0.1067,
             "FE_Bind_std": 0.4718,
             "PDB_ID": "4cli"
@@ -20751,14 +20751,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.255, 0.206, -0.431],
+            "FE_Bind": [-0.431, -0.255, 0.206],
             "FE_Bind_mean": -0.16,
             "FE_Bind_std": 0.329,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.351, -0.152, 0.016],
+            "FE_Bind": [0.016, 0.351, -0.152],
             "FE_Bind_mean": 0.0717,
             "FE_Bind_std": 0.2561,
             "PDB_ID": "2xp2"
@@ -20834,14 +20834,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.2, -0.31, 0.05],
+            "FE_Bind": [-0.31, 0.2, 0.05],
             "FE_Bind_mean": -0.02,
             "FE_Bind_std": 0.2621,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.61, 0.8, 0.3],
+            "FE_Bind": [0.3, 0.8, 0.61],
             "FE_Bind_mean": 0.57,
             "FE_Bind_std": 0.2524,
             "PDB_ID": "2xp2"
@@ -20984,7 +20984,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [4.34, 4.53, 5.77],
+            "FE_Bind": [4.53, 4.34, 5.77],
             "FE_Bind_mean": 4.88,
             "FE_Bind_std": 0.7766,
             "PDB_ID": "2xp2"
@@ -21060,14 +21060,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.32, 0.68, -2.84],
+            "FE_Bind": [0.68, 0.32, -2.84],
             "FE_Bind_mean": -0.6133,
             "FE_Bind_std": 1.9367,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.88, 1.07, -0.78],
+            "FE_Bind": [-0.88, -0.78, 1.07],
             "FE_Bind_mean": -0.1967,
             "FE_Bind_std": 1.0981,
             "PDB_ID": "2xp2"
@@ -21233,7 +21233,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.48, -0.63, -1.91],
+            "FE_Bind": [-0.63, -0.48, -1.91],
             "FE_Bind_mean": -1.0067,
             "FE_Bind_std": 0.7859,
             "PDB_ID": "2xp2"
@@ -21316,7 +21316,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.19, -0.68, -2.22],
+            "FE_Bind": [-0.68, 0.19, -2.22],
             "FE_Bind_mean": -0.9033,
             "FE_Bind_std": 1.2204,
             "PDB_ID": "2xp2"
@@ -21392,21 +21392,21 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.25, -0.4, -0.58],
+            "FE_Bind": [-0.4, -0.58, -0.25],
             "FE_Bind_mean": -0.41,
             "FE_Bind_std": 0.1652,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.15, 1.77, 0.55],
+            "FE_Bind": [0.55, 1.77, -0.15],
             "FE_Bind_mean": 0.7233,
             "FE_Bind_std": 0.9717,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.95, 0.64, 1.09],
+            "FE_Bind": [0.64, 1.09, 0.95],
             "FE_Bind_mean": 0.8933,
             "FE_Bind_std": 0.2303,
             "PDB_ID": "4cli"
@@ -21475,14 +21475,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.407, 0.126, -0.133],
+            "FE_Bind": [0.126, -0.133, -0.407],
             "FE_Bind_mean": -0.138,
             "FE_Bind_std": 0.2665,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.761, 1.24, 0.561],
+            "FE_Bind": [0.561, 1.24, -0.761],
             "FE_Bind_mean": 0.3467,
             "FE_Bind_std": 1.0176,
             "PDB_ID": "2xp2"
@@ -21565,7 +21565,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.16, -0.83, -2.57],
+            "FE_Bind": [-0.83, -2.57, 0.16],
             "FE_Bind_mean": -1.08,
             "FE_Bind_std": 1.3821,
             "PDB_ID": "2xp2"
@@ -21708,14 +21708,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.298, -0.085, 0.149],
+            "FE_Bind": [-0.085, 0.298, 0.149],
             "FE_Bind_mean": 0.1207,
             "FE_Bind_std": 0.1931,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.112, 0.293, 0.018],
+            "FE_Bind": [0.018, 0.112, 0.293],
             "FE_Bind_mean": 0.141,
             "FE_Bind_std": 0.1398,
             "PDB_ID": "4cli"
@@ -21784,21 +21784,21 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.133, -0.027, -0.157],
+            "FE_Bind": [-0.027, 0.133, -0.157],
             "FE_Bind_mean": -0.017,
             "FE_Bind_std": 0.1453,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.205, -0.361, -0.312],
+            "FE_Bind": [-0.312, -0.361, -0.205],
             "FE_Bind_mean": -0.2927,
             "FE_Bind_std": 0.0798,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.207, -0.359, -0.318],
+            "FE_Bind": [-0.318, -0.359, -0.207],
             "FE_Bind_mean": -0.2947,
             "FE_Bind_std": 0.0786,
             "PDB_ID": "4cli"
@@ -22251,7 +22251,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.26, 0.51, -0.15],
+            "FE_Bind": [-0.15, 0.51, 0.26],
             "FE_Bind_mean": 0.2067,
             "FE_Bind_std": 0.3332,
             "PDB_ID": "4cli"
@@ -22327,14 +22327,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-1.14, -1.0, -1.45],
+            "FE_Bind": [-1.45, -1.0, -1.14],
             "FE_Bind_mean": -1.1967,
             "FE_Bind_std": 0.2303,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.22, 0.05, -1.33],
+            "FE_Bind": [0.05, -1.33, -0.22],
             "FE_Bind_mean": -0.5,
             "FE_Bind_std": 0.7314,
             "PDB_ID": "4cli"
@@ -22470,7 +22470,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.3, -1.18, -1.03],
+            "FE_Bind": [0.3, -1.03, -1.18],
             "FE_Bind_mean": -0.6367,
             "FE_Bind_std": 0.8146,
             "PDB_ID": "2xp2"
@@ -22582,7 +22582,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [1.657, 2.254, 2.838],
+            "FE_Bind": [1.657, 2.838, 2.254],
             "FE_Bind_mean": 2.2497,
             "FE_Bind_std": 0.5905,
             "PDB_ID": "3aox"
@@ -22596,7 +22596,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [3.483, 3.387, 3.57],
+            "FE_Bind": [3.57, 3.483, 3.387],
             "FE_Bind_mean": 3.48,
             "FE_Bind_std": 0.0915,
             "PDB_ID": "4cli"
@@ -22715,7 +22715,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.65, 0.99, 0.89],
+            "FE_Bind": [0.99, 0.89, 0.65],
             "FE_Bind_mean": 0.8433,
             "FE_Bind_std": 0.1747,
             "PDB_ID": "4cli"
@@ -22791,7 +22791,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.5, -0.6, 0.4],
+            "FE_Bind": [0.4, -0.5, -0.6],
             "FE_Bind_mean": -0.2333,
             "FE_Bind_std": 0.5508,
             "PDB_ID": "2xp2"
@@ -22874,14 +22874,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.14, -0.18, 0.31],
+            "FE_Bind": [-0.18, 0.14, 0.31],
             "FE_Bind_mean": 0.09,
             "FE_Bind_std": 0.2488,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.0, -0.03, -0.08],
+            "FE_Bind": [-0.08, 0.0, -0.03],
             "FE_Bind_mean": -0.0367,
             "FE_Bind_std": 0.0404,
             "PDB_ID": "4cli"
@@ -22964,7 +22964,7 @@
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.024, 0.243, -0.359],
+            "FE_Bind": [-0.359, 0.243, -0.024],
             "FE_Bind_mean": -0.0467,
             "FE_Bind_std": 0.3016,
             "PDB_ID": "4cli"
@@ -23160,7 +23160,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.21, -0.81, 0.61],
+            "FE_Bind": [-0.81, 0.61, -0.21],
             "FE_Bind_mean": -0.1367,
             "FE_Bind_std": 0.7128,
             "PDB_ID": "2xp2"
@@ -23279,14 +23279,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.56, 0.21, 0.18],
+            "FE_Bind": [0.18, 0.56, 0.21],
             "FE_Bind_mean": 0.3167,
             "FE_Bind_std": 0.2113,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.68, -0.14, -1.28],
+            "FE_Bind": [-0.14, 0.68, -1.28],
             "FE_Bind_mean": -0.2467,
             "FE_Bind_std": 0.9843,
             "PDB_ID": "4cli"
@@ -23362,14 +23362,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.43, -0.63, 0.05],
+            "FE_Bind": [0.05, -0.63, -0.43],
             "FE_Bind_mean": -0.3367,
             "FE_Bind_std": 0.3495,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.91, 0.61, -0.38],
+            "FE_Bind": [0.61, -0.38, -0.91],
             "FE_Bind_mean": -0.2267,
             "FE_Bind_std": 0.7715,
             "PDB_ID": "4cli"
@@ -23510,7 +23510,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.75, 1.39, -0.1],
+            "FE_Bind": [-0.1, 1.39, 0.75],
             "FE_Bind_mean": 0.68,
             "FE_Bind_std": 0.7475,
             "PDB_ID": "3aox"
@@ -23683,14 +23683,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.641, -0.782, 0.158],
+            "FE_Bind": [0.158, -0.641, -0.782],
             "FE_Bind_mean": -0.4217,
             "FE_Bind_std": 0.5069,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.336, 0.756, -0.027],
+            "FE_Bind": [0.756, -0.027, -0.336],
             "FE_Bind_mean": 0.131,
             "FE_Bind_std": 0.5629,
             "PDB_ID": "4cli"
@@ -23766,7 +23766,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.439, -0.943, -0.8],
+            "FE_Bind": [-0.8, -0.943, 0.439],
             "FE_Bind_mean": -0.4347,
             "FE_Bind_std": 0.76,
             "PDB_ID": "2xp2"
@@ -23842,21 +23842,21 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.65, 1.88, 0.7],
+            "FE_Bind": [0.7, 1.88, -0.65],
             "FE_Bind_mean": 0.6433,
             "FE_Bind_std": 1.266,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [1.0, 3.16, 1.54],
+            "FE_Bind": [1.54, 3.16, 1.0],
             "FE_Bind_mean": 1.9,
             "FE_Bind_std": 1.1241,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [-0.37, -0.77, -0.59],
+            "FE_Bind": [-0.77, -0.59, -0.37],
             "FE_Bind_mean": -0.5767,
             "FE_Bind_std": 0.2003,
             "PDB_ID": "4cli"
@@ -23932,14 +23932,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [3.12, 2.93, 3.18],
+            "FE_Bind": [3.18, 2.93, 3.12],
             "FE_Bind_mean": 3.0767,
             "FE_Bind_std": 0.1305,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [4.71, 4.21, 6.64],
+            "FE_Bind": [4.21, 4.71, 6.64],
             "FE_Bind_mean": 5.1867,
             "FE_Bind_std": 1.2832,
             "PDB_ID": "4cli"
@@ -24008,7 +24008,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.54, -0.72, 0.97],
+            "FE_Bind": [-0.72, 0.97, 0.54],
             "FE_Bind_mean": 0.2633,
             "FE_Bind_std": 0.8783,
             "PDB_ID": "3aox"
@@ -24098,7 +24098,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.06, -0.48, 2.08],
+            "FE_Bind": [-0.48, 2.08, 0.06],
             "FE_Bind_mean": 0.5533,
             "FE_Bind_std": 1.3494,
             "PDB_ID": "2xp2"
@@ -24181,14 +24181,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.932, -0.569, 0.695],
+            "FE_Bind": [0.695, 0.932, -0.569],
             "FE_Bind_mean": 0.3527,
             "FE_Bind_std": 0.8069,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.101, -0.118, 0.161],
+            "FE_Bind": [-0.118, 0.101, 0.161],
             "FE_Bind_mean": 0.048,
             "FE_Bind_std": 0.1469,
             "PDB_ID": "4cli"
@@ -24260,21 +24260,21 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.235, 0.076, -0.052],
+            "FE_Bind": [0.076, -0.235, -0.052],
             "FE_Bind_mean": -0.0703,
             "FE_Bind_std": 0.1563,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.09, -0.108, 0.062],
+            "FE_Bind": [-0.108, 0.09, 0.062],
             "FE_Bind_mean": 0.0147,
             "FE_Bind_std": 0.1072,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.244, 0.194, 0.155],
+            "FE_Bind": [0.155, 0.244, 0.194],
             "FE_Bind_mean": 0.1977,
             "FE_Bind_std": 0.0446,
             "PDB_ID": "4cli"
@@ -24343,21 +24343,21 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.367, -0.546, -0.39],
+            "FE_Bind": [-0.546, -0.39, -0.367],
             "FE_Bind_mean": -0.4343,
             "FE_Bind_std": 0.0974,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.236, -0.182, -0.072],
+            "FE_Bind": [-0.182, 0.236, -0.072],
             "FE_Bind_mean": -0.006,
             "FE_Bind_std": 0.2167,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.25, 0.547, 0.606],
+            "FE_Bind": [0.547, 0.606, 0.25],
             "FE_Bind_mean": 0.4677,
             "FE_Bind_std": 0.1908,
             "PDB_ID": "4cli"
@@ -24433,7 +24433,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.368, 0.261, 0.205],
+            "FE_Bind": [0.205, 0.368, 0.261],
             "FE_Bind_mean": 0.278,
             "FE_Bind_std": 0.0828,
             "PDB_ID": "2xp2"
@@ -24509,14 +24509,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.814, -0.777, -0.539],
+            "FE_Bind": [-0.777, -0.539, -0.814],
             "FE_Bind_mean": -0.71,
             "FE_Bind_std": 0.1492,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.96, -1.092, -1.589],
+            "FE_Bind": [-0.96, -1.589, -1.092],
             "FE_Bind_mean": -1.2137,
             "FE_Bind_std": 0.3317,
             "PDB_ID": "2xp2"
@@ -24599,7 +24599,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.257, -0.036, -0.05],
+            "FE_Bind": [-0.036, -0.257, -0.05],
             "FE_Bind_mean": -0.1143,
             "FE_Bind_std": 0.1238,
             "PDB_ID": "2xp2"
@@ -24765,7 +24765,7 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.32, -1.51, -1.48],
+            "FE_Bind": [-0.32, -1.48, -1.51],
             "FE_Bind_mean": -1.1033,
             "FE_Bind_std": 0.6786,
             "PDB_ID": "2xp2"
@@ -24841,14 +24841,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.982, 1.393, 0.969],
+            "FE_Bind": [0.982, 0.969, 1.393],
             "FE_Bind_mean": 1.1147,
             "FE_Bind_std": 0.2411,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [-0.518, -0.406, 0.057],
+            "FE_Bind": [-0.406, -0.518, 0.057],
             "FE_Bind_mean": -0.289,
             "FE_Bind_std": 0.3048,
             "PDB_ID": "2xp2"
@@ -24960,7 +24960,7 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.45, 2.73, 0.2],
+            "FE_Bind": [0.2, 2.73, 0.45],
             "FE_Bind_mean": 1.1267,
             "FE_Bind_std": 1.3941,
             "PDB_ID": "3aox"
@@ -25079,21 +25079,21 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [0.92, 0.48, 0.68],
+            "FE_Bind": [0.48, 0.68, 0.92],
             "FE_Bind_mean": 0.6933,
             "FE_Bind_std": 0.2203,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.65, 0.85, -0.5],
+            "FE_Bind": [0.85, -0.5, 0.65],
             "FE_Bind_mean": 0.3333,
             "FE_Bind_std": 0.7286,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.59, -0.5, -0.18],
+            "FE_Bind": [-0.18, 0.59, -0.5],
             "FE_Bind_mean": -0.03,
             "FE_Bind_std": 0.5603,
             "PDB_ID": "4cli"
@@ -25169,14 +25169,14 @@
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.077, 0.357, 0.44],
+            "FE_Bind": [0.44, 0.357, 0.077],
             "FE_Bind_mean": 0.2913,
             "FE_Bind_std": 0.1902,
             "PDB_ID": "2xp2"
           },
           {
             "Compound_ID": "lorlatinib",
-            "FE_Bind": [0.147, 0.32, -0.082],
+            "FE_Bind": [-0.082, 0.32, 0.147],
             "FE_Bind_mean": 0.1283,
             "FE_Bind_std": 0.2016,
             "PDB_ID": "4cli"
@@ -25245,14 +25245,14 @@
         "Mutation_FEP": [
           {
             "Compound_ID": "alectinib",
-            "FE_Bind": [-0.67, 0.55, -0.56],
+            "FE_Bind": [0.55, -0.56, -0.67],
             "FE_Bind_mean": -0.2267,
             "FE_Bind_std": 0.6749,
             "PDB_ID": "3aox"
           },
           {
             "Compound_ID": "crizotinib",
-            "FE_Bind": [0.09, -0.52, 0.29],
+            "FE_Bind": [0.29, -0.52, 0.09],
             "FE_Bind_mean": -0.0467,
             "FE_Bind_std": 0.4219,
             "PDB_ID": "2xp2"
