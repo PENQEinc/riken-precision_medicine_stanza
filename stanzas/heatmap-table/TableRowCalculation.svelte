@@ -24,7 +24,7 @@
     )
       return undefined;
     try {
-      return `${window.location.origin}/dev/calculation/details?assembly=${
+      return `${window.location.origin}/calculation/details?assembly=${
         dataRow.assembly
       }&genename=${
         dataRow.genename

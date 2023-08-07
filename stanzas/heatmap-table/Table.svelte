@@ -139,7 +139,7 @@
                 {#if showLink}
                   <a
                     class="link-variant"
-                    href={`${window.location.origin}/dev/variants/details?assembly=${dataRow.assembly}&chr=${dataRow.chr}&start=${dataRow.start}&end=${dataRow.end}&ref=${dataRow.ref}&alt=${dataRow.alt}&variant=${dataRow.variant}`}
+                    href={`${window.location.origin}/variants/details?assembly=${dataRow.assembly}&chr=${dataRow.chr}&start=${dataRow.start}&end=${dataRow.end}&ref=${dataRow.ref}&alt=${dataRow.alt}&variant=${dataRow.variant}`}
                   >
                     {dataRow.variant}<Fa
                       icon={faCircleChevronRight}

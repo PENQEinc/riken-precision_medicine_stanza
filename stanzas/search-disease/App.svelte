@@ -52,7 +52,7 @@
             <td class="td-gene"
               ><a
                 class="link-gene"
-                href={`${window.location.origin}/dev/genes/details?uniprot_acc=${uniprot_acc}&assembly=${assembly}&genename=${genename}`}
+                href={`${window.location.origin}/genes/details?uniprot_acc=${uniprot_acc}&assembly=${assembly}&genename=${genename}`}
                 >{genename}<Fa
                   icon={faCircleChevronRight}
                   size="90%"
@@ -65,7 +65,7 @@
               {#if ClinVar_ClinicalSignificance.length > 0 && alt && ref}
                 <a
                   class="link-variant"
-                  href={`${window.location.origin}/dev/variants/details?assembly=${assembly}&chr=${chr}&start=${start}&end=${end}&alt=${alt}&ref=${ref}&variant=${variant}`}
+                  href={`${window.location.origin}/variants/details?assembly=${assembly}&chr=${chr}&start=${start}&end=${end}&alt=${alt}&ref=${ref}&variant=${variant}`}
                   >{variant}
                   <Fa
                     icon={faCircleChevronRight}
@@ -97,7 +97,7 @@
                           <li>
                             <a
                               class="link-calc"
-                              href={`${window.location.origin}/dev/calculation/details?assembly=${assembly}&genename=${genename}&calculation_type=${calcName}&Compound_ID=${Compound_ID}&PDB_ID=${PDB_ID}&variant=${variant}`}
+                              href={`${window.location.origin}/calculation/details?assembly=${assembly}&genename=${genename}&calculation_type=${calcName}&Compound_ID=${Compound_ID}&PDB_ID=${PDB_ID}&variant=${variant}`}
                             >
                               {upperFirst(Compound_ID)}
                             </a>

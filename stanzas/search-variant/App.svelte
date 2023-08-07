@@ -55,7 +55,7 @@
             <td
               ><a
                 class="link-variant"
-                href={`${window.location.origin}/dev/variants/details?assembly=${assembly}&chr=${chr}&start=${start}&end=${end}&ref=${ref}&alt=${alt}&variant=${variant}`}
+                href={`${window.location.origin}/variants/details?assembly=${assembly}&chr=${chr}&start=${start}&end=${end}&ref=${ref}&alt=${alt}&variant=${variant}`}
               >
                 {`${grch}_${chr}_${start}_${end}_${ref}_${alt}_${variant}`}
                 <Fa
@@ -84,7 +84,7 @@
                         {#each calculation[calcName] as { Compound_ID, PDB_ID }}
                           <li>
                             <a
-                              href={`${window.location.origin}/dev/calculation/details?assembly=${assembly}&genename=${genename}&calculation_type=${calcName}&Compound_ID=${Compound_ID}&PDB_ID=${PDB_ID}&variant=${variant}`}
+                              href={`${window.location.origin}/calculation/details?assembly=${assembly}&genename=${genename}&calculation_type=${calcName}&Compound_ID=${Compound_ID}&PDB_ID=${PDB_ID}&variant=${variant}`}
                               class="link-calc"
                             >
                               {upperFirst(Compound_ID)}

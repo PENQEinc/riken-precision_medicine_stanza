@@ -40,7 +40,7 @@
             <td
               ><a
                 class="link-gene"
-                href={`${window.location.origin}/dev/genes/details?assembly=${assembly}&genename=${genename}&uniprot_acc=${uniprot_acc}`}
+                href={`${window.location.origin}/genes/details?assembly=${assembly}&genename=${genename}&uniprot_acc=${uniprot_acc}`}
                 >{genename}<Fa
                   icon={faCircleChevronRight}
                   size="90%"
