@@ -10,7 +10,8 @@
   "scripts": {
     "start": "npx togostanza s",
     "build": "npx togostanza b",
-    "stylelint": "npx stylelint '**/*.scss' --fix"
+    "stylelint": "npx stylelint '**/*.scss' --fix",
+    "cspell": "echo '# New Words' >> project-words.txt && npx cspell '/stanzas/**/*.{json,js,jsx,ts,tsx,vue,astro,svelte,css,sass,scss}' --words-only --unique --no-progress >> project-words.txt"
   },
   "dependencies": {
     "@fortawesome/fontawesome-pro": "^6.3.0",
@@ -23,6 +24,7 @@
     "@rollup/plugin-typescript": "^11.0.0",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
+    "cspell": "^6.31.1",
     "eslint": "^8.36.0",
     "eslint-plugin-svelte3": "^4.0.0",
     "lodash.camelcase": "^4.3.0",
