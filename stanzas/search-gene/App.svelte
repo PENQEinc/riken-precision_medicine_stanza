@@ -11,7 +11,7 @@
 
   async function search(geneName) {
     const response = await fetch(
-      `https://precisionmd-db.med.kyoto-u.ac.jp/api/genes/search?assembly=${assembly}&genename=${geneName}`
+      `http://precisionmd-db.med2rdf.org/api/genes/search?assembly=${assembly}&genename=${geneName}`
     );
     const json = await response.json();
     if (response.ok) {

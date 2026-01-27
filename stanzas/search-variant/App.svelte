@@ -20,11 +20,11 @@
     let response;
     if (isPosition) {
       response = await fetch(
-        `https://precisionmd-db.med.kyoto-u.ac.jp/api/positions/search?assembly=${assembly}&position=${term}`
+        `http://precisionmd-db.med2rdf.org/api/positions/search?assembly=${assembly}&position=${term}`
       );
     } else {
       response = await fetch(
-        `https://precisionmd-db.med.kyoto-u.ac.jp/api/variants/search?assembly=${assembly}&variant=${term}`
+        `http://precisionmd-db.med2rdf.org/api/variants/search?assembly=${assembly}&variant=${term}`
       );
     }
     const json = await response.json();

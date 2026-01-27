@@ -16,7 +16,7 @@
 
   async function search(disease) {
     const response = await fetch(
-      `https://precisionmd-db.med.kyoto-u.ac.jp/api/positions/search?assembly=${assembly}&disease=${disease}`
+      `http://precisionmd-db.med2rdf.org/api/disease/search?assembly=${assembly}&disease=${disease}`
     );
     const json = await response.json();
     if (response.ok) {
